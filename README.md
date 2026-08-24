@@ -16,7 +16,7 @@ telemetry, no account.
 ## Install
 
 ```
-/plugin marketplace add salishstudios/quotacove
+/plugin marketplace add badbradd2/quotacove
 /plugin install quotacove@salish-tools
 ```
 
@@ -134,4 +134,4 @@ no key required. Price wobbles under 0.5% are treated as float noise. Exit code
 
 ## Licence
 
-MIT. Built by [Salish Studios](https://github.com/salishstudios).
+MIT. Built by [Salish Studios](https://github.com/badbradd2).
