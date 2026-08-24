@@ -1,0 +1,14 @@
+{
+  "name": "salish-tools",
+  "owner": {
+    "name": "Salish Studios",
+    "url": "https://github.com/salishstudios/quotacove"
+  },
+  "plugins": [
+    {
+      "name": "quotacove",
+      "source": "./plugin",
+      "description": "Get more out of the AI plan you already pay for: per-prompt model suggestions, cheap-model subagent routing, an enforced model ceiling, and tracking of the usage window it buys back."
+    }
+  ]
+}

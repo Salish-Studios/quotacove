@@ -1,0 +1,71 @@
+{"label":"haiku","prompt":"fix the typos in this paragraph"}
+{"label":"haiku","prompt":"convert this list into a markdown table"}
+{"label":"haiku","prompt":"what does TTL stand for"}
+{"label":"haiku","prompt":"make this sentence shorter without losing the meaning"}
+{"label":"haiku","prompt":"translate this paragraph into Spanish"}
+{"label":"haiku","prompt":"capitalize all the headings in this document"}
+{"label":"haiku","prompt":"summarize this email in two lines"}
+{"label":"haiku","prompt":"rename the variable foo to userCount throughout this snippet"}
+{"label":"haiku","prompt":"what is the syntax for a python list comprehension"}
+{"label":"haiku","prompt":"format this JSON so it is readable"}
+{"label":"haiku","prompt":"write a commit message for: added logging to the auth handler"}
+{"label":"haiku","prompt":"turn these bullet points into a single paragraph"}
+{"label":"haiku","prompt":"extract all the email addresses from this text"}
+{"label":"haiku","prompt":"change these dates to ISO format"}
+{"label":"haiku","prompt":"add a comment above each function saying what it returns"}
+{"label":"haiku","prompt":"what is the difference between let and const"}
+{"label":"haiku","prompt":"proofread this and fix the grammar"}
+{"label":"haiku","prompt":"give me a tldr of these release notes"}
+{"label":"sonnet","prompt":"write a React hook for debounced search input"}
+{"label":"sonnet","prompt":"explain how JWT refresh tokens work and when they rotate"}
+{"label":"sonnet","prompt":"write unit tests for this function covering the empty and null cases"}
+{"label":"sonnet","prompt":"refactor this callback chain to use async and await"}
+{"label":"sonnet","prompt":"I am getting cannot read property of undefined on line 40, what is wrong"}
+{"label":"sonnet","prompt":"write a SQL query joining orders and customers with monthly totals"}
+{"label":"sonnet","prompt":"draft a launch email announcing our new pricing page"}
+{"label":"sonnet","prompt":"implement cursor pagination on this list endpoint"}
+{"label":"sonnet","prompt":"write a regex that validates international phone numbers"}
+{"label":"sonnet","prompt":"add proper error handling to this fetch call"}
+{"label":"sonnet","prompt":"explain the difference between useMemo and useCallback with examples"}
+{"label":"sonnet","prompt":"convert this class component to function components with hooks"}
+{"label":"sonnet","prompt":"write a Dockerfile for this node service"}
+{"label":"sonnet","prompt":"document this API endpoint including the error responses"}
+{"label":"sonnet","prompt":"add a loading and empty state to this table component"}
+{"label":"sonnet","prompt":"write a script that backs up the database nightly and rotates old dumps"}
+{"label":"sonnet","prompt":"compare REST and GraphQL for a mobile client that needs offline support"}
+{"label":"sonnet","prompt":"set up eslint and prettier for this repo with sensible defaults"}
+{"label":"opus","prompt":"design the architecture for a multi-tenant billing system with usage metering"}
+{"label":"opus","prompt":"analyze the trade-offs between event sourcing and CRUD for our order system"}
+{"label":"opus","prompt":"review this authentication middleware for security vulnerabilities"}
+{"label":"opus","prompt":"plan the migration from postgres to a sharded cluster with zero downtime"}
+{"label":"opus","prompt":"design a schema for hierarchical permissions with inheritance and overrides"}
+{"label":"opus","prompt":"our p99 latency tripled after the deploy, walk through how to find the cause"}
+{"label":"opus","prompt":"prove that this sorting implementation is stable and analyze its complexity"}
+{"label":"opus","prompt":"our checkout intermittently double charges customers, what could cause that"}
+{"label":"opus","prompt":"evaluate whether we should build this on a queue or a cron and justify the choice"}
+{"label":"opus","prompt":"design an end to end strategy for migrating 200 services off the legacy gateway"}
+{"label":"opus","prompt":"why does this deadlock"}
+{"label":"opus","prompt":"is this rate limiter thread safe"}
+{"label":"opus","prompt":"will this scale to 10 million rows"}
+{"label":"opus","prompt":"is this encryption implementation safe to ship"}
+{"label":"opus","prompt":"what is wrong with my password hashing"}
+{"label":"opus","prompt":"find the race condition in this code"}
+{"label":"opus","prompt":"audit this for injection risks"}
+{"label":"opus","prompt":"can this lose data on a partial failure"}
+{"label":"opus","prompt":"is our tenant isolation actually airtight here"}
+{"label":"haiku","prompt":"Here are the notes from today's standup meeting. Priya said the billing import finished over the weekend and the reconciliation numbers look right. Tom is still blocked on the vendor sandbox credentials and has pinged their support twice. Dana shipped the new empty states for the dashboard and is picking up the export bug next. Marcus is out Thursday and Friday. We agreed to push the pricing page review to next week because design is not finished. Sam raised that the staging environment has been flaky since Tuesday and will look into it if there is time. Please summarize this into a short paragraph I can paste into Slack."}
+{"label":"haiku","prompt":"Below is the raw text of our terms page. It was pasted out of a Word document and the apostrophes and quote marks came through as strange characters, there are double spaces after most sentences, and some of the headings lost their capitalization. Please clean up the punctuation, fix the spacing, and capitalize the headings consistently. Do not change any of the wording or the meaning of any clause, just fix the formatting problems so it can go back on the site."}
+{"label":"haiku","prompt":"I have a list of about sixty customer company names below that came out of our CRM export. They are in no particular order and some have trailing whitespace and inconsistent capitalization. Please sort them alphabetically, trim the whitespace, and put each one in title case. Return them as a plain numbered list, nothing else, no commentary."}
+{"label":"sonnet","prompt":"Our onboarding flow has four steps and users drop off hardest on step three, which is where they connect their bank account. I want to add a skip option so they can finish onboarding and connect later, with a reminder banner on the dashboard until they do. Write the component for the banner and the logic for tracking whether they have skipped, using our existing user settings table."}
+{"label":"opus","prompt":"We run a job queue on redis with about a dozen workers. Occasionally a job gets processed twice and we end up sending duplicate emails to customers. It happens maybe once every few thousand jobs, always under load, and we have never reproduced it locally. The workers use BRPOPLPUSH and delete from the processing list when done. Walk me through what could be going wrong and how we would confirm it."}
+{"label":"sonnet","prompt":"can you explain what this function does"}
+{"label":"sonnet","prompt":"add dark mode to this page"}
+{"label":"haiku","prompt":"what time zone is UTC-5"}
+{"label":"opus","prompt":"should we use optimistic or pessimistic locking here"}
+{"label":"sonnet","prompt":"make this form accessible"}
+{"label":"opus","prompt":"our costs tripled this month, help me figure out where the money is going and what to change"}
+{"label":"sonnet","prompt":"write a cron expression for every weekday at 6am"}
+{"label":"haiku","prompt":"shorten this button label"}
+{"label":"opus","prompt":"design the retry and backoff strategy for our webhook delivery so we never lose an event"}
+{"label":"sonnet","prompt":"why is my test failing"}
+{"label":"haiku","prompt":"list the http status codes for redirects"}

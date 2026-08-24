@@ -1,0 +1,8 @@
+{
+  "name": "quotacove",
+  "version": "0.1.0",
+  "description": "Get more out of the plan you already pay for. Scores each prompt locally, suggests the cheapest capable model, routes subagent work to cheaper tiers, enforces a max-model ceiling, and tracks how much usage window that buys back.",
+  "author": {
+    "name": "Salish Studios"
+  }
+}

@@ -1,0 +1,7 @@
+# Generated from your own usage history — personal, never commit.
+eval/usage.json
+eval/usage-atlas.html
+eval/quota-observations.jsonl
+
+.DS_Store
+node_modules/
