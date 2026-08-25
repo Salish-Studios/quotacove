@@ -1,5 +1,6 @@
 {
   "name": "salish-tools",
+  "description": "Tools from Salish Studios for spending less of your AI plan on work that does not need the expensive model.",
   "owner": {
     "name": "Salish Studios",
     "url": "https://github.com/badbradd2/quotacove"
@@ -8,6 +9,12 @@
     {
       "name": "quotacove",
       "source": "./plugin",
+      "category": "productivity",
+      "homepage": "https://github.com/badbradd2/quotacove",
+      "author": {
+        "name": "Salish Studios",
+        "url": "https://github.com/badbradd2"
+      },
       "description": "Get more out of the AI plan you already pay for: per-prompt model suggestions, cheap-model subagent routing, an enforced model ceiling, and tracking of the usage window it buys back."
     }
   ]
