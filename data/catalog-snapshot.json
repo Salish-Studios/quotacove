@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-25T07:10:09.347Z",
+  "fetched": "2026-08-25T22:49:54.548Z",
   "models": {
     "meta/muse-spark-1.2-contributor": {
       "name": "Meta: Muse Spark 1.2 Contributor",
@@ -9,8 +9,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "in_per_1m": 0.44,
-      "out_per_1m": 1.32,
+      "in_per_1m": 0.22,
+      "out_per_1m": 0.66,
       "context": 1048576
     },
     "stealth/ox-alpha": {
@@ -154,13 +154,13 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
       "in_per_1m": 0.035,
-      "out_per_1m": 0.1,
+      "out_per_1m": 0.28,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.28,
+      "in_per_1m": 0.04,
+      "out_per_1m": 0.08,
       "context": 1310720
     },
     "thinkingmachines/inkling-small": {
@@ -687,8 +687,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI Kimi Latest",
-      "in_per_1m": 2.8,
-      "out_per_1m": 14,
+      "in_per_1m": 2.55,
+      "out_per_1m": 12.75,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -765,14 +765,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.7903,
-      "out_per_1m": 1.5806,
+      "in_per_1m": 0.5559,
+      "out_per_1m": 1.1119,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0886,
-      "out_per_1m": 0.1772,
+      "in_per_1m": 0.077,
+      "out_per_1m": 0.154,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1603,12 +1603,6 @@
       "out_per_1m": 0.78,
       "context": 1000000
     },
-    "qwen/qwen-plus-2025-07-28:thinking": {
-      "name": "Qwen: Qwen Plus 0728 (thinking)",
-      "in_per_1m": 0.26,
-      "out_per_1m": 0.78,
-      "context": 1000000
-    },
     "moonshotai/kimi-k2-0905": {
       "name": "MoonshotAI: Kimi K2 0905",
       "in_per_1m": 0.6,
@@ -1885,12 +1879,6 @@
       "out_per_1m": 15,
       "context": 1000000
     },
-    "google/gemma-3n-e4b-it": {
-      "name": "Google: Gemma 3n 4B",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.12,
-      "context": 32768
-    },
     "mistralai/mistral-medium-3": {
       "name": "Mistral: Mistral Medium 3",
       "in_per_1m": 0.4,
@@ -1913,7 +1901,7 @@
       "name": "Meta: Llama Guard 4 12B",
       "in_per_1m": 0.18,
       "out_per_1m": 0.18,
-      "context": 1048576
+      "context": 163840
     },
     "qwen/qwen3-30b-a3b": {
       "name": "Qwen: Qwen3 30B A3B",
