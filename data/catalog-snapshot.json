@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-25T22:49:54.548Z",
+  "fetched": "2026-08-26T07:09:43.539Z",
   "models": {
     "meta/muse-spark-1.2-contributor": {
       "name": "Meta: Muse Spark 1.2 Contributor",
@@ -9,8 +9,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "in_per_1m": 0.22,
-      "out_per_1m": 0.66,
+      "in_per_1m": 0.44,
+      "out_per_1m": 1.32,
       "context": 1048576
     },
     "stealth/ox-alpha": {
@@ -153,14 +153,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.035,
-      "out_per_1m": 0.28,
+      "in_per_1m": 0.03,
+      "out_per_1m": 0.075,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.04,
-      "out_per_1m": 0.08,
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.12,
       "context": 1310720
     },
     "thinkingmachines/inkling-small": {
@@ -735,8 +735,8 @@
     },
     "qwen/qwen3.6-27b": {
       "name": "Qwen: Qwen3.6 27B",
-      "in_per_1m": 0.32,
-      "out_per_1m": 3.2,
+      "in_per_1m": 0.6,
+      "out_per_1m": 3.6,
       "context": 262144
     },
     "openai/gpt-5.5-pro": {
@@ -765,14 +765,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.5559,
-      "out_per_1m": 1.1119,
+      "in_per_1m": 0.87,
+      "out_per_1m": 1.74,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.077,
-      "out_per_1m": 0.154,
+      "in_per_1m": 0.0886,
+      "out_per_1m": 0.1772,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -849,7 +849,7 @@
     },
     "google/gemma-4-31b-it": {
       "name": "Google: Gemma 4 31B",
-      "in_per_1m": 0.1,
+      "in_per_1m": 0.09,
       "out_per_1m": 0.34,
       "context": 262144
     },
@@ -1107,8 +1107,8 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "name": "Qwen: Qwen3.5 397B A17B",
-      "in_per_1m": 0.5,
-      "out_per_1m": 3.6,
+      "in_per_1m": 0.39,
+      "out_per_1m": 2.34,
       "context": 262144
     },
     "minimax/minimax-m2.5": {
@@ -2013,8 +2013,8 @@
     },
     "meta-llama/llama-4-scout": {
       "name": "Meta: Llama 4 Scout",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.11,
+      "out_per_1m": 0.34,
       "context": 1310720
     },
     "deepseek/deepseek-chat-v3-0324": {
@@ -2121,8 +2121,8 @@
     },
     "qwen/qwen2.5-vl-72b-instruct": {
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "in_per_1m": 0.8,
-      "out_per_1m": 1,
+      "in_per_1m": 0.25,
+      "out_per_1m": 0.75,
       "context": 128000
     },
     "qwen/qwen-plus": {
@@ -2211,8 +2211,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.32,
+      "in_per_1m": 0.71,
+      "out_per_1m": 0.71,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
