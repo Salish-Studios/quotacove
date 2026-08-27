@@ -1,6 +1,24 @@
 {
-  "fetched": "2026-08-26T07:09:43.539Z",
+  "fetched": "2026-08-27T17:38:29.964Z",
   "models": {
+    "inclusionai/ling-3.0-flash-fin:free": {
+      "name": "Ling 3.0 Flash Fin (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
+    },
+    "qwen/qwen3.8-flash": {
+      "name": "Qwen: Qwen3.8 Flash",
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.47,
+      "context": 1000000
+    },
+    "z-ai/glm-5.3-flash": {
+      "name": "Z.ai: GLM 5.3 Flash",
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.25,
+      "context": 1310720
+    },
     "meta/muse-spark-1.2-contributor": {
       "name": "Meta: Muse Spark 1.2 Contributor",
       "in_per_1m": 0.1,
@@ -9,14 +27,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "in_per_1m": 0.44,
-      "out_per_1m": 1.32,
-      "context": 1048576
-    },
-    "stealth/ox-alpha": {
-      "name": "Ox Alpha",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
+      "in_per_1m": 0.22,
+      "out_per_1m": 0.66,
       "context": 1048576
     },
     "tencent/hy-mt2-1.8b": {
@@ -154,13 +166,13 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
       "in_per_1m": 0.03,
-      "out_per_1m": 0.075,
+      "out_per_1m": 0.1,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.12,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.1,
       "context": 1310720
     },
     "thinkingmachines/inkling-small": {
@@ -393,8 +405,8 @@
     },
     "tencent/hy3": {
       "name": "Tencent: Hy3",
-      "in_per_1m": 0.132,
-      "out_per_1m": 0.528,
+      "in_per_1m": 0.0825,
+      "out_per_1m": 0.33,
       "context": 262144
     },
     "poolside/laguna-xs-2.1": {
@@ -463,12 +475,6 @@
       "out_per_1m": 3.74,
       "context": 1048576
     },
-    "z-ai/glm-5.2:batch": {
-      "name": "Z.ai: GLM 5.2 (batch)",
-      "in_per_1m": 1.4,
-      "out_per_1m": 4.4,
-      "context": 1048575
-    },
     "z-ai/glm-5.2:free": {
       "name": "Z.ai: GLM 5.2 (free)",
       "in_per_1m": 0,
@@ -483,7 +489,7 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
-      "in_per_1m": 0.67,
+      "in_per_1m": 0.66,
       "out_per_1m": 3.4,
       "context": 262144
     },
@@ -723,8 +729,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "name": "Qwen: Qwen3.6 35B A3B",
-      "in_per_1m": 0.14,
-      "out_per_1m": 1,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.9,
       "context": 262144
     },
     "qwen/qwen3.6-max-preview": {
@@ -771,8 +777,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0886,
-      "out_per_1m": 0.1772,
+      "in_per_1m": 0.078,
+      "out_per_1m": 0.156,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1509,8 +1515,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.5,
-      "out_per_1m": 2,
+      "in_per_1m": 0.43,
+      "out_per_1m": 1.75,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
@@ -1767,8 +1773,8 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.55,
+      "in_per_1m": 0.0875,
+      "out_per_1m": 0.35,
       "context": 262144
     },
     "moonshotai/kimi-k2": {
@@ -2262,12 +2268,6 @@
       "in_per_1m": 3,
       "out_per_1m": 5,
       "context": 32768
-    },
-    "mistralai/ministral-8b": {
-      "name": "Mistral: Ministral 8B",
-      "in_per_1m": 0.11,
-      "out_per_1m": 0.11,
-      "context": 128000
     },
     "qwen/qwen-2.5-7b-instruct": {
       "name": "Qwen: Qwen2.5 7B Instruct",
