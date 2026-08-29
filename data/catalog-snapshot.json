@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-28T18:43:04.837Z",
+  "fetched": "2026-08-29T12:42:04.862Z",
   "models": {
     "tencent/hy4-preview": {
       "name": "Tencent: Hy4 preview",
@@ -24,6 +24,12 @@
       "in_per_1m": 0.075,
       "out_per_1m": 0.25,
       "context": 1310720
+    },
+    "z-ai/glm-5.3-flash:batch": {
+      "name": "Z.ai: GLM 5.3 Flash (batch)",
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
+      "context": 1048575
     },
     "meta/muse-spark-1.2-contributor": {
       "name": "Meta: Muse Spark 1.2 Contributor",
@@ -51,8 +57,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.25,
-      "out_per_1m": 4.4,
+      "in_per_1m": 1.1875,
+      "out_per_1m": 4.18,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -105,8 +111,8 @@
     },
     "qwen/qwen3.8-2.4t-a95b:batch": {
       "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
-      "in_per_1m": 2,
-      "out_per_1m": 6,
+      "in_per_1m": 2.5,
+      "out_per_1m": 6.25,
       "context": 1010000
     },
     "bytedance-seed/seed-2.0-code": {
@@ -119,6 +125,12 @@
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "in_per_1m": 0.66,
       "out_per_1m": 1.98,
+      "context": 1048576
+    },
+    "deepseek/deepseek-v4-pro-0813:batch": {
+      "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+      "in_per_1m": 1.32,
+      "out_per_1m": 3.96,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -159,6 +171,12 @@
     },
     "meta/muse-glimmer-30b": {
       "name": "Meta: Muse Glimmer 30B",
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
+      "context": 131072
+    },
+    "meta/muse-glimmer-30b:batch": {
+      "name": "Meta: Muse Glimmer 30B (batch)",
       "in_per_1m": 0.35,
       "out_per_1m": 1.5,
       "context": 131072
@@ -183,15 +201,27 @@
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.12,
+      "in_per_1m": 0.045,
+      "out_per_1m": 0.09,
       "context": 1310720
+    },
+    "deepseek/deepseek-v4-flash-0731:batch": {
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "in_per_1m": 0.14,
+      "out_per_1m": 0.28,
+      "context": 1048576
     },
     "thinkingmachines/inkling-small": {
       "name": "Thinking Machines: Inkling Small",
       "in_per_1m": 0.45,
       "out_per_1m": 1.2,
       "context": 1048576
+    },
+    "thinkingmachines/inkling-small:batch": {
+      "name": "Thinking Machines: Inkling Small (batch)",
+      "in_per_1m": 0.5,
+      "out_per_1m": 1.2,
+      "context": 524288
     },
     "thinkingmachines/inkling-small:free": {
       "name": "Thinking Machines: Inkling Small (free)",
@@ -301,6 +331,12 @@
       "out_per_1m": 15,
       "context": 1048576
     },
+    "moonshotai/kimi-k3:batch": {
+      "name": "MoonshotAI: Kimi K3 (batch)",
+      "in_per_1m": 3,
+      "out_per_1m": 15,
+      "context": 1048576
+    },
     "meta/muse-spark-1.1": {
       "name": "Meta: Muse Spark 1.1",
       "in_per_1m": 1.25,
@@ -381,8 +417,8 @@
     },
     "tencent/hy3": {
       "name": "Tencent: Hy3",
-      "in_per_1m": 0.0825,
-      "out_per_1m": 0.33,
+      "in_per_1m": 0.132,
+      "out_per_1m": 0.528,
       "context": 262144
     },
     "poolside/laguna-xs-2.1": {
@@ -735,14 +771,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.7519,
-      "out_per_1m": 1.5037,
+      "in_per_1m": 0.62,
+      "out_per_1m": 1.2399,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0868,
-      "out_per_1m": 0.1736,
+      "in_per_1m": 0.0834,
+      "out_per_1m": 0.1669,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -821,6 +857,12 @@
       "name": "Google: Gemma 4 31B",
       "in_per_1m": 0.09,
       "out_per_1m": 0.34,
+      "context": 262144
+    },
+    "google/gemma-4-31b-it:batch": {
+      "name": "Google: Gemma 4 31B (batch)",
+      "in_per_1m": 0.39,
+      "out_per_1m": 0.97,
       "context": 262144
     },
     "google/gemma-4-31b-it:free": {
@@ -947,6 +989,12 @@
       "name": "Qwen: Qwen3.5-9B",
       "in_per_1m": 0.1,
       "out_per_1m": 0.15,
+      "context": 262144
+    },
+    "qwen/qwen3.5-9b:batch": {
+      "name": "Qwen: Qwen3.5-9B (batch)",
+      "in_per_1m": 0.17,
+      "out_per_1m": 0.25,
       "context": 262144
     },
     "openai/gpt-5.4-pro": {
@@ -1309,12 +1357,6 @@
       "out_per_1m": 12.5,
       "context": 200000
     },
-    "allenai/olmo-3-32b-think": {
-      "name": "AllenAI: Olmo 3 32B Think",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
-      "context": 65536
-    },
     "google/gemini-3-pro-image-preview": {
       "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
       "in_per_1m": 2,
@@ -1437,8 +1479,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "in_per_1m": 0.13,
-      "out_per_1m": 0.52,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 262144
     },
     "openai/gpt-5-pro": {
@@ -1609,10 +1651,22 @@
       "out_per_1m": 0.17,
       "context": 131072
     },
+    "openai/gpt-oss-120b:batch": {
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
+      "context": 131072
+    },
     "openai/gpt-oss-20b": {
       "name": "OpenAI: gpt-oss-20b",
       "in_per_1m": 0.03,
       "out_per_1m": 0.13,
+      "context": 131072
+    },
+    "openai/gpt-oss-20b:batch": {
+      "name": "OpenAI: gpt-oss-20b (batch)",
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.2,
       "context": 131072
     },
     "anthropic/claude-opus-4.1": {
@@ -1812,12 +1866,6 @@
       "in_per_1m": 1.25,
       "out_per_1m": 10,
       "context": 1048576
-    },
-    "arcee-ai/virtuoso-large": {
-      "name": "Arcee AI: Virtuoso Large",
-      "in_per_1m": 0.75,
-      "out_per_1m": 1.2,
-      "context": 131072
     },
     "meta-llama/llama-guard-4-12b": {
       "name": "Meta: Llama Guard 4 12B",
