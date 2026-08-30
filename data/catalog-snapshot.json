@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-29T12:42:04.862Z",
+  "fetched": "2026-08-30T11:55:20.664Z",
   "models": {
     "tencent/hy4-preview": {
       "name": "Tencent: Hy4 preview",
@@ -196,13 +196,13 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
       "in_per_1m": 0.03,
-      "out_per_1m": 0.1,
+      "out_per_1m": 0.16,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.045,
-      "out_per_1m": 0.09,
+      "in_per_1m": 0.065,
+      "out_per_1m": 0.18,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
@@ -303,7 +303,7 @@
     },
     "thinkingmachines/inkling": {
       "name": "Thinking Machines: Inkling",
-      "in_per_1m": 0.95,
+      "in_per_1m": 1,
       "out_per_1m": 4.05,
       "context": 1048576
     },
@@ -771,14 +771,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.62,
-      "out_per_1m": 1.2399,
+      "in_per_1m": 0.4273,
+      "out_per_1m": 0.8547,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0834,
-      "out_per_1m": 0.1669,
+      "in_per_1m": 0.0798,
+      "out_per_1m": 0.1596,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -837,8 +837,8 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "in_per_1m": 1.26,
-      "out_per_1m": 3.96,
+      "in_per_1m": 0.966,
+      "out_per_1m": 3.036,
       "context": 204800
     },
     "google/gemma-4-26b-a4b-it": {
@@ -885,8 +885,8 @@
     },
     "arcee-ai/trinity-large-thinking": {
       "name": "Arcee AI: Trinity Large Thinking",
-      "in_per_1m": 0.22,
-      "out_per_1m": 0.85,
+      "in_per_1m": 0.25,
+      "out_per_1m": 0.8,
       "context": 262144
     },
     "x-ai/grok-4.20-multi-agent": {
@@ -1569,7 +1569,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.1,
+      "in_per_1m": 0.09,
       "out_per_1m": 1.1,
       "context": 262144
     },
