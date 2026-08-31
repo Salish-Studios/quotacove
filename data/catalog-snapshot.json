@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-08-30T11:55:20.664Z",
+  "fetched": "2026-08-31T13:51:51.005Z",
   "models": {
     "tencent/hy4-preview": {
       "name": "Tencent: Hy4 preview",
@@ -771,14 +771,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.4273,
-      "out_per_1m": 0.8547,
+      "in_per_1m": 1.0393,
+      "out_per_1m": 2.0786,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0798,
-      "out_per_1m": 0.1596,
+      "in_per_1m": 0.0871,
+      "out_per_1m": 0.1742,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1161,8 +1161,8 @@
     },
     "moonshotai/kimi-k2.5": {
       "name": "MoonshotAI: Kimi K2.5",
-      "in_per_1m": 0.6,
-      "out_per_1m": 3,
+      "in_per_1m": 0.45,
+      "out_per_1m": 2.25,
       "context": 262144
     },
     "upstage/solar-pro-3": {
@@ -1269,8 +1269,8 @@
     },
     "mistralai/devstral-2512": {
       "name": "Mistral: Devstral 2 2512",
-      "in_per_1m": 0.44,
-      "out_per_1m": 2.2,
+      "in_per_1m": 0.4,
+      "out_per_1m": 2,
       "context": 262144
     },
     "relace/relace-search": {
@@ -1942,7 +1942,7 @@
     "meta-llama/llama-4-maverick": {
       "name": "Meta: Llama 4 Maverick",
       "in_per_1m": 0.2,
-      "out_per_1m": 0.8,
+      "out_per_1m": 0.696,
       "context": 1048576
     },
     "meta-llama/llama-4-scout": {
