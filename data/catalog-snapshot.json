@@ -1,6 +1,12 @@
 {
-  "fetched": "2026-08-31T13:51:51.005Z",
+  "fetched": "2026-09-01T11:40:15.021Z",
   "models": {
+    "ibm-granite/granite-4.2-8b": {
+      "name": "IBM: Granite 4.2 8B",
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.15,
+      "context": 131072
+    },
     "tencent/hy4-preview": {
       "name": "Tencent: Hy4 preview",
       "in_per_1m": 0.834,
@@ -57,8 +63,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.1875,
-      "out_per_1m": 4.18,
+      "in_per_1m": 1.17,
+      "out_per_1m": 3.96,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -195,7 +201,7 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.03,
+      "in_per_1m": 0.05,
       "out_per_1m": 0.16,
       "context": 1310720
     },
@@ -343,12 +349,6 @@
       "out_per_1m": 4.25,
       "context": 1048576
     },
-    "kwaipilot/kat-coder-air-v2.5": {
-      "name": "Kwaipilot: KAT-Coder-Air V2.5",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
-      "context": 256000
-    },
     "kwaipilot/kat-coder-pro-v2.5": {
       "name": "Kwaipilot: KAT-Coder-Pro V2.5",
       "in_per_1m": 0.74,
@@ -361,10 +361,22 @@
       "out_per_1m": 1.2,
       "context": 1050000
     },
+    "openai/gpt-5.6-luna-pro:batch": {
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.6,
+      "context": 1050000
+    },
     "openai/gpt-5.6-luna": {
       "name": "OpenAI: GPT-5.6 Luna",
       "in_per_1m": 0.2,
       "out_per_1m": 1.2,
+      "context": 1050000
+    },
+    "openai/gpt-5.6-luna:batch": {
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.6,
       "context": 1050000
     },
     "openai/gpt-5.6-terra-pro": {
@@ -373,10 +385,22 @@
       "out_per_1m": 12,
       "context": 1050000
     },
+    "openai/gpt-5.6-terra-pro:batch": {
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 6,
+      "context": 1050000
+    },
     "openai/gpt-5.6-terra": {
       "name": "OpenAI: GPT-5.6 Terra",
       "in_per_1m": 2,
       "out_per_1m": 12,
+      "context": 1050000
+    },
+    "openai/gpt-5.6-terra:batch": {
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 6,
       "context": 1050000
     },
     "openai/gpt-5.6-sol-pro": {
@@ -385,10 +409,22 @@
       "out_per_1m": 10,
       "context": 1050000
     },
+    "openai/gpt-5.6-sol-pro:batch": {
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 5,
+      "context": 1050000
+    },
     "openai/gpt-5.6-sol": {
       "name": "OpenAI: GPT-5.6 Sol",
       "in_per_1m": 2,
       "out_per_1m": 10,
+      "context": 1050000
+    },
+    "openai/gpt-5.6-sol:batch": {
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 5,
       "context": 1050000
     },
     "x-ai/grok-4.5": {
@@ -763,22 +799,34 @@
       "out_per_1m": 180,
       "context": 1050000
     },
+    "openai/gpt-5.5-pro:batch": {
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "in_per_1m": 15,
+      "out_per_1m": 90,
+      "context": 1050000
+    },
     "openai/gpt-5.5": {
       "name": "OpenAI: GPT-5.5",
       "in_per_1m": 5,
       "out_per_1m": 30,
       "context": 1050000
     },
+    "openai/gpt-5.5:batch": {
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "in_per_1m": 2.5,
+      "out_per_1m": 15,
+      "context": 1050000
+    },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 1.0393,
-      "out_per_1m": 2.0786,
+      "in_per_1m": 1.6,
+      "out_per_1m": 3.2,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0871,
-      "out_per_1m": 0.1742,
+      "in_per_1m": 0.0809,
+      "out_per_1m": 0.1618,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -943,20 +991,26 @@
       "out_per_1m": 1.25,
       "context": 400000
     },
+    "openai/gpt-5.4-nano:batch": {
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.625,
+      "context": 400000
+    },
     "openai/gpt-5.4-mini": {
       "name": "OpenAI: GPT-5.4 Mini",
       "in_per_1m": 0.75,
       "out_per_1m": 4.5,
       "context": 400000
     },
+    "openai/gpt-5.4-mini:batch": {
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "in_per_1m": 0.375,
+      "out_per_1m": 2.25,
+      "context": 400000
+    },
     "mistralai/mistral-small-2603": {
       "name": "Mistral: Mistral Small 4",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
-      "context": 262144
-    },
-    "mistralai/mistral-small-2603:batch": {
-      "name": "Mistral: Mistral Small 4 (batch)",
       "in_per_1m": 0.15,
       "out_per_1m": 0.6,
       "context": 262144
@@ -1003,10 +1057,22 @@
       "out_per_1m": 180,
       "context": 1050000
     },
+    "openai/gpt-5.4-pro:batch": {
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "in_per_1m": 15,
+      "out_per_1m": 90,
+      "context": 1050000
+    },
     "openai/gpt-5.4": {
       "name": "OpenAI: GPT-5.4",
       "in_per_1m": 2.5,
       "out_per_1m": 15,
+      "context": 1050000
+    },
+    "openai/gpt-5.4:batch": {
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "in_per_1m": 1.25,
+      "out_per_1m": 7.5,
       "context": 1050000
     },
     "inception/mercury-2": {
@@ -1261,10 +1327,22 @@
       "out_per_1m": 168,
       "context": 400000
     },
+    "openai/gpt-5.2-pro:batch": {
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "in_per_1m": 10.5,
+      "out_per_1m": 84,
+      "context": 400000
+    },
     "openai/gpt-5.2": {
       "name": "OpenAI: GPT-5.2",
       "in_per_1m": 1.75,
       "out_per_1m": 14,
+      "context": 400000
+    },
+    "openai/gpt-5.2:batch": {
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "in_per_1m": 0.875,
+      "out_per_1m": 7,
       "context": 400000
     },
     "mistralai/devstral-2512": {
@@ -1315,12 +1393,6 @@
       "out_per_1m": 0.15,
       "context": 262144
     },
-    "mistralai/ministral-8b-2512:batch": {
-      "name": "Mistral: Ministral 3 8B 2512 (batch)",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.15,
-      "context": 262144
-    },
     "mistralai/ministral-3b-2512": {
       "name": "Mistral: Ministral 3 3B 2512",
       "in_per_1m": 0.1,
@@ -1329,12 +1401,6 @@
     },
     "mistralai/mistral-large-2512": {
       "name": "Mistral: Mistral Large 3 2512",
-      "in_per_1m": 0.5,
-      "out_per_1m": 1.5,
-      "context": 262144
-    },
-    "mistralai/mistral-large-2512:batch": {
-      "name": "Mistral: Mistral Large 3 2512 (batch)",
       "in_per_1m": 0.5,
       "out_per_1m": 1.5,
       "context": 262144
@@ -1367,6 +1433,12 @@
       "name": "OpenAI: GPT-5.1",
       "in_per_1m": 1.25,
       "out_per_1m": 10,
+      "context": 400000
+    },
+    "openai/gpt-5.1:batch": {
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "in_per_1m": 0.625,
+      "out_per_1m": 5,
       "context": 400000
     },
     "openai/gpt-5.1-codex": {
@@ -1489,6 +1561,12 @@
       "out_per_1m": 120,
       "context": 400000
     },
+    "openai/gpt-5-pro:batch": {
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "in_per_1m": 7.5,
+      "out_per_1m": 60,
+      "context": 400000
+    },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
       "in_per_1m": 0.43,
@@ -1569,7 +1647,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.09,
+      "in_per_1m": 0.1,
       "out_per_1m": 1.1,
       "context": 262144
     },
@@ -1615,12 +1693,6 @@
       "out_per_1m": 2,
       "context": 131072
     },
-    "mistralai/mistral-medium-3.1:batch": {
-      "name": "Mistral: Mistral Medium 3.1 (batch)",
-      "in_per_1m": 0.4,
-      "out_per_1m": 2,
-      "context": 131072
-    },
     "z-ai/glm-4.5v": {
       "name": "Z.ai: GLM 4.5V",
       "in_per_1m": 0.6,
@@ -1633,16 +1705,34 @@
       "out_per_1m": 10,
       "context": 400000
     },
+    "openai/gpt-5:batch": {
+      "name": "OpenAI: GPT-5 (batch)",
+      "in_per_1m": 0.625,
+      "out_per_1m": 5,
+      "context": 400000
+    },
     "openai/gpt-5-mini": {
       "name": "OpenAI: GPT-5 Mini",
       "in_per_1m": 0.25,
       "out_per_1m": 2,
       "context": 400000
     },
+    "openai/gpt-5-mini:batch": {
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "in_per_1m": 0.125,
+      "out_per_1m": 1,
+      "context": 400000
+    },
     "openai/gpt-5-nano": {
       "name": "OpenAI: GPT-5 Nano",
       "in_per_1m": 0.05,
       "out_per_1m": 0.4,
+      "context": 400000
+    },
+    "openai/gpt-5-nano:batch": {
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "in_per_1m": 0.025,
+      "out_per_1m": 0.2,
       "context": 400000
     },
     "openai/gpt-oss-120b": {
@@ -1683,12 +1773,6 @@
     },
     "mistralai/codestral-2508": {
       "name": "Mistral: Codestral 2508",
-      "in_per_1m": 0.3,
-      "out_per_1m": 0.9,
-      "context": 256000
-    },
-    "mistralai/codestral-2508:batch": {
-      "name": "Mistral: Codestral 2508 (batch)",
       "in_per_1m": 0.3,
       "out_per_1m": 0.9,
       "context": 256000
@@ -1915,10 +1999,22 @@
       "out_per_1m": 8,
       "context": 200000
     },
+    "openai/o3:batch": {
+      "name": "OpenAI: o3 (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 4,
+      "context": 200000
+    },
     "openai/o4-mini": {
       "name": "OpenAI: o4 Mini",
       "in_per_1m": 1.1,
       "out_per_1m": 4.4,
+      "context": 200000
+    },
+    "openai/o4-mini:batch": {
+      "name": "OpenAI: o4 Mini (batch)",
+      "in_per_1m": 0.55,
+      "out_per_1m": 2.2,
       "context": 200000
     },
     "openai/gpt-4.1": {
@@ -1927,16 +2023,34 @@
       "out_per_1m": 8,
       "context": 1047576
     },
+    "openai/gpt-4.1:batch": {
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 4,
+      "context": 1047576
+    },
     "openai/gpt-4.1-mini": {
       "name": "OpenAI: GPT-4.1 Mini",
       "in_per_1m": 0.4,
       "out_per_1m": 1.6,
       "context": 1047576
     },
+    "openai/gpt-4.1-mini:batch": {
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.8,
+      "context": 1047576
+    },
     "openai/gpt-4.1-nano": {
       "name": "OpenAI: GPT-4.1 Nano",
       "in_per_1m": 0.1,
       "out_per_1m": 0.4,
+      "context": 1047576
+    },
+    "openai/gpt-4.1-nano:batch": {
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.2,
       "context": 1047576
     },
     "meta-llama/llama-4-maverick": {
@@ -1947,8 +2061,8 @@
     },
     "meta-llama/llama-4-scout": {
       "name": "Meta: Llama 4 Scout",
-      "in_per_1m": 0.11,
-      "out_per_1m": 0.34,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.3,
       "context": 1310720
     },
     "deepseek/deepseek-chat-v3-0324": {
@@ -2057,6 +2171,12 @@
       "name": "OpenAI: o3 Mini",
       "in_per_1m": 1.1,
       "out_per_1m": 4.4,
+      "context": 200000
+    },
+    "openai/o3-mini:batch": {
+      "name": "OpenAI: o3 Mini (batch)",
+      "in_per_1m": 0.55,
+      "out_per_1m": 2.2,
       "context": 200000
     },
     "mistralai/mistral-small-24b-instruct-2501": {
@@ -2169,7 +2289,7 @@
     },
     "anthracite-org/magnum-v4-72b": {
       "name": "Magnum v4 72B",
-      "in_per_1m": 3,
+      "in_per_1m": 2.5,
       "out_per_1m": 5,
       "context": 32768
     },
@@ -2269,6 +2389,12 @@
       "out_per_1m": 0.6,
       "context": 128000
     },
+    "openai/gpt-4o-mini:batch": {
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.3,
+      "context": 128000
+    },
     "google/gemma-2-27b-it": {
       "name": "Google: Gemma 2 27B",
       "in_per_1m": 0.65,
@@ -2287,6 +2413,12 @@
       "out_per_1m": 15,
       "context": 128000
     },
+    "openai/gpt-4o:batch": {
+      "name": "OpenAI: GPT-4o (batch)",
+      "in_per_1m": 1.25,
+      "out_per_1m": 5,
+      "context": 128000
+    },
     "mistralai/mixtral-8x22b-instruct": {
       "name": "Mistral: Mixtral 8x22B Instruct",
       "in_per_1m": 2,
@@ -2303,6 +2435,12 @@
       "name": "OpenAI: GPT-4 Turbo",
       "in_per_1m": 10,
       "out_per_1m": 30,
+      "context": 128000
+    },
+    "openai/gpt-4-turbo:batch": {
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "in_per_1m": 5,
+      "out_per_1m": 15,
       "context": 128000
     },
     "anthropic/claude-3-haiku": {
@@ -2349,7 +2487,7 @@
     },
     "mancer/weaver": {
       "name": "Mancer: Weaver (alpha)",
-      "in_per_1m": 0.5,
+      "in_per_1m": 0.4,
       "out_per_1m": 0.75,
       "context": 8000
     },
@@ -2369,6 +2507,12 @@
       "name": "OpenAI: GPT-3.5 Turbo",
       "in_per_1m": 0.5,
       "out_per_1m": 1.5,
+      "context": 16385
+    },
+    "openai/gpt-3.5-turbo:batch": {
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "in_per_1m": 0.25,
+      "out_per_1m": 0.75,
       "context": 16385
     },
     "openai/gpt-4": {
