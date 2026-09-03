@@ -1,6 +1,30 @@
 {
-  "fetched": "2026-09-02T11:19:29.066Z",
+  "fetched": "2026-09-03T11:15:18.298Z",
   "models": {
+    "meta/muse-spark-1.3-contributor": {
+      "name": "Meta: Muse Spark 1.3 Contributor",
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.2,
+      "context": 1048576
+    },
+    "meta/muse-spark-1.3": {
+      "name": "Meta: Muse Spark 1.3",
+      "in_per_1m": 1.25,
+      "out_per_1m": 4.25,
+      "context": 1048576
+    },
+    "google/gemini-3.8-flash": {
+      "name": "Google: Gemini 3.8 Flash",
+      "in_per_1m": 0.75,
+      "out_per_1m": 3.75,
+      "context": 1048576
+    },
+    "google/gemini-3.8-flash:batch": {
+      "name": "Google: Gemini 3.8 Flash (batch)",
+      "in_per_1m": 0.375,
+      "out_per_1m": 1.875,
+      "context": 1048576
+    },
     "anthropic/claude-fable-5.1": {
       "name": "Anthropic: Claude Fable 5.1",
       "in_per_1m": 10,
@@ -87,8 +111,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.15,
-      "out_per_1m": 3.5,
+      "in_per_1m": 1.12,
+      "out_per_1m": 3.52,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -123,8 +147,8 @@
     },
     "google/gemini-3.7-flash:batch": {
       "name": "Google: Gemini 3.7 Flash (batch)",
-      "in_per_1m": 0.1875,
-      "out_per_1m": 0.9375,
+      "in_per_1m": 0.375,
+      "out_per_1m": 1.875,
       "context": 1048576
     },
     "bytedance-seed/seed-2-1-turbo": {
@@ -202,7 +226,7 @@
     "meta/muse-glimmer-30b": {
       "name": "Meta: Muse Glimmer 30B",
       "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "out_per_1m": 1.1,
       "context": 131072
     },
     "meta/muse-glimmer-30b:batch": {
@@ -591,15 +615,9 @@
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
       "name": "NVIDIA: Nemotron 3 Ultra",
-      "in_per_1m": 0.625,
-      "out_per_1m": 3.125,
-      "context": 262144
-    },
-    "nvidia/nemotron-3-ultra-550b-a55b:batch": {
-      "name": "NVIDIA: Nemotron 3 Ultra (batch)",
       "in_per_1m": 0.6,
-      "out_per_1m": 3.6,
-      "context": 512288
+      "out_per_1m": 2.4,
+      "context": 262144
     },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
       "name": "NVIDIA: Nemotron 3 Ultra (free)",
@@ -1179,8 +1197,8 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "name": "Qwen: Qwen3.5 397B A17B",
-      "in_per_1m": 0.39,
-      "out_per_1m": 2.34,
+      "in_per_1m": 0.55,
+      "out_per_1m": 3.5,
       "context": 262144
     },
     "minimax/minimax-m2.5": {
@@ -1575,8 +1593,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.43,
-      "out_per_1m": 1.75,
+      "in_per_1m": 0.55,
+      "out_per_1m": 2.2,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
@@ -2223,8 +2241,8 @@
     },
     "deepseek/deepseek-chat": {
       "name": "DeepSeek: DeepSeek V3",
-      "in_per_1m": 0.2574,
-      "out_per_1m": 1.0287,
+      "in_per_1m": 0.32,
+      "out_per_1m": 0.89,
       "context": 163840
     },
     "sao10k/l3.3-euryale-70b": {
@@ -2247,8 +2265,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.71,
-      "out_per_1m": 0.71,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.32,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
