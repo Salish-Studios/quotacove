@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-05T10:36:54.242Z",
+  "fetched": "2026-09-06T10:57:37.090Z",
   "models": {
     "openai/gpt-6-astra": {
       "name": "OpenAI: GPT-6 Astra",
@@ -153,8 +153,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.15,
-      "out_per_1m": 3.5,
+      "in_per_1m": 1.17,
+      "out_per_1m": 3.96,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -285,14 +285,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.1,
+      "in_per_1m": 0.045,
+      "out_per_1m": 0.09,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.065,
-      "out_per_1m": 0.18,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.1,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
@@ -885,14 +885,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9004,
-      "out_per_1m": 1.8009,
+      "in_per_1m": 0.6977,
+      "out_per_1m": 1.3955,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0855,
-      "out_per_1m": 0.1711,
+      "in_per_1m": 0.0808,
+      "out_per_1m": 0.1616,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1167,8 +1167,8 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "name": "Qwen: Qwen3.5-35B-A3B",
-      "in_per_1m": 0.08,
-      "out_per_1m": 0.75,
+      "in_per_1m": 0.3125,
+      "out_per_1m": 1.25,
       "context": 262144
     },
     "qwen/qwen3.5-27b": {
