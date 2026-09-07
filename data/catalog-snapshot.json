@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-06T10:57:37.090Z",
+  "fetched": "2026-09-07T12:33:49.277Z",
   "models": {
     "openai/gpt-6-astra": {
       "name": "OpenAI: GPT-6 Astra",
@@ -105,8 +105,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.0713,
+      "out_per_1m": 0.2375,
       "context": 1310720
     },
     "qwen/qwen3.8-flash": {
@@ -153,8 +153,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.17,
-      "out_per_1m": 3.96,
+      "in_per_1m": 1.12,
+      "out_per_1m": 3.52,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -219,8 +219,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 1.1207,
-      "out_per_1m": 3.362,
+      "in_per_1m": 1.0494,
+      "out_per_1m": 3.1482,
       "context": 1048576
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
@@ -285,14 +285,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.045,
-      "out_per_1m": 0.09,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.16,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.1,
+      "in_per_1m": 0.14,
+      "out_per_1m": 0.28,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
@@ -601,12 +601,6 @@
       "out_per_1m": 3.036,
       "context": 1048576
     },
-    "z-ai/glm-5.2:free": {
-      "name": "Z.ai: GLM 5.2 (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
-      "context": 256000
-    },
     "openrouter/fusion": {
       "name": "OpenRouter: Fusion",
       "in_per_1m": null,
@@ -779,7 +773,7 @@
       "name": "Mistral: Mistral Medium 3.5 (batch)",
       "in_per_1m": 0.75,
       "out_per_1m": 3.75,
-      "context": 32768
+      "context": 262144
     },
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
@@ -885,14 +879,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.6977,
-      "out_per_1m": 1.3955,
+      "in_per_1m": 0.9553,
+      "out_per_1m": 1.9105,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0808,
-      "out_per_1m": 0.1616,
+      "in_per_1m": 0.0886,
+      "out_per_1m": 0.1772,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1239,8 +1233,8 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "name": "Qwen: Qwen3.5 397B A17B",
-      "in_per_1m": 0.55,
-      "out_per_1m": 3.5,
+      "in_per_1m": 0.39,
+      "out_per_1m": 2.34,
       "context": 262144
     },
     "minimax/minimax-m2.5": {
@@ -1635,8 +1629,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.55,
-      "out_per_1m": 2.2,
+      "in_per_1m": 0.43,
+      "out_per_1m": 1.75,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
