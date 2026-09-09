@@ -1,6 +1,24 @@
 {
-  "fetched": "2026-09-08T11:20:08.587Z",
+  "fetched": "2026-09-09T11:24:28.694Z",
   "models": {
+    "inception/mercury-2.5": {
+      "name": "Inception: Mercury 2.5",
+      "in_per_1m": 0.04,
+      "out_per_1m": 0.15,
+      "context": 260000
+    },
+    "nex-agi/nex-n2.5-mini:free": {
+      "name": "Nex AGI: Nex-N2.5-Mini (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
+    },
+    "nex-agi/nex-n2.5-pro:free": {
+      "name": "Nex AGI: Nex-N2.5-Pro (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
+    },
     "openai/gpt-6-astra": {
       "name": "OpenAI: GPT-6 Astra",
       "in_per_1m": 10,
@@ -73,16 +91,10 @@
       "out_per_1m": 25,
       "context": 1000000
     },
-    "inception/mercury-2.5-preview": {
-      "name": "Inception: Mercury 2.5 Preview",
-      "in_per_1m": 0.04,
-      "out_per_1m": 0.15,
-      "context": 260000
-    },
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.15,
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.25,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -105,8 +117,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0713,
-      "out_per_1m": 0.2375,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.25,
       "context": 1310720
     },
     "qwen/qwen3.8-flash": {
@@ -123,9 +135,9 @@
     },
     "z-ai/glm-5.3-flash:batch": {
       "name": "Z.ai: GLM 5.3 Flash (batch)",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
-      "context": 1048575
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.25,
+      "context": 1048576
     },
     "meta/muse-spark-1.2-contributor": {
       "name": "Meta: Muse Spark 1.2 Contributor",
@@ -137,6 +149,12 @@
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
       "in_per_1m": 0.22,
       "out_per_1m": 0.66,
+      "context": 1048576
+    },
+    "deepseek/deepseek-v4-flash-vision-exp:batch": {
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+      "in_per_1m": 0.11,
+      "out_per_1m": 0.33,
       "context": 1048576
     },
     "tencent/hy-mt2-1.8b": {
@@ -153,8 +171,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.12,
-      "out_per_1m": 3.52,
+      "in_per_1m": 1.113,
+      "out_per_1m": 3.498,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -168,6 +186,12 @@
       "in_per_1m": 1.4,
       "out_per_1m": 4.4,
       "context": 1310720
+    },
+    "z-ai/glm-5.3:batch": {
+      "name": "Z.ai: GLM 5.3 (batch)",
+      "in_per_1m": 0.7,
+      "out_per_1m": 2.2,
+      "context": 1048576
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
@@ -225,8 +249,8 @@
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
-      "in_per_1m": 1.32,
-      "out_per_1m": 3.96,
+      "in_per_1m": 0.66,
+      "out_per_1m": 1.98,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -273,8 +297,8 @@
     },
     "meta/muse-glimmer-30b:batch": {
       "name": "Meta: Muse Glimmer 30B (batch)",
-      "in_per_1m": 0.35,
-      "out_per_1m": 1.5,
+      "in_per_1m": 0.175,
+      "out_per_1m": 0.75,
       "context": 131072
     },
     "meta/muse-spark-1.2": {
@@ -297,8 +321,8 @@
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.28,
+      "in_per_1m": 0.11,
+      "out_per_1m": 0.33,
       "context": 1048576
     },
     "thinkingmachines/inkling-small": {
@@ -565,12 +589,6 @@
       "out_per_1m": 1.5,
       "context": 65536
     },
-    "nex-agi/nex-n2-mini": {
-      "name": "Nex AGI: Nex-N2-Mini",
-      "in_per_1m": 0.025,
-      "out_per_1m": 0.1,
-      "context": 262144
-    },
     "sakana/fugu-ultra": {
       "name": "Sakana: Fugu Ultra",
       "in_per_1m": 5,
@@ -599,6 +617,12 @@
       "name": "Z.ai: GLM 5.2",
       "in_per_1m": 0.966,
       "out_per_1m": 3.036,
+      "context": 1048576
+    },
+    "z-ai/glm-5.2:batch": {
+      "name": "Z.ai: GLM 5.2 (batch)",
+      "in_per_1m": 0.7,
+      "out_per_1m": 2.2,
       "context": 1048576
     },
     "openrouter/fusion": {
@@ -630,12 +654,6 @@
       "in_per_1m": 5,
       "out_per_1m": 25,
       "context": 1000000
-    },
-    "nex-agi/nex-n2-pro": {
-      "name": "Nex AGI: Nex-N2-Pro",
-      "in_per_1m": 0.25,
-      "out_per_1m": 1,
-      "context": 262144
     },
     "nvidia/nemotron-3.5-content-safety": {
       "name": "NVIDIA: Nemotron 3.5 Content Safety",
@@ -795,8 +813,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI Kimi Latest",
-      "in_per_1m": 2.5,
-      "out_per_1m": 14,
+      "in_per_1m": 2.4,
+      "out_per_1m": 12,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1073,7 +1091,7 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "in_per_1m": 0.085,
       "out_per_1m": 0.4,
-      "context": 1000000
+      "context": 262144
     },
     "nvidia/nemotron-3-super-120b-a12b:free": {
       "name": "NVIDIA: Nemotron 3 Super (free)",
@@ -1617,8 +1635,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.55,
-      "out_per_1m": 2.2,
+      "in_per_1m": 0.43,
+      "out_per_1m": 1.75,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
@@ -1695,7 +1713,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.1,
+      "in_per_1m": 0.09,
       "out_per_1m": 1.1,
       "context": 262144
     },
@@ -1881,8 +1899,8 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.55,
+      "in_per_1m": 0.22,
+      "out_per_1m": 0.88,
       "context": 262144
     },
     "moonshotai/kimi-k2": {
@@ -1929,7 +1947,7 @@
     },
     "minimax/minimax-m1": {
       "name": "MiniMax: MiniMax M1",
-      "in_per_1m": 0.4,
+      "in_per_1m": 0.55,
       "out_per_1m": 2.2,
       "context": 1000000
     },
