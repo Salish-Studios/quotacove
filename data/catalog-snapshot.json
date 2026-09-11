@@ -1,6 +1,24 @@
 {
-  "fetched": "2026-09-10T11:20:50.291Z",
+  "fetched": "2026-09-11T11:22:07.276Z",
   "models": {
+    "sakana/fugu-ultra-v2": {
+      "name": "Sakana: Fugu Ultra v2",
+      "in_per_1m": 5,
+      "out_per_1m": 30,
+      "context": 1000000
+    },
+    "sakana/fugu-max": {
+      "name": "Sakana: Fugu Max",
+      "in_per_1m": 2,
+      "out_per_1m": 6,
+      "context": 1000000
+    },
+    "inclusionai/ling-3.0-flash-vl:free": {
+      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
+    },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
       "in_per_1m": 0.15,
@@ -177,8 +195,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 1.085,
-      "out_per_1m": 3.41,
+      "in_per_1m": 0.97,
+      "out_per_1m": 3.3077,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -249,8 +267,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 1.0494,
-      "out_per_1m": 3.1482,
+      "in_per_1m": 0.66,
+      "out_per_1m": 1.98,
       "context": 1048576
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
@@ -291,8 +309,8 @@
     },
     "upstage/solar-pro4": {
       "name": "Upstage: Solar Pro 4",
-      "in_per_1m": 0.03,
-      "out_per_1m": 0.12,
+      "in_per_1m": 0.09,
+      "out_per_1m": 0.36,
       "context": 524288
     },
     "meta/muse-glimmer-30b": {
@@ -441,8 +459,8 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 3,
-      "out_per_1m": 15,
+      "in_per_1m": 2.34,
+      "out_per_1m": 11.7,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -819,8 +837,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI Kimi Latest",
-      "in_per_1m": 2.4,
-      "out_per_1m": 12,
+      "in_per_1m": 2.34,
+      "out_per_1m": 11.7,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -969,8 +987,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.07,
-      "out_per_1m": 0.34,
+      "in_per_1m": 0.042,
+      "out_per_1m": 0.22,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1343,7 +1361,7 @@
       "name": "Z.ai: GLM 4.7 Flash",
       "in_per_1m": 0.0605,
       "out_per_1m": 0.4,
-      "context": 202752
+      "context": 200000
     },
     "openai/gpt-5.2-codex": {
       "name": "OpenAI: GPT-5.2-Codex",
@@ -2163,8 +2181,8 @@
     },
     "deepseek/deepseek-chat-v3-0324": {
       "name": "DeepSeek: DeepSeek V3 0324",
-      "in_per_1m": 0.29,
-      "out_per_1m": 1.14,
+      "in_per_1m": 0.25,
+      "out_per_1m": 1,
       "context": 163840
     },
     "openai/o1-pro": {
