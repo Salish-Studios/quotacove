@@ -1,10 +1,10 @@
 {
-  "fetched": "2026-09-17T11:42:19.427Z",
+  "fetched": "2026-09-18T11:15:42.918Z",
   "models": {
-    "stealth/union-alpha": {
-      "name": "Union Alpha",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
+    "unbiased/pareto": {
+      "name": "Pareto",
+      "in_per_1m": 2.5,
+      "out_per_1m": 7.5,
       "context": 262144
     },
     "~deepseek/deepseek-pro-latest": {
@@ -231,8 +231,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "in_per_1m": 0.22,
-      "out_per_1m": 0.66,
+      "in_per_1m": 0.2156,
+      "out_per_1m": 0.6468,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-vision-exp:batch": {
@@ -282,6 +282,12 @@
       "in_per_1m": 0.214,
       "out_per_1m": 2.55,
       "context": 1000000
+    },
+    "qwen/qwen3.8-27b:free": {
+      "name": "Qwen: Qwen3.8 27B (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
     },
     "dots-studio/dots-3-note-preview:free": {
       "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -393,8 +399,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.03,
-      "out_per_1m": 0.13,
+      "in_per_1m": 0.0558,
+      "out_per_1m": 0.1767,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -407,6 +413,12 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
       "in_per_1m": 0.11,
       "out_per_1m": 0.33,
+      "context": 1048576
+    },
+    "deepseek/deepseek-v4-flash-0731:free": {
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
       "context": 1048576
     },
     "thinkingmachines/inkling-small": {
@@ -513,8 +525,8 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 3,
-      "out_per_1m": 15,
+      "in_per_1m": 2.1,
+      "out_per_1m": 10.95,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -693,8 +705,8 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 1.4,
-      "out_per_1m": 4.4,
+      "in_per_1m": 0.5625,
+      "out_per_1m": 1.8,
       "context": 1048576
     },
     "z-ai/glm-5.2:batch": {
@@ -1549,12 +1561,6 @@
       "out_per_1m": 0.1,
       "context": 131072
     },
-    "mistralai/mistral-large-2512": {
-      "name": "Mistral: Mistral Large 3 2512",
-      "in_per_1m": 0.5,
-      "out_per_1m": 1.5,
-      "context": 262144
-    },
     "mistralai/mistral-large-2512:batch": {
       "name": "Mistral: Mistral Large 3 2512 (batch)",
       "in_per_1m": 0.25,
@@ -1725,8 +1731,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.5,
-      "out_per_1m": 2,
+      "in_per_1m": 0.43,
+      "out_per_1m": 1.75,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
@@ -1893,8 +1899,8 @@
     },
     "openai/gpt-oss-120b": {
       "name": "OpenAI: gpt-oss-120b",
-      "in_per_1m": 0.037,
-      "out_per_1m": 0.17,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 131072
     },
     "openai/gpt-oss-120b:batch": {
@@ -2367,8 +2373,8 @@
     },
     "deepseek/deepseek-chat": {
       "name": "DeepSeek: DeepSeek V3",
-      "in_per_1m": 0.2574,
-      "out_per_1m": 1.0287,
+      "in_per_1m": 0.32,
+      "out_per_1m": 0.89,
       "context": 163840
     },
     "sao10k/l3.3-euryale-70b": {
