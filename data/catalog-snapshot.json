@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-20T11:25:24.966Z",
+  "fetched": "2026-09-21T12:49:28.102Z",
   "models": {
     "prism-ml/ternary-bonsai-2-27b": {
       "name": "PrismML: Ternary Bonsai 2 27B",
@@ -21,14 +21,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.5636,
-      "out_per_1m": 1.6909,
+      "in_per_1m": 0.6587,
+      "out_per_1m": 1.976,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.13,
-      "out_per_1m": 0.52,
+      "in_per_1m": 0.12,
+      "out_per_1m": 0.48,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -189,8 +189,8 @@
     },
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.15,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -243,8 +243,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "in_per_1m": 0.2156,
-      "out_per_1m": 0.6468,
+      "in_per_1m": 0.22,
+      "out_per_1m": 0.66,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-vision-exp:batch": {
@@ -267,8 +267,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.8442,
-      "out_per_1m": 2.6532,
+      "in_per_1m": 0.7735,
+      "out_per_1m": 2.431,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -279,8 +279,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.896,
-      "out_per_1m": 2.816,
+      "in_per_1m": 0.91,
+      "out_per_1m": 2.86,
       "context": 1310720
     },
     "z-ai/glm-5.3:batch": {
@@ -291,8 +291,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.42,
-      "out_per_1m": 3,
+      "in_per_1m": 0.2,
+      "out_per_1m": 2.5,
       "context": 1000000
     },
     "qwen/qwen3.8-27b:free": {
@@ -345,8 +345,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.66,
-      "out_per_1m": 1.98,
+      "in_per_1m": 0.6587,
+      "out_per_1m": 1.976,
       "context": 1048576
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
@@ -412,13 +412,13 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "in_per_1m": 0.04,
-      "out_per_1m": 0.08,
+      "out_per_1m": 0.16,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "in_per_1m": 0.04,
-      "out_per_1m": 0.08,
+      "out_per_1m": 0.16,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
@@ -945,8 +945,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "name": "Qwen: Qwen3.6 35B A3B",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.9,
+      "in_per_1m": 0.15,
+      "out_per_1m": 1,
       "context": 262144
     },
     "qwen/qwen3.6-max-preview": {
@@ -987,14 +987,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.4223,
-      "out_per_1m": 0.8446,
+      "in_per_1m": 0.9553,
+      "out_per_1m": 1.9105,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0364,
-      "out_per_1m": 0.0728,
+      "in_per_1m": 0.0585,
+      "out_per_1m": 0.117,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1719,8 +1719,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "in_per_1m": 0.2,
-      "out_per_1m": 0.7,
+      "in_per_1m": 0.13,
+      "out_per_1m": 0.52,
       "context": 262144
     },
     "openai/gpt-5-pro": {
@@ -2217,8 +2217,8 @@
     },
     "meta-llama/llama-4-maverick": {
       "name": "Meta: Llama 4 Maverick",
-      "in_per_1m": 0.1875,
-      "out_per_1m": 0.6525,
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.8,
       "context": 1048576
     },
     "meta-llama/llama-4-scout": {
@@ -2523,8 +2523,8 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "name": "Meta: Llama 3.1 70B Instruct",
-      "in_per_1m": 0.4,
-      "out_per_1m": 0.4,
+      "in_per_1m": 0.72,
+      "out_per_1m": 0.72,
       "context": 131072
     },
     "meta-llama/llama-3.1-8b-instruct": {
