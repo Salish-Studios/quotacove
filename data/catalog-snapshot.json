@@ -1,6 +1,30 @@
 {
-  "fetched": "2026-09-21T12:49:28.102Z",
+  "fetched": "2026-09-22T11:39:36.095Z",
   "models": {
+    "xiaomi/mimo-v2.6-pro-ultraspeed": {
+      "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+      "in_per_1m": 4.35,
+      "out_per_1m": 8.7,
+      "context": 1048576
+    },
+    "xiaomi/mimo-v2.6-flash": {
+      "name": "Xiaomi: MiMo-V2.6-Flash",
+      "in_per_1m": 0.14,
+      "out_per_1m": 0.28,
+      "context": 1048576
+    },
+    "xiaomi/mimo-v2.6-pro": {
+      "name": "Xiaomi: MiMo-V2.6-Pro",
+      "in_per_1m": 0.435,
+      "out_per_1m": 0.87,
+      "context": 1048576
+    },
+    "x-ai/grok-4.7": {
+      "name": "SpaceXAI: Grok 4.7",
+      "in_per_1m": 1.6,
+      "out_per_1m": 4.8,
+      "context": 500000
+    },
     "prism-ml/ternary-bonsai-2-27b": {
       "name": "PrismML: Ternary Bonsai 2 27B",
       "in_per_1m": 0.075,
@@ -21,8 +45,8 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.6587,
-      "out_per_1m": 1.976,
+      "in_per_1m": 0.624,
+      "out_per_1m": 2.88,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
@@ -103,10 +127,22 @@
       "out_per_1m": 0.15,
       "context": 260000
     },
+    "nex-agi/nex-n2.5-mini": {
+      "name": "Nex AGI: Nex-N2.5-Mini",
+      "in_per_1m": 0.025,
+      "out_per_1m": 0.1,
+      "context": 262144
+    },
     "nex-agi/nex-n2.5-mini:free": {
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
       "in_per_1m": 0,
       "out_per_1m": 0,
+      "context": 262144
+    },
+    "nex-agi/nex-n2.5-pro": {
+      "name": "Nex AGI: Nex-N2.5-Pro",
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.25,
       "context": 262144
     },
     "nex-agi/nex-n2.5-pro:free": {
@@ -189,8 +225,8 @@
     },
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.15,
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.25,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -225,8 +261,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1310720
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -267,8 +303,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.7735,
-      "out_per_1m": 2.431,
+      "in_per_1m": 0.6545,
+      "out_per_1m": 2.057,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -279,8 +315,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.91,
-      "out_per_1m": 2.86,
+      "in_per_1m": 0.84,
+      "out_per_1m": 2.64,
       "context": 1310720
     },
     "z-ai/glm-5.3:batch": {
@@ -291,8 +327,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.2,
-      "out_per_1m": 2.5,
+      "in_per_1m": 0.42,
+      "out_per_1m": 3,
       "context": 1000000
     },
     "qwen/qwen3.8-27b:free": {
@@ -331,12 +367,6 @@
       "out_per_1m": 6,
       "context": 1048576
     },
-    "qwen/qwen3.8-2.4t-a95b:batch": {
-      "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
-      "in_per_1m": 2,
-      "out_per_1m": 6,
-      "context": 1010000
-    },
     "bytedance-seed/seed-2.0-code": {
       "name": "ByteDance Seed: Seed-2.0-Code",
       "in_per_1m": 0.5,
@@ -345,8 +375,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.6587,
-      "out_per_1m": 1.976,
+      "in_per_1m": 0.66,
+      "out_per_1m": 1.98,
       "context": 1048576
     },
     "deepseek/deepseek-v4-pro-0813:batch": {
@@ -411,14 +441,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.04,
-      "out_per_1m": 0.16,
+      "in_per_1m": 0.03,
+      "out_per_1m": 1,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "in_per_1m": 0.04,
-      "out_per_1m": 0.16,
+      "out_per_1m": 0.64,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731:batch": {
@@ -511,12 +541,6 @@
       "out_per_1m": 4.05,
       "context": 1048576
     },
-    "thinkingmachines/inkling:batch": {
-      "name": "Thinking Machines: Inkling (batch)",
-      "in_per_1m": 1,
-      "out_per_1m": 4.05,
-      "context": 524288
-    },
     "thinkingmachines/inkling:free": {
       "name": "Thinking Machines: Inkling (free)",
       "in_per_1m": 0,
@@ -531,12 +555,6 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 1.7,
-      "out_per_1m": 8.5,
-      "context": 1048576
-    },
-    "moonshotai/kimi-k3:batch": {
-      "name": "MoonshotAI: Kimi K3 (batch)",
       "in_per_1m": 3,
       "out_per_1m": 15,
       "context": 1048576
@@ -633,8 +651,8 @@
     },
     "~x-ai/grok-latest": {
       "name": "xAI: Grok Latest",
-      "in_per_1m": 2,
-      "out_per_1m": 6,
+      "in_per_1m": 1.6,
+      "out_per_1m": 4.8,
       "context": 500000
     },
     "aion-labs/aion-3.0-mini": {
@@ -736,7 +754,7 @@
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
       "in_per_1m": 0.7062,
-      "out_per_1m": 3.21,
+      "out_per_1m": 3.3,
       "context": 262144
     },
     "~anthropic/claude-fable-latest": {
@@ -792,12 +810,6 @@
       "in_per_1m": 0.3,
       "out_per_1m": 1.2,
       "context": 1048576
-    },
-    "minimax/minimax-m3:batch": {
-      "name": "MiniMax: MiniMax M3 (batch)",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
-      "context": 524288
     },
     "stepfun/step-3.7-flash": {
       "name": "StepFun: Step 3.7 Flash",
@@ -915,8 +927,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 1.7,
-      "out_per_1m": 8.5,
+      "in_per_1m": 1.5,
+      "out_per_1m": 7.5,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -993,8 +1005,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0585,
-      "out_per_1m": 0.117,
+      "in_per_1m": 0.0886,
+      "out_per_1m": 0.1772,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1123,12 +1135,6 @@
       "out_per_1m": 0,
       "context": 1048576
     },
-    "kwaipilot/kat-coder-pro-v2": {
-      "name": "Kwaipilot: KAT-Coder-Pro V2",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
-      "context": 262144
-    },
     "rekaai/reka-edge": {
       "name": "Reka Edge",
       "in_per_1m": 0.1,
@@ -1205,12 +1211,6 @@
       "name": "Qwen: Qwen3.5-9B",
       "in_per_1m": 0.1,
       "out_per_1m": 0.15,
-      "context": 262144
-    },
-    "qwen/qwen3.5-9b:batch": {
-      "name": "Qwen: Qwen3.5-9B (batch)",
-      "in_per_1m": 0.17,
-      "out_per_1m": 0.25,
       "context": 262144
     },
     "openai/gpt-5.4-pro": {
@@ -1473,8 +1473,8 @@
     },
     "nvidia/nemotron-3-nano-30b-a3b": {
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.24,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.2,
       "context": 262144
     },
     "openai/gpt-5.2-chat": {
@@ -1909,12 +1909,6 @@
       "out_per_1m": 0.6,
       "context": 131072
     },
-    "openai/gpt-oss-120b:batch": {
-      "name": "OpenAI: gpt-oss-120b (batch)",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
-      "context": 131072
-    },
     "openai/gpt-oss-20b": {
       "name": "OpenAI: gpt-oss-20b",
       "in_per_1m": 0.03,
@@ -2095,17 +2089,11 @@
       "out_per_1m": 2.15,
       "context": 163840
     },
-    "anthropic/claude-opus-4": {
-      "name": "Anthropic: Claude Opus 4",
-      "in_per_1m": 15,
-      "out_per_1m": 75,
-      "context": 200000
-    },
     "anthropic/claude-sonnet-4": {
       "name": "Anthropic: Claude Sonnet 4",
       "in_per_1m": 3,
       "out_per_1m": 15,
-      "context": 1000000
+      "context": 200000
     },
     "mistralai/mistral-medium-3": {
       "name": "Mistral: Mistral Medium 3",
@@ -2217,8 +2205,8 @@
     },
     "meta-llama/llama-4-maverick": {
       "name": "Meta: Llama 4 Maverick",
-      "in_per_1m": 0.2,
-      "out_per_1m": 0.8,
+      "in_per_1m": 0.1875,
+      "out_per_1m": 0.6525,
       "context": 1048576
     },
     "meta-llama/llama-4-scout": {
@@ -2523,8 +2511,8 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "name": "Meta: Llama 3.1 70B Instruct",
-      "in_per_1m": 0.72,
-      "out_per_1m": 0.72,
+      "in_per_1m": 0.4,
+      "out_per_1m": 0.4,
       "context": 131072
     },
     "meta-llama/llama-3.1-8b-instruct": {
