@@ -1,6 +1,42 @@
 {
-  "fetched": "2026-09-23T11:37:50.076Z",
+  "fetched": "2026-09-24T11:46:57.954Z",
   "models": {
+    "fireworks/ember-1": {
+      "name": "Fireworks: Ember-1",
+      "in_per_1m": 3,
+      "out_per_1m": 15,
+      "context": 1048576
+    },
+    "z-ai/glm-5.3-prime": {
+      "name": "Z.ai: GLM 5.3 Prime",
+      "in_per_1m": 2.8,
+      "out_per_1m": 8.8,
+      "context": 1000000
+    },
+    "qwen/qwen3.8-max-prime": {
+      "name": "Qwen: Qwen3.8 Max Prime",
+      "in_per_1m": 4,
+      "out_per_1m": 12,
+      "context": 1000000
+    },
+    "stealth/space-bunny-alpha": {
+      "name": "Space Bunny Alpha",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 1000000
+    },
+    "aion-labs/aion-3.5-mini": {
+      "name": "AionLabs: Aion 3.5 Mini",
+      "in_per_1m": 0.7,
+      "out_per_1m": 1.4,
+      "context": 262144
+    },
+    "aion-labs/aion-3.5": {
+      "name": "AionLabs: Aion 3.5",
+      "in_per_1m": 3,
+      "out_per_1m": 6,
+      "context": 262144
+    },
     "upstage/solar-mini4": {
       "name": "Upstage: Solar Mini 4",
       "in_per_1m": 0.05,
@@ -123,14 +159,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.4,
-      "out_per_1m": 4.3,
+      "in_per_1m": 0.39,
+      "out_per_1m": 2.9,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.04,
+      "out_per_1m": 1,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -185,18 +221,12 @@
       "name": "inclusionAI: Ling 3.0 Flash VL",
       "in_per_1m": 0.06,
       "out_per_1m": 0.18,
-      "context": 131072
-    },
-    "inclusionai/ling-3.0-flash-vl:free": {
-      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
       "context": 262144
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.14,
+      "out_per_1m": 0.42,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -211,22 +241,10 @@
       "out_per_1m": 0.15,
       "context": 260000
     },
-    "nex-agi/nex-n2.5-mini": {
-      "name": "Nex AGI: Nex-N2.5-Mini",
-      "in_per_1m": 0.025,
-      "out_per_1m": 0.1,
-      "context": 262144
-    },
     "nex-agi/nex-n2.5-mini:free": {
       "name": "Nex AGI: Nex-N2.5-Mini (free)",
       "in_per_1m": 0,
       "out_per_1m": 0,
-      "context": 262144
-    },
-    "nex-agi/nex-n2.5-pro": {
-      "name": "Nex AGI: Nex-N2.5-Pro",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.25,
       "context": 262144
     },
     "nex-agi/nex-n2.5-pro:free": {
@@ -333,8 +351,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.045,
+      "out_per_1m": 0.14,
       "context": 1310720
     },
     "qwen/qwen3.8-flash": {
@@ -399,8 +417,8 @@
     },
     "z-ai/glm-5.3:batch": {
       "name": "Z.ai: GLM 5.3 (batch)",
-      "in_per_1m": 0.72,
-      "out_per_1m": 2.4,
+      "in_per_1m": 0.45,
+      "out_per_1m": 2,
       "context": 1048576
     },
     "qwen/qwen3.8-27b": {
@@ -453,8 +471,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.4987,
-      "out_per_1m": 1.4961,
+      "in_per_1m": 0.462,
+      "out_per_1m": 1.386,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -507,14 +525,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.038,
-      "out_per_1m": 0.55,
+      "in_per_1m": 0.03,
+      "out_per_1m": 0.32,
       "context": 1310720
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.04,
-      "out_per_1m": 0.64,
+      "in_per_1m": 0.03,
+      "out_per_1m": 0.32,
       "context": 1310720
     },
     "thinkingmachines/inkling-small": {
@@ -813,7 +831,7 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
-      "in_per_1m": 0.7062,
+      "in_per_1m": 0.6562,
       "out_per_1m": 3.3,
       "context": 262144
     },
@@ -987,8 +1005,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 1.4989,
-      "out_per_1m": 10.758,
+      "in_per_1m": 1.4,
+      "out_per_1m": 10.75,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1059,8 +1077,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9553,
-      "out_per_1m": 1.9105,
+      "in_per_1m": 0.9396,
+      "out_per_1m": 1.8792,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1567,12 +1585,6 @@
       "out_per_1m": 7,
       "context": 400000
     },
-    "mistralai/devstral-2512": {
-      "name": "Mistral: Devstral 2 2512",
-      "in_per_1m": 0.4,
-      "out_per_1m": 2,
-      "context": 262144
-    },
     "relace/relace-search": {
       "name": "Relace: Relace Search",
       "in_per_1m": 1,
@@ -1713,8 +1725,8 @@
     },
     "minimax/minimax-m2": {
       "name": "MiniMax: MiniMax M2",
-      "in_per_1m": 0.255,
-      "out_per_1m": 1.02,
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
       "context": 204800
     },
     "qwen/qwen3-vl-32b-instruct": {
@@ -1875,7 +1887,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.09,
+      "in_per_1m": 0.1,
       "out_per_1m": 1.1,
       "context": 262144
     },
@@ -1969,6 +1981,12 @@
       "out_per_1m": 0.6,
       "context": 131072
     },
+    "openai/gpt-oss-120b:batch": {
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "in_per_1m": 0.0296,
+      "out_per_1m": 0.136,
+      "context": 131072
+    },
     "openai/gpt-oss-20b": {
       "name": "OpenAI: gpt-oss-20b",
       "in_per_1m": 0.018,
@@ -2013,8 +2031,8 @@
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "in_per_1m": 0.0481,
-      "out_per_1m": 0.193,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.3,
       "context": 262144
     },
     "z-ai/glm-4.5": {
