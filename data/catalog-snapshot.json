@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-09-24T11:46:57.954Z",
+  "fetched": "2026-09-25T11:51:39.153Z",
   "models": {
     "fireworks/ember-1": {
       "name": "Fireworks: Ember-1",
@@ -159,14 +159,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.39,
-      "out_per_1m": 2.9,
+      "in_per_1m": 0.2528,
+      "out_per_1m": 2.88,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
       "in_per_1m": 0.04,
-      "out_per_1m": 1,
+      "out_per_1m": 0.49,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -225,8 +225,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.42,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -363,8 +363,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.045,
+      "out_per_1m": 0.14,
       "context": 1310720
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -399,8 +399,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.5625,
-      "out_per_1m": 2.5,
+      "in_per_1m": 0.5614,
+      "out_per_1m": 1.7644,
       "context": 1310720
     },
     "tencent/hy-mt2-7b": {
@@ -411,8 +411,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.84,
-      "out_per_1m": 2.64,
+      "in_per_1m": 1.4,
+      "out_per_1m": 4.4,
       "context": 1310720
     },
     "z-ai/glm-5.3:batch": {
@@ -1005,8 +1005,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 1.4,
-      "out_per_1m": 10.75,
+      "in_per_1m": 0.8845,
+      "out_per_1m": 10.5346,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1077,14 +1077,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9396,
-      "out_per_1m": 1.8792,
+      "in_per_1m": 0.783,
+      "out_per_1m": 1.566,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0886,
-      "out_per_1m": 0.1772,
+      "in_per_1m": 0.049,
+      "out_per_1m": 0.098,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1143,8 +1143,8 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "in_per_1m": 0.966,
-      "out_per_1m": 3.036,
+      "in_per_1m": 0.9646,
+      "out_per_1m": 3.0316,
       "context": 204800
     },
     "google/gemma-4-26b-a4b-it": {
@@ -1533,8 +1533,8 @@
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
-      "in_per_1m": 0.4,
-      "out_per_1m": 1.75,
+      "in_per_1m": 0.6,
+      "out_per_1m": 2.2,
       "context": 204800
     },
     "google/gemini-3-flash-preview": {
@@ -1584,6 +1584,12 @@
       "in_per_1m": 0.875,
       "out_per_1m": 7,
       "context": 400000
+    },
+    "mistralai/devstral-2512": {
+      "name": "Mistral: Devstral 2 2512",
+      "in_per_1m": 0.4,
+      "out_per_1m": 2,
+      "context": 262144
     },
     "relace/relace-search": {
       "name": "Relace: Relace Search",
@@ -1638,6 +1644,12 @@
       "in_per_1m": 0.1,
       "out_per_1m": 0.1,
       "context": 131072
+    },
+    "mistralai/mistral-large-2512": {
+      "name": "Mistral: Mistral Large 3 2512",
+      "in_per_1m": 0.5,
+      "out_per_1m": 1.5,
+      "context": 262144
     },
     "mistralai/mistral-large-2512:batch": {
       "name": "Mistral: Mistral Large 3 2512 (batch)",
@@ -1791,8 +1803,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
-      "in_per_1m": 0.13,
-      "out_per_1m": 0.52,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 262144
     },
     "openai/gpt-5-pro": {
