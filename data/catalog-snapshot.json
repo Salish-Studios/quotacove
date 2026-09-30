@@ -1,6 +1,30 @@
 {
-  "fetched": "2026-09-29T12:54:13.457Z",
+  "fetched": "2026-09-30T12:35:29.873Z",
   "models": {
+    "openai/gpt-6.1-sol-pro": {
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "in_per_1m": 2,
+      "out_per_1m": 10,
+      "context": 1050000
+    },
+    "openai/gpt-6.1-sol-pro:batch": {
+      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 5,
+      "context": 1050000
+    },
+    "openai/gpt-6.1-sol": {
+      "name": "OpenAI: GPT-6.1 Sol",
+      "in_per_1m": 2,
+      "out_per_1m": 10,
+      "context": 1050000
+    },
+    "openai/gpt-6.1-sol:batch": {
+      "name": "OpenAI: GPT-6.1 Sol (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 5,
+      "context": 1050000
+    },
     "anthropic/claude-sonnet-5.5": {
       "name": "Anthropic: Claude Sonnet 5.5",
       "in_per_1m": 2,
@@ -143,7 +167,7 @@
       "name": "Xiaomi: MiMo-V2.6-Flash",
       "in_per_1m": 0.14,
       "out_per_1m": 0.28,
-      "context": 1048576
+      "context": 1050000
     },
     "xiaomi/mimo-v2.6-pro": {
       "name": "Xiaomi: MiMo-V2.6-Pro",
@@ -183,14 +207,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.096,
-      "out_per_1m": 1.9584,
+      "in_per_1m": 0.123,
+      "out_per_1m": 3.5,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.02,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.0198,
+      "out_per_1m": 0.396,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -249,8 +273,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.0198,
+      "out_per_1m": 0.396,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -370,8 +394,8 @@
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
       "in_per_1m": 0.02,
-      "out_per_1m": 0.3,
-      "context": 1310720
+      "out_per_1m": 0.2475,
+      "context": 1048576
     },
     "qwen/qwen3.8-flash": {
       "name": "Qwen: Qwen3.8 Flash",
@@ -383,7 +407,7 @@
       "name": "Z.ai: GLM 5.3 Flash",
       "in_per_1m": 0.15,
       "out_per_1m": 0.5,
-      "context": 1310720
+      "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
       "name": "Z.ai: GLM 5.3 Flash (batch)",
@@ -417,9 +441,9 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.19,
+      "in_per_1m": 0.13,
       "out_per_1m": 4,
-      "context": 1310720
+      "context": 1048576
     },
     "tencent/hy-mt2-7b": {
       "name": "Tencent: Hy-MT2-7B",
@@ -431,7 +455,7 @@
       "name": "Z.ai: GLM 5.3",
       "in_per_1m": 1.4,
       "out_per_1m": 4.4,
-      "context": 1310720
+      "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
       "name": "Z.ai: GLM 5.3 (batch)",
@@ -441,8 +465,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.0407,
-      "out_per_1m": 4.4,
+      "in_per_1m": 0.0249,
+      "out_per_1m": 4.35,
       "context": 1000000
     },
     "qwen/qwen3.8-27b:free": {
@@ -489,8 +513,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.48,
-      "out_per_1m": 4.2,
+      "in_per_1m": 0.66,
+      "out_per_1m": 1.98,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -531,8 +555,8 @@
     },
     "meta/muse-glimmer-30b": {
       "name": "Meta: Muse Glimmer 30B",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.35,
+      "out_per_1m": 1.5,
       "context": 131072
     },
     "meta/muse-spark-1.2": {
@@ -543,15 +567,15 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.012,
-      "out_per_1m": 1.25,
-      "context": 1310720
+      "in_per_1m": 0.0099,
+      "out_per_1m": 0.1307,
+      "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.018,
-      "out_per_1m": 0.32,
-      "context": 1310720
+      "in_per_1m": 0.01,
+      "out_per_1m": 1.28,
+      "context": 1048576
     },
     "thinkingmachines/inkling-small": {
       "name": "Thinking Machines: Inkling Small",
@@ -831,8 +855,8 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.1949,
-      "out_per_1m": 4.4,
+      "in_per_1m": 0.41,
+      "out_per_1m": 3.99,
       "context": 1048576
     },
     "openrouter/fusion": {
@@ -843,8 +867,8 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
-      "in_per_1m": 0.6562,
-      "out_per_1m": 3.3,
+      "in_per_1m": 0.6712,
+      "out_per_1m": 3.35,
       "context": 262144
     },
     "~anthropic/claude-fable-latest": {
@@ -1017,8 +1041,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.4,
-      "out_per_1m": 10,
+      "in_per_1m": 0.3177,
+      "out_per_1m": 7.9431,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1089,14 +1113,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9532,
-      "out_per_1m": 1.9063,
+      "in_per_1m": 0.783,
+      "out_per_1m": 1.566,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0869,
-      "out_per_1m": 0.1739,
+      "in_per_1m": 0.0809,
+      "out_per_1m": 0.1618,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -2217,8 +2241,8 @@
     },
     "qwen/qwen3-30b-a3b": {
       "name": "Qwen: Qwen3 30B A3B",
-      "in_per_1m": 0.12,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.13,
+      "out_per_1m": 0.52,
       "context": 131072
     },
     "qwen/qwen3-8b": {
