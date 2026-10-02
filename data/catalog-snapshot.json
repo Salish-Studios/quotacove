@@ -1,6 +1,18 @@
 {
-  "fetched": "2026-10-01T13:16:17.316Z",
+  "fetched": "2026-10-02T12:36:00.738Z",
   "models": {
+    "apodex/apodex-1.1-mini:free": {
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
+    },
+    "unbiased/pareto-26.10-preview": {
+      "name": "Pareto 26.10 Preview",
+      "in_per_1m": 0.8,
+      "out_per_1m": 3.2,
+      "context": 1048576
+    },
     "openai/gpt-6.1-sol-pro": {
       "name": "OpenAI: GPT-6.1 Sol Pro",
       "in_per_1m": 2,
@@ -195,14 +207,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.1853,
-      "out_per_1m": 3.5,
+      "in_per_1m": 0.132,
+      "out_per_1m": 0.396,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.0243,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.015,
+      "out_per_1m": 1.2,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -261,8 +273,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.03,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -381,8 +393,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.02,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.0262,
+      "out_per_1m": 0.9,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -429,8 +441,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.06,
-      "out_per_1m": 2.694,
+      "in_per_1m": 0.12,
+      "out_per_1m": 4,
       "context": 1048576
     },
     "tencent/hy-mt2-7b": {
@@ -441,8 +453,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.2219,
-      "out_per_1m": 3.39,
+      "in_per_1m": 1.4,
+      "out_per_1m": 4.4,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -519,8 +531,8 @@
     },
     "nvidia/nemotron-3.5-lightning": {
       "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "in_per_1m": 0.0595,
-      "out_per_1m": 0.17,
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.16,
       "context": 262144
     },
     "nvidia/nemotron-3.5-lightning:free": {
@@ -555,13 +567,13 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0108,
+      "in_per_1m": 0.0077,
       "out_per_1m": 1.28,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.0108,
+      "in_per_1m": 0.0077,
       "out_per_1m": 1.28,
       "context": 1048576
     },
@@ -645,7 +657,7 @@
     },
     "thinkingmachines/inkling": {
       "name": "Thinking Machines: Inkling",
-      "in_per_1m": 1,
+      "in_per_1m": 0.95,
       "out_per_1m": 4.05,
       "context": 524288
     },
@@ -663,8 +675,8 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 0.6705,
-      "out_per_1m": 10,
+      "in_per_1m": 2.7,
+      "out_per_1m": 13.5,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -891,8 +903,8 @@
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
       "name": "NVIDIA: Nemotron 3 Ultra",
-      "in_per_1m": 0.6,
-      "out_per_1m": 2.4,
+      "in_per_1m": 0.5,
+      "out_per_1m": 2.2,
       "context": 262144
     },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
@@ -1029,8 +1041,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.6705,
-      "out_per_1m": 10,
+      "in_per_1m": 1.39,
+      "out_per_1m": 13,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1107,8 +1119,8 @@
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0419,
-      "out_per_1m": 0.0837,
+      "in_per_1m": 0.042,
+      "out_per_1m": 0.084,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1365,8 +1377,8 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "name": "Qwen: Qwen3.5-35B-A3B",
-      "in_per_1m": 0.1625,
-      "out_per_1m": 1.3,
+      "in_per_1m": 0.15,
+      "out_per_1m": 1,
       "context": 262144
     },
     "qwen/qwen3.5-27b": {
