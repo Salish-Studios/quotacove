@@ -1,6 +1,24 @@
 {
-  "fetched": "2026-10-07T13:24:53.829Z",
+  "fetched": "2026-10-08T13:30:25.317Z",
   "models": {
+    "stepfun/step-5-preview": {
+      "name": "StepFun: Step 5 Preview",
+      "in_per_1m": 1,
+      "out_per_1m": 2.7,
+      "context": 1000000
+    },
+    "anthropic/claude-haiku-5.5": {
+      "name": "Anthropic: Claude Haiku 5.5",
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.5,
+      "context": 1000000
+    },
+    "anthropic/claude-haiku-5.5:batch": {
+      "name": "Anthropic: Claude Haiku 5.5 (batch)",
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.25,
+      "context": 1000000
+    },
     "google/gemini-nano-banana-2.1": {
       "name": "Google: Nano Banana 2.1",
       "in_per_1m": 1.5,
@@ -11,7 +29,7 @@
       "name": "Mistral: Mistral Large 4",
       "in_per_1m": 0.68,
       "out_per_1m": 2.09,
-      "context": 524288
+      "context": 1048576
     },
     "inclusionai/ling-3.1-flash": {
       "name": "inclusionAI: Ling 3.1 Flash",
@@ -225,14 +243,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.4,
-      "out_per_1m": 4.3,
+      "in_per_1m": 0.108,
+      "out_per_1m": 8,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.05,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.0356,
+      "out_per_1m": 1,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -291,8 +309,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.05,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.0356,
+      "out_per_1m": 1,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -411,8 +429,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0317,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.032,
+      "out_per_1m": 3.6695,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -459,8 +477,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.063,
-      "out_per_1m": 6.3,
+      "in_per_1m": 0.036,
+      "out_per_1m": 12,
       "context": 1048576
     },
     "tencent/hy-mt2-7b": {
@@ -471,8 +489,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.07,
-      "out_per_1m": 7,
+      "in_per_1m": 0.049,
+      "out_per_1m": 3.39,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -543,8 +561,8 @@
     },
     "nvidia/nemotron-3.5-lightning": {
       "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.16,
+      "in_per_1m": 0.049,
+      "out_per_1m": 0.14,
       "context": 262144
     },
     "nvidia/nemotron-3.5-lightning:free": {
@@ -579,8 +597,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.018,
-      "out_per_1m": 1.28,
+      "in_per_1m": 0.0144,
+      "out_per_1m": 0.3788,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -688,7 +706,7 @@
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
       "in_per_1m": 0.62,
-      "out_per_1m": 15,
+      "out_per_1m": 12.3,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -861,8 +879,8 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.171,
-      "out_per_1m": 7.2,
+      "in_per_1m": 0.03,
+      "out_per_1m": 10,
       "context": 1048576
     },
     "openrouter/fusion": {
@@ -1029,9 +1047,9 @@
     },
     "~anthropic/claude-haiku-latest": {
       "name": "Anthropic: Claude Haiku Latest",
-      "in_per_1m": 1,
-      "out_per_1m": 5,
-      "context": 200000
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.5,
+      "context": 1000000
     },
     "~openai/gpt-mini-latest": {
       "name": "OpenAI: GPT Mini Latest",
@@ -1047,7 +1065,7 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.61,
+      "in_per_1m": 0.45,
       "out_per_1m": 13,
       "context": 1048576
     },
@@ -1089,8 +1107,8 @@
     },
     "qwen/qwen3.6-27b": {
       "name": "Qwen: Qwen3.6 27B",
-      "in_per_1m": 0.3,
-      "out_per_1m": 2,
+      "in_per_1m": 0.45,
+      "out_per_1m": 2.7,
       "context": 262144
     },
     "openai/gpt-5.5-pro": {
@@ -1119,8 +1137,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.2088,
-      "out_per_1m": 0.4176,
+      "in_per_1m": 0.2923,
+      "out_per_1m": 0.5846,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1167,7 +1185,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
-      "in_per_1m": 0.465,
+      "in_per_1m": 0.441,
       "out_per_1m": 2.45,
       "context": 262144
     },
@@ -1311,8 +1329,8 @@
     },
     "nvidia/nemotron-3-super-120b-a12b": {
       "name": "NVIDIA: Nemotron 3 Super",
-      "in_per_1m": 0.08,
-      "out_per_1m": 0.45,
+      "in_per_1m": 0.085,
+      "out_per_1m": 0.4,
       "context": 262144
     },
     "nvidia/nemotron-3-super-120b-a12b:free": {
@@ -1389,8 +1407,8 @@
     },
     "qwen/qwen3.5-27b": {
       "name": "Qwen: Qwen3.5-27B",
-      "in_per_1m": 0.195,
-      "out_per_1m": 1.56,
+      "in_per_1m": 0.26,
+      "out_per_1m": 2.6,
       "context": 262144
     },
     "qwen/qwen3.5-122b-a10b": {
@@ -1593,8 +1611,8 @@
     },
     "nvidia/nemotron-3-nano-30b-a3b": {
       "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.2,
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.24,
       "context": 262144
     },
     "openai/gpt-5.2-chat": {
@@ -1701,7 +1719,7 @@
     },
     "deepseek/deepseek-v3.2": {
       "name": "DeepSeek: DeepSeek V3.2",
-      "in_per_1m": 0.28,
+      "in_per_1m": 0.259,
       "out_per_1m": 0.42,
       "context": 163840
     },
@@ -1941,8 +1959,8 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.1,
-      "out_per_1m": 1.1,
+      "in_per_1m": 0.15,
+      "out_per_1m": 1.5,
       "context": 262144
     },
     "qwen/qwen-plus-2025-07-28": {
@@ -2523,8 +2541,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.22,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.32,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
