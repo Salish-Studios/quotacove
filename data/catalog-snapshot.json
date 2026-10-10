@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-09T13:18:10.029Z",
+  "fetched": "2026-10-10T12:32:53.680Z",
   "models": {
     "stepfun/step-5-preview": {
       "name": "StepFun: Step 5 Preview",
@@ -255,14 +255,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.1769,
-      "out_per_1m": 8,
+      "in_per_1m": 0.22,
+      "out_per_1m": 4,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.016,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.0001,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -441,8 +441,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.032,
-      "out_per_1m": 0.4035,
+      "in_per_1m": 0.04,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -489,8 +489,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.0312,
-      "out_per_1m": 4.4,
+      "in_per_1m": 0.039,
+      "out_per_1m": 4.8,
       "context": 1048576
     },
     "tencent/hy-mt2-7b": {
@@ -501,8 +501,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.04,
-      "out_per_1m": 3.6,
+      "in_per_1m": 0.039,
+      "out_per_1m": 4.8,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -573,8 +573,8 @@
     },
     "nvidia/nemotron-3.5-lightning": {
       "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "in_per_1m": 0.0469,
-      "out_per_1m": 0.134,
+      "in_per_1m": 0.07,
+      "out_per_1m": 0.2,
       "context": 262144
     },
     "nvidia/nemotron-3.5-lightning:free": {
@@ -609,13 +609,13 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0079,
+      "in_per_1m": 0.0116,
       "out_per_1m": 1.28,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.0079,
+      "in_per_1m": 0.0116,
       "out_per_1m": 1.28,
       "context": 1048576
     },
@@ -717,8 +717,8 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 0.5,
-      "out_per_1m": 12,
+      "in_per_1m": 0.64,
+      "out_per_1m": 13.5,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -892,7 +892,7 @@
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
       "in_per_1m": 0.06,
-      "out_per_1m": 4.2,
+      "out_per_1m": 7,
       "context": 1048576
     },
     "openrouter/fusion": {
@@ -1077,8 +1077,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.49,
-      "out_per_1m": 13,
+      "in_per_1m": 0.31,
+      "out_per_1m": 14.89,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1111,16 +1111,10 @@
       "out_per_1m": 1,
       "context": 262144
     },
-    "qwen/qwen3.6-max-preview": {
-      "name": "Qwen: Qwen3.6 Max Preview",
-      "in_per_1m": 1.027,
-      "out_per_1m": 6.162,
-      "context": 262144
-    },
     "qwen/qwen3.6-27b": {
       "name": "Qwen: Qwen3.6 27B",
-      "in_per_1m": 0.45,
-      "out_per_1m": 2.7,
+      "in_per_1m": 0.32,
+      "out_per_1m": 3.2,
       "context": 262144
     },
     "openai/gpt-5.5-pro": {
@@ -1149,13 +1143,13 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.2941,
-      "out_per_1m": 0.5881,
+      "in_per_1m": 0.9483,
+      "out_per_1m": 1.8966,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.0228,
+      "in_per_1m": 0.0216,
       "out_per_1m": 1.28,
       "context": 1048576
     },
@@ -1197,7 +1191,7 @@
     },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
-      "in_per_1m": 0.441,
+      "in_per_1m": 0.465,
       "out_per_1m": 2.45,
       "context": 262144
     },
@@ -1221,8 +1215,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.0675,
+      "out_per_1m": 0.225,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1501,12 +1495,6 @@
       "out_per_1m": 1.92,
       "context": 204800
     },
-    "qwen/qwen3-max-thinking": {
-      "name": "Qwen: Qwen3 Max Thinking",
-      "in_per_1m": 0.78,
-      "out_per_1m": 3.9,
-      "context": 262144
-    },
     "anthropic/claude-opus-4.6": {
       "name": "Anthropic: Claude Opus 4.6",
       "in_per_1m": 5,
@@ -1539,8 +1527,8 @@
     },
     "moonshotai/kimi-k2.5": {
       "name": "MoonshotAI: Kimi K2.5",
-      "in_per_1m": 0.45,
-      "out_per_1m": 2.25,
+      "in_per_1m": 0.5,
+      "out_per_1m": 2.5,
       "context": 262144
     },
     "upstage/solar-pro-3": {
@@ -1732,7 +1720,7 @@
     "deepseek/deepseek-v3.2": {
       "name": "DeepSeek: DeepSeek V3.2",
       "in_per_1m": 0.259,
-      "out_per_1m": 0.42,
+      "out_per_1m": 0.8,
       "context": 163840
     },
     "anthropic/claude-opus-4.5": {
@@ -1813,12 +1801,6 @@
       "out_per_1m": 1.2,
       "context": 204800
     },
-    "qwen/qwen3-vl-32b-instruct": {
-      "name": "Qwen: Qwen3 VL 32B Instruct",
-      "in_per_1m": 0.104,
-      "out_per_1m": 0.416,
-      "context": 131072
-    },
     "ibm-granite/granite-4.0-h-micro": {
       "name": "IBM: Granite 4.0 Micro",
       "in_per_1m": 0.017,
@@ -1843,16 +1825,10 @@
       "out_per_1m": 2.5,
       "context": 200000
     },
-    "qwen/qwen3-vl-8b-thinking": {
-      "name": "Qwen: Qwen3 VL 8B Thinking",
-      "in_per_1m": 0.18,
-      "out_per_1m": 2.1,
-      "context": 131072
-    },
     "qwen/qwen3-vl-8b-instruct": {
       "name": "Qwen: Qwen3 VL 8B Instruct",
-      "in_per_1m": 0.117,
-      "out_per_1m": 0.455,
+      "in_per_1m": 0.25,
+      "out_per_1m": 0.75,
       "context": 262144
     },
     "openai/gpt-5-image": {
@@ -1869,8 +1845,8 @@
     },
     "qwen/qwen3-vl-30b-a3b-thinking": {
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-      "in_per_1m": 0.2,
-      "out_per_1m": 2.4,
+      "in_per_1m": 0.29,
+      "out_per_1m": 1,
       "context": 262144
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
@@ -1893,8 +1869,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.43,
-      "out_per_1m": 1.75,
+      "in_per_1m": 0.5,
+      "out_per_1m": 2,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
@@ -1927,29 +1903,11 @@
       "out_per_1m": 1.25,
       "context": 256000
     },
-    "qwen/qwen3-vl-235b-a22b-thinking": {
-      "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-      "in_per_1m": 0.4,
-      "out_per_1m": 4,
-      "context": 131072
-    },
     "qwen/qwen3-vl-235b-a22b-instruct": {
       "name": "Qwen: Qwen3 VL 235B A22B Instruct",
       "in_per_1m": 0.21,
       "out_per_1m": 1.9,
       "context": 262144
-    },
-    "qwen/qwen3-max": {
-      "name": "Qwen: Qwen3 Max",
-      "in_per_1m": 0.78,
-      "out_per_1m": 3.9,
-      "context": 262144
-    },
-    "qwen/qwen3-coder-plus": {
-      "name": "Qwen: Qwen3 Coder Plus",
-      "in_per_1m": 0.65,
-      "out_per_1m": 3.25,
-      "context": 1000000
     },
     "deepseek/deepseek-v3.1-terminus": {
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
@@ -1975,23 +1933,11 @@
       "out_per_1m": 1.1,
       "context": 262144
     },
-    "qwen/qwen-plus-2025-07-28": {
-      "name": "Qwen: Qwen Plus 0728",
-      "in_per_1m": 0.26,
-      "out_per_1m": 0.78,
-      "context": 1000000
-    },
     "moonshotai/kimi-k2-0905": {
       "name": "MoonshotAI: Kimi K2 0905",
       "in_per_1m": 0.6,
       "out_per_1m": 2.5,
       "context": 262144
-    },
-    "qwen/qwen3-30b-a3b-thinking-2507": {
-      "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-      "in_per_1m": 0.2,
-      "out_per_1m": 2.4,
-      "context": 81920
     },
     "nousresearch/hermes-4-405b": {
       "name": "Nous: Hermes 4 405B",
@@ -2133,9 +2079,9 @@
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
       "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "in_per_1m": 0.23,
-      "out_per_1m": 2.3,
-      "context": 131072
+      "in_per_1m": 0.45,
+      "out_per_1m": 3.5,
+      "context": 128000
     },
     "qwen/qwen3-coder": {
       "name": "Qwen: Qwen3 Coder 480B A35B",
@@ -2273,30 +2219,18 @@
       "name": "Qwen: Qwen3 30B A3B",
       "in_per_1m": 0.12,
       "out_per_1m": 0.5,
-      "context": 131072
-    },
-    "qwen/qwen3-8b": {
-      "name": "Qwen: Qwen3 8B",
-      "in_per_1m": 0.117,
-      "out_per_1m": 0.455,
-      "context": 131072
+      "context": 40960
     },
     "qwen/qwen3-14b": {
       "name": "Qwen: Qwen3 14B",
       "in_per_1m": 0.12,
       "out_per_1m": 0.24,
-      "context": 131072
+      "context": 40960
     },
     "qwen/qwen3-32b": {
       "name": "Qwen: Qwen3 32B",
       "in_per_1m": 0.08,
       "out_per_1m": 0.28,
-      "context": 131072
-    },
-    "qwen/qwen3-235b-a22b": {
-      "name": "Qwen: Qwen3 235B A22B",
-      "in_per_1m": 0.455,
-      "out_per_1m": 1.82,
       "context": 131072
     },
     "openai/o4-mini-high": {
