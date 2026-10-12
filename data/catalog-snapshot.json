@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-11T12:51:14.714Z",
+  "fetched": "2026-10-12T15:27:29.530Z",
   "models": {
     "stepfun/step-5-preview": {
       "name": "StepFun: Step 5 Preview",
@@ -255,14 +255,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.2191,
-      "out_per_1m": 0.6574,
+      "in_per_1m": 0.2495,
+      "out_per_1m": 0.7484,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.0348,
-      "out_per_1m": 0.1392,
+      "in_per_1m": 0.0333,
+      "out_per_1m": 0.1332,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -321,8 +321,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -441,8 +441,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.04,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.0232,
+      "out_per_1m": 1.2,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -453,8 +453,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.0232,
+      "out_per_1m": 1.2,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -489,8 +489,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.039,
-      "out_per_1m": 4.8,
+      "in_per_1m": 0.055,
+      "out_per_1m": 5,
       "context": 1048576
     },
     "tencent/hy-mt2-7b": {
@@ -501,7 +501,7 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.039,
+      "in_per_1m": 0.079,
       "out_per_1m": 4.8,
       "context": 1048576
     },
@@ -609,13 +609,13 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.018,
-      "out_per_1m": 0.64,
+      "in_per_1m": 0.0128,
+      "out_per_1m": 0.768,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.018,
+      "in_per_1m": 0.016,
       "out_per_1m": 0.64,
       "context": 1048576
     },
@@ -717,7 +717,7 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 0.8,
+      "in_per_1m": 0.73,
       "out_per_1m": 10,
       "context": 1048576
     },
@@ -1077,8 +1077,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.75,
-      "out_per_1m": 14.9,
+      "in_per_1m": 0.73,
+      "out_per_1m": 10,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1143,8 +1143,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.2088,
-      "out_per_1m": 0.4176,
+      "in_per_1m": 0.4275,
+      "out_per_1m": 0.855,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1215,8 +1215,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.0675,
-      "out_per_1m": 0.225,
+      "in_per_1m": 0.09,
+      "out_per_1m": 0.3,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -2307,8 +2307,8 @@
     },
     "meta-llama/llama-4-scout": {
       "name": "Meta: Llama 4 Scout",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.18,
+      "out_per_1m": 0.59,
       "context": 1310720
     },
     "deepseek/deepseek-chat-v3-0324": {
