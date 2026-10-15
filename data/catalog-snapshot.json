@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-14T11:53:23.531Z",
+  "fetched": "2026-10-15T11:30:05.127Z",
   "models": {
     "~unbiased/pareto-latest": {
       "name": "Pareto Latest",
@@ -53,7 +53,7 @@
       "name": "StepFun: Step 5 Preview",
       "in_per_1m": 1,
       "out_per_1m": 2.7,
-      "context": 1000000
+      "context": 1048576
     },
     "anthropic/claude-haiku-5.5": {
       "name": "Anthropic: Claude Haiku 5.5",
@@ -297,8 +297,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.0202,
-      "out_per_1m": 0.891,
+      "in_per_1m": 0.0238,
+      "out_per_1m": 0.72,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -357,8 +357,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.0202,
-      "out_per_1m": 0.891,
+      "in_per_1m": 0.0238,
+      "out_per_1m": 0.72,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -477,8 +477,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.036,
-      "out_per_1m": 0.9,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -513,7 +513,7 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.0576,
+      "in_per_1m": 0.024,
       "out_per_1m": 4.4,
       "context": 1048576
     },
@@ -525,7 +525,7 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.079,
+      "in_per_1m": 0.03,
       "out_per_1m": 4.8,
       "context": 1048576
     },
@@ -537,8 +537,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.04,
-      "out_per_1m": 2.3,
+      "in_per_1m": 0.24,
+      "out_per_1m": 2.2,
       "context": 1000000
     },
     "dots-studio/dots-3-note-preview:free": {
@@ -741,7 +741,7 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 0.7,
+      "in_per_1m": 0.45,
       "out_per_1m": 15,
       "context": 1048576
     },
@@ -807,26 +807,26 @@
     },
     "openai/gpt-5.6-sol-pro": {
       "name": "OpenAI: GPT-5.6 Sol Pro",
-      "in_per_1m": 2,
-      "out_per_1m": 10,
+      "in_per_1m": 4,
+      "out_per_1m": 20,
       "context": 1050000
     },
     "openai/gpt-5.6-sol-pro:batch": {
       "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
-      "in_per_1m": 1,
-      "out_per_1m": 5,
-      "context": 1050000
-    },
-    "openai/gpt-5.6-sol": {
-      "name": "OpenAI: GPT-5.6 Sol",
       "in_per_1m": 2,
       "out_per_1m": 10,
       "context": 1050000
     },
+    "openai/gpt-5.6-sol": {
+      "name": "OpenAI: GPT-5.6 Sol",
+      "in_per_1m": 4,
+      "out_per_1m": 20,
+      "context": 1050000
+    },
     "openai/gpt-5.6-sol:batch": {
       "name": "OpenAI: GPT-5.6 Sol (batch)",
-      "in_per_1m": 1,
-      "out_per_1m": 5,
+      "in_per_1m": 2,
+      "out_per_1m": 10,
       "context": 1050000
     },
     "x-ai/grok-4.5": {
@@ -915,7 +915,7 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.05,
+      "in_per_1m": 0.02,
       "out_per_1m": 7,
       "context": 1048576
     },
@@ -1096,13 +1096,13 @@
     "~google/gemini-pro-latest": {
       "name": "Google: Gemini Pro Latest",
       "in_per_1m": 2,
-      "out_per_1m": 12,
+      "out_per_1m": 10,
       "context": 1048576
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.536,
-      "out_per_1m": 14,
+      "in_per_1m": 0.29,
+      "out_per_1m": 24,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1131,8 +1131,8 @@
     },
     "qwen/qwen3.6-35b-a3b": {
       "name": "Qwen: Qwen3.6 35B A3B",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.95,
+      "in_per_1m": 0.15,
+      "out_per_1m": 1,
       "context": 262144
     },
     "qwen/qwen3.6-27b": {
@@ -1233,8 +1233,8 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "in_per_1m": 1.33,
-      "out_per_1m": 4.18,
+      "in_per_1m": 0.966,
+      "out_per_1m": 3.036,
       "context": 204800
     },
     "google/gemma-4-26b-a4b-it": {
@@ -1251,8 +1251,8 @@
     },
     "google/gemma-4-31b-it": {
       "name": "Google: Gemma 4 31B",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.34,
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.4,
       "context": 262144
     },
     "google/gemma-4-31b-it:free": {
@@ -1510,13 +1510,13 @@
     "minimax/minimax-m2.5": {
       "name": "MiniMax: MiniMax M2.5",
       "in_per_1m": 0.27,
-      "out_per_1m": 1.08,
+      "out_per_1m": 0.95,
       "context": 204800
     },
     "z-ai/glm-5": {
       "name": "Z.ai: GLM 5",
-      "in_per_1m": 0.6,
-      "out_per_1m": 1.92,
+      "in_per_1m": 1,
+      "out_per_1m": 3.2,
       "context": 204800
     },
     "anthropic/claude-opus-4.6": {
@@ -2031,8 +2031,8 @@
     },
     "openai/gpt-oss-120b": {
       "name": "OpenAI: gpt-oss-120b",
-      "in_per_1m": 0.037,
-      "out_per_1m": 0.17,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 131072
     },
     "openai/gpt-oss-120b:batch": {
@@ -2169,8 +2169,8 @@
     },
     "mistralai/mistral-small-3.2-24b-instruct": {
       "name": "Mistral: Mistral Small 3.2 24B",
-      "in_per_1m": 0.0938,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.2,
       "context": 256000
     },
     "minimax/minimax-m1": {
