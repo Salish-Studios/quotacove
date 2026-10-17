@@ -1,6 +1,30 @@
 {
-  "fetched": "2026-10-16T11:25:21.820Z",
+  "fetched": "2026-10-17T10:44:56.846Z",
   "models": {
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
+      "context": 1048576
+    },
+    "elorian/glimpse": {
+      "name": "Elorian: Glimpse",
+      "in_per_1m": 0.6,
+      "out_per_1m": 3,
+      "context": 262144
+    },
+    "xingchen-agi/xing4.0-29b-a4b:free": {
+      "name": "XingChen: Xing4.0 29B A4B (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 262144
+    },
+    "reflection/beam-1.0-501b-a23b": {
+      "name": "Reflection: Beam 1.0 501B A23B",
+      "in_per_1m": 1,
+      "out_per_1m": 3,
+      "context": 1048576
+    },
     "moondream/moondream3-preview": {
       "name": "Moondream: Moondream 3 Preview",
       "in_per_1m": 0.3,
@@ -21,8 +45,8 @@
     },
     "nvidia/nemotron-3.5-super-vl": {
       "name": "NVIDIA: Nemotron 3.5 Super VL",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.4,
       "context": 1048576
     },
     "nvidia/nemotron-3.5-super-vl:free": {
@@ -315,14 +339,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.25,
-      "out_per_1m": 5,
+      "in_per_1m": 0.1233,
+      "out_per_1m": 0.3831,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.036,
-      "out_per_1m": 0.684,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -381,14 +405,14 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.036,
-      "out_per_1m": 0.684,
+      "in_per_1m": 0.0153,
+      "out_per_1m": 0.594,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
-      "in_per_1m": 0.112,
-      "out_per_1m": 0.336,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.15,
       "context": 1048576
     },
     "inception/mercury-2.5": {
@@ -489,8 +513,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0134,
-      "out_per_1m": 0.8192,
+      "in_per_1m": 0.0226,
+      "out_per_1m": 0.3966,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -501,8 +525,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0134,
-      "out_per_1m": 0.8192,
+      "in_per_1m": 0.0226,
+      "out_per_1m": 0.3966,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -537,8 +561,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.0608,
-      "out_per_1m": 4.4,
+      "in_per_1m": 0.069,
+      "out_per_1m": 19.8996,
       "context": 1048576
     },
     "tencent/hy-mt2-7b": {
@@ -657,14 +681,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0068,
-      "out_per_1m": 1.28,
+      "in_per_1m": 0.0075,
+      "out_per_1m": 0.2829,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.0068,
-      "out_per_1m": 1.28,
+      "in_per_1m": 0.0075,
+      "out_per_1m": 0.2829,
       "context": 1048576
     },
     "thinkingmachines/inkling-small": {
@@ -939,8 +963,8 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.037,
-      "out_per_1m": 9,
+      "in_per_1m": 0.62,
+      "out_per_1m": 2.42,
       "context": 1048576
     },
     "openrouter/fusion": {
@@ -1002,6 +1026,12 @@
       "in_per_1m": 0.32,
       "out_per_1m": 1.28,
       "context": 1000000
+    },
+    "qwen/qwen3.7-plus:batch": {
+      "name": "Qwen: Qwen3.7 Plus (batch)",
+      "in_per_1m": 0.23,
+      "out_per_1m": 0.92,
+      "context": 262144
     },
     "minimax/minimax-m3": {
       "name": "MiniMax: MiniMax M3",
@@ -1125,8 +1155,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.294,
-      "out_per_1m": 28,
+      "in_per_1m": 0.27,
+      "out_per_1m": 14,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1191,8 +1221,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9553,
-      "out_per_1m": 1.9105,
+      "in_per_1m": 0.2088,
+      "out_per_1m": 0.4176,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1263,8 +1293,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.0675,
+      "out_per_1m": 0.225,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1641,8 +1671,8 @@
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
-      "in_per_1m": 0.6,
-      "out_per_1m": 2.2,
+      "in_per_1m": 0.54,
+      "out_per_1m": 1.98,
       "context": 204800
     },
     "google/gemini-3-flash-preview": {
@@ -1767,8 +1797,8 @@
     },
     "deepseek/deepseek-v3.2": {
       "name": "DeepSeek: DeepSeek V3.2",
-      "in_per_1m": 0.259,
-      "out_per_1m": 0.8,
+      "in_per_1m": 0.28,
+      "out_per_1m": 0.42,
       "context": 163840
     },
     "anthropic/claude-opus-4.5": {
@@ -2349,8 +2379,8 @@
     },
     "meta-llama/llama-4-scout": {
       "name": "Meta: Llama 4 Scout",
-      "in_per_1m": 0.18,
-      "out_per_1m": 0.59,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.3,
       "context": 1310720
     },
     "deepseek/deepseek-chat-v3-0324": {
@@ -2499,8 +2529,8 @@
     },
     "deepseek/deepseek-chat": {
       "name": "DeepSeek: DeepSeek V3",
-      "in_per_1m": 0.2574,
-      "out_per_1m": 1.0287,
+      "in_per_1m": 0.32,
+      "out_per_1m": 0.89,
       "context": 163840
     },
     "sao10k/l3.3-euryale-70b": {
