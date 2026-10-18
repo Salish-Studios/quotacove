@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-17T10:44:56.846Z",
+  "fetched": "2026-10-18T11:06:34.464Z",
   "models": {
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
@@ -55,11 +55,17 @@
       "out_per_1m": 0,
       "context": 1000000
     },
+    "unbiased/pareto-26.10": {
+      "name": "Pareto 26.10",
+      "in_per_1m": 0.8,
+      "out_per_1m": 3.2,
+      "context": 1048576
+    },
     "~unbiased/pareto-latest": {
       "name": "Pareto Latest",
-      "in_per_1m": 2.5,
-      "out_per_1m": 7.5,
-      "context": 262144
+      "in_per_1m": 0.8,
+      "out_per_1m": 3.2,
+      "context": 1048576
     },
     "unbiased/pareto-26.9": {
       "name": "Pareto 26.9",
@@ -339,13 +345,13 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.1233,
-      "out_per_1m": 0.3831,
+      "in_per_1m": 0.12,
+      "out_per_1m": 8,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.15,
+      "in_per_1m": 0.05,
       "out_per_1m": 0.6,
       "context": 1048576
     },
@@ -405,8 +411,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.0153,
-      "out_per_1m": 0.594,
+      "in_per_1m": 0.0648,
+      "out_per_1m": 0.144,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -513,8 +519,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0226,
-      "out_per_1m": 0.3966,
+      "in_per_1m": 0.048,
+      "out_per_1m": 0.2,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -525,8 +531,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0226,
-      "out_per_1m": 0.3966,
+      "in_per_1m": 0.048,
+      "out_per_1m": 0.2,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -561,8 +567,8 @@
     },
     "~z-ai/glm-latest": {
       "name": "Z.ai: GLM Latest",
-      "in_per_1m": 0.069,
-      "out_per_1m": 19.8996,
+      "in_per_1m": 0.0632,
+      "out_per_1m": 4.4,
       "context": 1048576
     },
     "tencent/hy-mt2-7b": {
@@ -574,7 +580,7 @@
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
       "in_per_1m": 0.079,
-      "out_per_1m": 4.8,
+      "out_per_1m": 2.5,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -681,14 +687,14 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0075,
-      "out_per_1m": 0.2829,
+      "in_per_1m": 0.0121,
+      "out_per_1m": 0.1436,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.0075,
-      "out_per_1m": 0.2829,
+      "in_per_1m": 0.0151,
+      "out_per_1m": 0.45,
       "context": 1048576
     },
     "thinkingmachines/inkling-small": {
@@ -2139,7 +2145,7 @@
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
       "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "in_per_1m": 0.1,
+      "in_per_1m": 0.09,
       "out_per_1m": 0.3,
       "context": 262144
     },
@@ -2428,7 +2434,7 @@
     "google/gemma-3-27b-it": {
       "name": "Google: Gemma 3 27B",
       "in_per_1m": 0.08,
-      "out_per_1m": 0.45,
+      "out_per_1m": 0.35,
       "context": 131072
     },
     "thedrummer/skyfall-36b-v2": {
