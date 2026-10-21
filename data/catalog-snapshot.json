@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-20T11:37:51.051Z",
+  "fetched": "2026-10-21T11:50:08.460Z",
   "models": {
     "minimax/minimax-m3.1-flash:free": {
       "name": "MiniMax: MiniMax M3.1 Flash (free)",
@@ -147,8 +147,8 @@
     },
     "mistralai/mistral-large-4-0": {
       "name": "Mistral: Mistral Large 4",
-      "in_per_1m": 0.68,
-      "out_per_1m": 2.09,
+      "in_per_1m": 1.36,
+      "out_per_1m": 4.18,
       "context": 1048576
     },
     "inclusionai/ling-3.1-flash": {
@@ -363,8 +363,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.07,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.049,
+      "out_per_1m": 0.375,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -423,8 +423,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.056,
-      "out_per_1m": 0.12,
+      "in_per_1m": 0.049,
+      "out_per_1m": 0.375,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -531,8 +531,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0375,
-      "out_per_1m": 0.16,
+      "in_per_1m": 0.0517,
+      "out_per_1m": 0.12,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -543,8 +543,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0375,
-      "out_per_1m": 0.16,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -699,8 +699,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0114,
-      "out_per_1m": 0.45,
+      "in_per_1m": 0.0475,
+      "out_per_1m": 0.1568,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -981,8 +981,8 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.62,
-      "out_per_1m": 2.42,
+      "in_per_1m": 0.0341,
+      "out_per_1m": 7,
       "context": 1048576
     },
     "openrouter/fusion": {
@@ -1257,14 +1257,14 @@
     },
     "xiaomi/mimo-v2.5-pro": {
       "name": "Xiaomi: MiMo-V2.5-Pro",
-      "in_per_1m": 0.435,
-      "out_per_1m": 0.87,
+      "in_per_1m": 0.3045,
+      "out_per_1m": 0.609,
       "context": 1050000
     },
     "xiaomi/mimo-v2.5": {
       "name": "Xiaomi: MiMo-V2.5",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.28,
+      "in_per_1m": 0.119,
+      "out_per_1m": 0.238,
       "context": 1050000
     },
     "openai/gpt-5.4-image-2": {
@@ -1305,8 +1305,8 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "in_per_1m": 0.966,
-      "out_per_1m": 3.036,
+      "in_per_1m": 1.4,
+      "out_per_1m": 4.4,
       "context": 204800
     },
     "google/gemma-4-26b-a4b-it": {
@@ -1431,8 +1431,8 @@
     },
     "nvidia/nemotron-3-super-120b-a12b": {
       "name": "NVIDIA: Nemotron 3 Super",
-      "in_per_1m": 0.08,
-      "out_per_1m": 0.45,
+      "in_per_1m": 0.3,
+      "out_per_1m": 2.4,
       "context": 262144
     },
     "nvidia/nemotron-3-super-120b-a12b:free": {
@@ -1449,8 +1449,8 @@
     },
     "qwen/qwen3.5-9b": {
       "name": "Qwen: Qwen3.5-9B",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.15,
+      "in_per_1m": 0.08,
+      "out_per_1m": 0.13,
       "context": 262144
     },
     "openai/gpt-5.4-pro": {
@@ -1503,7 +1503,7 @@
     },
     "qwen/qwen3.5-35b-a3b": {
       "name": "Qwen: Qwen3.5-35B-A3B",
-      "in_per_1m": 0.15,
+      "in_per_1m": 0.14,
       "out_per_1m": 1,
       "context": 262144
     },
@@ -1587,8 +1587,8 @@
     },
     "z-ai/glm-5": {
       "name": "Z.ai: GLM 5",
-      "in_per_1m": 0.6,
-      "out_per_1m": 1.92,
+      "in_per_1m": 1,
+      "out_per_1m": 3.2,
       "context": 204800
     },
     "anthropic/claude-opus-4.6": {
@@ -2257,22 +2257,10 @@
       "out_per_1m": 2.5,
       "context": 1048576
     },
-    "google/gemini-2.5-flash:batch": {
-      "name": "Google: Gemini 2.5 Flash (batch)",
-      "in_per_1m": 0.15,
-      "out_per_1m": 1.25,
-      "context": 1048576
-    },
     "google/gemini-2.5-pro": {
       "name": "Google: Gemini 2.5 Pro",
       "in_per_1m": 1.25,
       "out_per_1m": 10,
-      "context": 1048576
-    },
-    "google/gemini-2.5-pro:batch": {
-      "name": "Google: Gemini 2.5 Pro (batch)",
-      "in_per_1m": 0.625,
-      "out_per_1m": 5,
       "context": 1048576
     },
     "openai/o3-pro": {
