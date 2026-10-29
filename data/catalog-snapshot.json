@@ -1,6 +1,12 @@
 {
-  "fetched": "2026-10-28T12:55:16.414Z",
+  "fetched": "2026-10-29T13:01:56.357Z",
   "models": {
+    "particle-ai/particle-1": {
+      "name": "Particle AI: Particle-1",
+      "in_per_1m": 0.25,
+      "out_per_1m": 1,
+      "context": 1048576
+    },
     "openai/gpt-6.1-terra-pro": {
       "name": "OpenAI: GPT-6.1 Terra Pro",
       "in_per_1m": 1,
@@ -167,7 +173,7 @@
       "name": "StepFun: Step 5 Preview",
       "in_per_1m": 1,
       "out_per_1m": 2.7,
-      "context": 1048576
+      "context": 1000000
     },
     "anthropic/claude-haiku-5.5": {
       "name": "Anthropic: Claude Haiku 5.5",
@@ -399,13 +405,13 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.2542,
+      "in_per_1m": 0.1035,
       "out_per_1m": 8,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.0115,
+      "in_per_1m": 0.0256,
       "out_per_1m": 1.8,
       "context": 1048576
     },
@@ -465,8 +471,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.42,
+      "in_per_1m": 0.045,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -562,7 +568,7 @@
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
       "in_per_1m": 0.06,
-      "out_per_1m": 0.25,
+      "out_per_1m": 0.15,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -573,8 +579,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0237,
-      "out_per_1m": 0.1324,
+      "in_per_1m": 0.0457,
+      "out_per_1m": 0.0742,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -585,8 +591,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.0457,
+      "out_per_1m": 0.0742,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -747,8 +753,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0475,
-      "out_per_1m": 0.1568,
+      "in_per_1m": 0.0568,
+      "out_per_1m": 0.1703,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -855,8 +861,8 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 0.2,
-      "out_per_1m": 20,
+      "in_per_1m": 0.239,
+      "out_per_1m": 10.8,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -1029,7 +1035,7 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.014,
+      "in_per_1m": 0.006,
       "out_per_1m": 7,
       "context": 1048576
     },
@@ -1221,8 +1227,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.1605,
-      "out_per_1m": 8.94,
+      "in_per_1m": 0.1824,
+      "out_per_1m": 9.3388,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1469,7 +1475,7 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "in_per_1m": 0.3,
       "out_per_1m": 2.4,
-      "context": 262144
+      "context": 1048576
     },
     "bytedance-seed/seed-2.0-lite": {
       "name": "ByteDance Seed: Seed-2.0-Lite",
@@ -1977,8 +1983,8 @@
     },
     "z-ai/glm-4.6": {
       "name": "Z.ai: GLM 4.6",
-      "in_per_1m": 0.55,
-      "out_per_1m": 2.2,
+      "in_per_1m": 0.5,
+      "out_per_1m": 2,
       "context": 204800
     },
     "anthropic/claude-sonnet-4.5": {
@@ -2028,12 +2034,6 @@
       "in_per_1m": 0.195,
       "out_per_1m": 0.975,
       "context": 1000000
-    },
-    "qwen/qwen3-next-80b-a3b-thinking": {
-      "name": "Qwen: Qwen3 Next 80B A3B Thinking",
-      "in_per_1m": 0.15,
-      "out_per_1m": 1.2,
-      "context": 262144
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
@@ -2305,12 +2305,6 @@
       "out_per_1m": 0.28,
       "context": 131072
     },
-    "openai/o4-mini-high": {
-      "name": "OpenAI: o4 Mini High",
-      "in_per_1m": 1.1,
-      "out_per_1m": 4.4,
-      "context": 200000
-    },
     "openai/o3": {
       "name": "OpenAI: o3",
       "in_per_1m": 2,
@@ -2321,12 +2315,6 @@
       "name": "OpenAI: o3 (batch)",
       "in_per_1m": 1,
       "out_per_1m": 4,
-      "context": 200000
-    },
-    "openai/o4-mini": {
-      "name": "OpenAI: o4 Mini",
-      "in_per_1m": 1.1,
-      "out_per_1m": 4.4,
       "context": 200000
     },
     "openai/o4-mini:batch": {
@@ -2388,12 +2376,6 @@
       "in_per_1m": 0.29,
       "out_per_1m": 1.14,
       "context": 163840
-    },
-    "openai/o1-pro": {
-      "name": "OpenAI: o1-pro",
-      "in_per_1m": 150,
-      "out_per_1m": 600,
-      "context": 200000
     },
     "mistralai/mistral-small-3.1-24b-instruct": {
       "name": "Mistral: Mistral Small 3.1 24B",
@@ -2461,12 +2443,6 @@
       "out_per_1m": 0.6,
       "context": 32768
     },
-    "openai/o3-mini-high": {
-      "name": "OpenAI: o3 Mini High",
-      "in_per_1m": 1.1,
-      "out_per_1m": 4.4,
-      "context": 200000
-    },
     "aion-labs/aion-rp-llama-3.1-8b": {
       "name": "AionLabs: Aion-RP 1.0 (8B)",
       "in_per_1m": 0.8,
@@ -2484,12 +2460,6 @@
       "in_per_1m": 0.26,
       "out_per_1m": 0.78,
       "context": 1000000
-    },
-    "openai/o3-mini": {
-      "name": "OpenAI: o3 Mini",
-      "in_per_1m": 1.1,
-      "out_per_1m": 4.4,
-      "context": 200000
     },
     "openai/o3-mini:batch": {
       "name": "OpenAI: o3 Mini (batch)",
@@ -2526,12 +2496,6 @@
       "in_per_1m": 0.2574,
       "out_per_1m": 1.0287,
       "context": 163840
-    },
-    "openai/o1": {
-      "name": "OpenAI: o1",
-      "in_per_1m": 15,
-      "out_per_1m": 60,
-      "context": 200000
     },
     "cohere/command-r7b-12-2024": {
       "name": "Cohere: Command R7B (12-2024)",
@@ -2667,8 +2631,8 @@
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "name": "Meta: Llama 3.1 8B Instruct",
-      "in_per_1m": 0.02,
-      "out_per_1m": 0.04,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.08,
       "context": 131072
     },
     "mistralai/mistral-nemo": {
@@ -2724,12 +2688,6 @@
       "in_per_1m": 2,
       "out_per_1m": 6,
       "context": 65536
-    },
-    "openai/gpt-4-turbo": {
-      "name": "OpenAI: GPT-4 Turbo",
-      "in_per_1m": 10,
-      "out_per_1m": 30,
-      "context": 128000
     },
     "openai/gpt-4-turbo:batch": {
       "name": "OpenAI: GPT-4 Turbo (batch)",
