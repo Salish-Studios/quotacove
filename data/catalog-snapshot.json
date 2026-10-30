@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-29T13:01:56.357Z",
+  "fetched": "2026-10-30T12:56:39.946Z",
   "models": {
     "particle-ai/particle-1": {
       "name": "Particle AI: Particle-1",
@@ -173,7 +173,7 @@
       "name": "StepFun: Step 5 Preview",
       "in_per_1m": 1,
       "out_per_1m": 2.7,
-      "context": 1000000
+      "context": 1048576
     },
     "anthropic/claude-haiku-5.5": {
       "name": "Anthropic: Claude Haiku 5.5",
@@ -195,8 +195,8 @@
     },
     "mistralai/mistral-large-4-0": {
       "name": "Mistral: Mistral Large 4",
-      "in_per_1m": 1.36,
-      "out_per_1m": 4.18,
+      "in_per_1m": 0.7,
+      "out_per_1m": 2.1,
       "context": 1048576
     },
     "inclusionai/ling-3.1-flash": {
@@ -406,13 +406,13 @@
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
       "in_per_1m": 0.1035,
-      "out_per_1m": 8,
+      "out_per_1m": 4,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.0256,
-      "out_per_1m": 1.8,
+      "in_per_1m": 0.031,
+      "out_per_1m": 0.27,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -579,8 +579,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0457,
-      "out_per_1m": 0.0742,
+      "in_per_1m": 0.0197,
+      "out_per_1m": 0.1142,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -591,8 +591,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0457,
-      "out_per_1m": 0.0742,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -639,8 +639,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.0699,
-      "out_per_1m": 1.4,
+      "in_per_1m": 0.08,
+      "out_per_1m": 3.6,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -651,8 +651,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.039,
-      "out_per_1m": 1.25,
+      "in_per_1m": 0.15,
+      "out_per_1m": 1.875,
       "context": 1000000
     },
     "dots-studio/dots-3-note-preview:free": {
@@ -753,8 +753,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0568,
-      "out_per_1m": 0.1703,
+      "in_per_1m": 0.0486,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -861,8 +861,8 @@
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
-      "in_per_1m": 0.239,
-      "out_per_1m": 10.8,
+      "in_per_1m": 0.192,
+      "out_per_1m": 15,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -1047,8 +1047,8 @@
     },
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
-      "in_per_1m": 0.56,
-      "out_per_1m": 3.1,
+      "in_per_1m": 0.6,
+      "out_per_1m": 3.5,
       "context": 262144
     },
     "~anthropic/claude-fable-latest": {
@@ -1227,8 +1227,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.1824,
-      "out_per_1m": 9.3388,
+      "in_per_1m": 0.171,
+      "out_per_1m": 10.5572,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1263,8 +1263,8 @@
     },
     "qwen/qwen3.6-27b": {
       "name": "Qwen: Qwen3.6 27B",
-      "in_per_1m": 0.45,
-      "out_per_1m": 2.7,
+      "in_per_1m": 0.32,
+      "out_per_1m": 3.2,
       "context": 262144
     },
     "openai/gpt-5.5-pro": {
@@ -1293,8 +1293,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.894,
-      "out_per_1m": 1.788,
+      "in_per_1m": 0.8162,
+      "out_per_1m": 1.6325,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1663,12 +1663,6 @@
       "out_per_1m": 2.5,
       "context": 262144
     },
-    "upstage/solar-pro-3": {
-      "name": "Upstage: Solar Pro 3",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
-      "context": 131072
-    },
     "minimax/minimax-m2-her": {
       "name": "MiniMax: MiniMax M2-her",
       "in_per_1m": 0.3,
@@ -1839,8 +1833,8 @@
     },
     "deepseek/deepseek-v3.2": {
       "name": "DeepSeek: DeepSeek V3.2",
-      "in_per_1m": 0.28,
-      "out_per_1m": 0.42,
+      "in_per_1m": 0.26,
+      "out_per_1m": 0.38,
       "context": 163840
     },
     "anthropic/claude-opus-4.5": {
