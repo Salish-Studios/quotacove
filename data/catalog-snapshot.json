@@ -1,10 +1,10 @@
 {
-  "fetched": "2026-10-30T12:56:39.946Z",
+  "fetched": "2026-10-31T12:30:30.696Z",
   "models": {
     "particle-ai/particle-1": {
       "name": "Particle AI: Particle-1",
-      "in_per_1m": 0.25,
-      "out_per_1m": 1,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "openai/gpt-6.1-terra-pro": {
@@ -241,12 +241,6 @@
       "out_per_1m": 5,
       "context": 1000000
     },
-    "typesafe/jev-router": {
-      "name": "TypeSafe: Jev Router",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 1000000
-    },
     "perceptron/perceptron-mk1.5": {
       "name": "Perceptron: Perceptron Mk1.5",
       "in_per_1m": 0.15,
@@ -355,12 +349,6 @@
       "out_per_1m": 10,
       "context": 1000000
     },
-    "nvidia/switchyard": {
-      "name": "NVIDIA: Switchyard",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 1000000
-    },
     "xiaomi/mimo-v2.6-pro-ultraspeed": {
       "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
       "in_per_1m": 4.35,
@@ -406,13 +394,13 @@
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
       "in_per_1m": 0.1035,
-      "out_per_1m": 4,
+      "out_per_1m": 8,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.031,
-      "out_per_1m": 0.27,
+      "in_per_1m": 0.0141,
+      "out_per_1m": 0.144,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -579,8 +567,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0197,
-      "out_per_1m": 0.1142,
+      "in_per_1m": 0.0163,
+      "out_per_1m": 0.1479,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -591,8 +579,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.0163,
+      "out_per_1m": 0.1479,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -639,8 +627,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.08,
-      "out_per_1m": 3.6,
+      "in_per_1m": 0.0699,
+      "out_per_1m": 1.4,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -651,8 +639,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.15,
-      "out_per_1m": 1.875,
+      "in_per_1m": 0.04,
+      "out_per_1m": 2.3,
       "context": 1000000
     },
     "dots-studio/dots-3-note-preview:free": {
@@ -753,8 +741,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0486,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.0576,
+      "out_per_1m": 0.1729,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -852,12 +840,6 @@
       "in_per_1m": 0,
       "out_per_1m": 0,
       "context": 1048576
-    },
-    "openrouter/auto-beta": {
-      "name": "Auto Router (Beta)",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 2000000
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
@@ -1036,14 +1018,8 @@
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
       "in_per_1m": 0.006,
-      "out_per_1m": 7,
+      "out_per_1m": 6.8,
       "context": 1048576
-    },
-    "openrouter/fusion": {
-      "name": "OpenRouter: Fusion",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 1000000
     },
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
@@ -1227,8 +1203,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.171,
-      "out_per_1m": 10.5572,
+      "in_per_1m": 0.1495,
+      "out_per_1m": 7.15,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1263,8 +1239,8 @@
     },
     "qwen/qwen3.6-27b": {
       "name": "Qwen: Qwen3.6 27B",
-      "in_per_1m": 0.32,
-      "out_per_1m": 3.2,
+      "in_per_1m": 0.45,
+      "out_per_1m": 2.7,
       "context": 262144
     },
     "openai/gpt-5.5-pro": {
@@ -1293,8 +1269,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.8162,
-      "out_per_1m": 1.6325,
+      "in_per_1m": 1.6,
+      "out_per_1m": 3.2,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1333,12 +1309,6 @@
       "out_per_1m": 20,
       "context": 1000000
     },
-    "openrouter/pareto-code": {
-      "name": "Pareto Code Router",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 2000000
-    },
     "moonshotai/kimi-k2.6": {
       "name": "MoonshotAI: Kimi K2.6",
       "in_per_1m": 0.65,
@@ -1365,8 +1335,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.0675,
+      "out_per_1m": 0.225,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1617,8 +1587,8 @@
     },
     "minimax/minimax-m2.5": {
       "name": "MiniMax: MiniMax M2.5",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.27,
+      "out_per_1m": 0.95,
       "context": 204800
     },
     "z-ai/glm-5": {
@@ -1644,12 +1614,6 @@
       "in_per_1m": 0.12,
       "out_per_1m": 0.8,
       "context": 262144
-    },
-    "openrouter/free": {
-      "name": "Free Models Router",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
-      "context": 200000
     },
     "stepfun/step-3.5-flash": {
       "name": "StepFun: Step 3.5 Flash",
@@ -1788,12 +1752,6 @@
       "in_per_1m": 0.3,
       "out_per_1m": 0.9,
       "context": 131072
-    },
-    "openrouter/bodybuilder": {
-      "name": "Body Builder (beta)",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 128000
     },
     "openai/gpt-5.1-codex-max": {
       "name": "OpenAI: GPT-5.1-Codex-Max",
@@ -2701,12 +2659,6 @@
       "out_per_1m": 2,
       "context": 4095
     },
-    "openrouter/auto": {
-      "name": "Auto Router",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 2000000
-    },
     "openai/gpt-3.5-turbo-16k": {
       "name": "OpenAI: GPT-3.5 Turbo 16k",
       "in_per_1m": 3,
@@ -2736,6 +2688,54 @@
       "in_per_1m": 30,
       "out_per_1m": 60,
       "context": 8191
+    },
+    "typesafe/jev-router": {
+      "name": "TypeSafe: Jev Router",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 1000000
+    },
+    "nvidia/switchyard": {
+      "name": "NVIDIA: Switchyard",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 1000000
+    },
+    "openrouter/auto-beta": {
+      "name": "Auto Router (Beta)",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 2000000
+    },
+    "openrouter/fusion": {
+      "name": "OpenRouter: Fusion",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 1000000
+    },
+    "openrouter/pareto-code": {
+      "name": "Pareto Code Router",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 2000000
+    },
+    "openrouter/free": {
+      "name": "Free Models Router",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 200000
+    },
+    "openrouter/bodybuilder": {
+      "name": "Body Builder (beta)",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 128000
+    },
+    "openrouter/auto": {
+      "name": "Auto Router",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 2000000
     }
   }
 }
