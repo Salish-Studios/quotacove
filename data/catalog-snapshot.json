@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-10-31T12:30:30.696Z",
+  "fetched": "2026-11-01T13:25:29.050Z",
   "models": {
     "particle-ai/particle-1": {
       "name": "Particle AI: Particle-1",
@@ -399,8 +399,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.0141,
-      "out_per_1m": 0.144,
+      "in_per_1m": 0.035,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -567,8 +567,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0163,
-      "out_per_1m": 0.1479,
+      "in_per_1m": 0.0285,
+      "out_per_1m": 0.0923,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -579,8 +579,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0163,
-      "out_per_1m": 0.1479,
+      "in_per_1m": 0.0285,
+      "out_per_1m": 0.0923,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -627,8 +627,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.0699,
-      "out_per_1m": 1.4,
+      "in_per_1m": 0.08,
+      "out_per_1m": 3.6,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -639,8 +639,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.04,
-      "out_per_1m": 2.3,
+      "in_per_1m": 0.15,
+      "out_per_1m": 1.875,
       "context": 1000000
     },
     "dots-studio/dots-3-note-preview:free": {
@@ -681,8 +681,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.66,
-      "out_per_1m": 1.98,
+      "in_per_1m": 0.115,
+      "out_per_1m": 4,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -741,8 +741,8 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0576,
-      "out_per_1m": 0.1729,
+      "in_per_1m": 0.0434,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
@@ -785,18 +785,6 @@
       "name": "inclusionAI: Ling 3.0 Flash",
       "in_per_1m": 0.021,
       "out_per_1m": 0.063,
-      "context": 262144
-    },
-    "poolside/laguna-s-2.1": {
-      "name": "Poolside: Laguna S 2.1",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.18,
-      "context": 1048576
-    },
-    "poolside/laguna-s-2.1:free": {
-      "name": "Poolside: Laguna S 2.1 (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
       "context": 262144
     },
     "google/gemini-3.6-flash": {
@@ -959,18 +947,6 @@
       "name": "Tencent: Hy3",
       "in_per_1m": 0.132,
       "out_per_1m": 0.528,
-      "context": 262144
-    },
-    "poolside/laguna-xs-2.1": {
-      "name": "Poolside: Laguna XS 2.1",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.12,
-      "context": 262144
-    },
-    "poolside/laguna-xs-2.1:free": {
-      "name": "Poolside: Laguna XS 2.1 (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
       "context": 262144
     },
     "anthropic/claude-sonnet-5": {
@@ -1683,8 +1659,8 @@
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
-      "in_per_1m": 0.54,
-      "out_per_1m": 1.98,
+      "in_per_1m": 0.6,
+      "out_per_1m": 2.2,
       "context": 204800
     },
     "google/gemini-3-flash-preview": {
@@ -2061,8 +2037,8 @@
     },
     "openai/gpt-oss-120b": {
       "name": "OpenAI: gpt-oss-120b",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.017,
+      "out_per_1m": 0.061,
       "context": 131072
     },
     "openai/gpt-oss-120b:batch": {
@@ -2073,8 +2049,8 @@
     },
     "openai/gpt-oss-20b": {
       "name": "OpenAI: gpt-oss-20b",
-      "in_per_1m": 0.018,
-      "out_per_1m": 0.09,
+      "in_per_1m": 0.03,
+      "out_per_1m": 0.13,
       "context": 131072
     },
     "openai/gpt-oss-20b:batch": {
