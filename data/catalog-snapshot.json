@@ -1,6 +1,12 @@
 {
-  "fetched": "2026-11-01T13:25:29.050Z",
+  "fetched": "2026-11-02T15:54:06.197Z",
   "models": {
+    "z-ai/glm-5.3-flashx-legal": {
+      "name": "Z.ai: GLM 5.3 FlashX Legal",
+      "in_per_1m": 0.37,
+      "out_per_1m": 1.25,
+      "context": 1048576
+    },
     "particle-ai/particle-1": {
       "name": "Particle AI: Particle-1",
       "in_per_1m": 0.05,
@@ -45,8 +51,8 @@
     },
     "minimax/minimax-m3.1-flash": {
       "name": "MiniMax: MiniMax M3.1 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017": {
@@ -641,7 +647,7 @@
       "name": "Qwen: Qwen3.8 27B",
       "in_per_1m": 0.15,
       "out_per_1m": 1.875,
-      "context": 1000000
+      "context": 1024000
     },
     "dots-studio/dots-3-note-preview:free": {
       "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -741,7 +747,7 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0434,
+      "in_per_1m": 0.059,
       "out_per_1m": 0.3,
       "context": 1048576
     },
@@ -1311,8 +1317,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.0675,
-      "out_per_1m": 0.225,
+      "in_per_1m": 0.085,
+      "out_per_1m": 0.254,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -2037,8 +2043,8 @@
     },
     "openai/gpt-oss-120b": {
       "name": "OpenAI: gpt-oss-120b",
-      "in_per_1m": 0.017,
-      "out_per_1m": 0.061,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 131072
     },
     "openai/gpt-oss-120b:batch": {
@@ -2499,8 +2505,8 @@
     },
     "meta-llama/llama-3.2-3b-instruct": {
       "name": "Meta: Llama 3.2 3B Instruct",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.33,
+      "in_per_1m": 0.0509,
+      "out_per_1m": 0.335,
       "context": 131072
     },
     "qwen/qwen-2.5-72b-instruct": {
@@ -2525,18 +2531,6 @@
       "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
       "in_per_1m": 0.85,
       "out_per_1m": 0.85,
-      "context": 131072
-    },
-    "nousresearch/hermes-3-llama-3.1-70b": {
-      "name": "Nous: Hermes 3 70B Instruct",
-      "in_per_1m": 0.7,
-      "out_per_1m": 0.7,
-      "context": 131072
-    },
-    "nousresearch/hermes-3-llama-3.1-405b": {
-      "name": "Nous: Hermes 3 405B Instruct",
-      "in_per_1m": 1,
-      "out_per_1m": 1,
       "context": 131072
     },
     "sao10k/l3-lunaris-8b": {
