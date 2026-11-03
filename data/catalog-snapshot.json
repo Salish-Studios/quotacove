@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-02T15:54:06.197Z",
+  "fetched": "2026-11-03T14:15:06.419Z",
   "models": {
     "z-ai/glm-5.3-flashx-legal": {
       "name": "Z.ai: GLM 5.3 FlashX Legal",
@@ -51,8 +51,8 @@
     },
     "minimax/minimax-m3.1-flash": {
       "name": "MiniMax: MiniMax M3.1 Flash",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017": {
@@ -406,7 +406,7 @@
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
       "in_per_1m": 0.035,
-      "out_per_1m": 0.5,
+      "out_per_1m": 0.315,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -573,8 +573,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0285,
-      "out_per_1m": 0.0923,
+      "in_per_1m": 0.0313,
+      "out_per_1m": 0.0846,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -585,8 +585,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0285,
-      "out_per_1m": 0.0923,
+      "in_per_1m": 0.0313,
+      "out_per_1m": 0.0846,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -753,8 +753,8 @@
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.119,
-      "out_per_1m": 0.238,
+      "in_per_1m": 0.059,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "thinkingmachines/inkling-small": {
@@ -1185,8 +1185,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.1495,
-      "out_per_1m": 7.15,
+      "in_per_1m": 0.1653,
+      "out_per_1m": 10.1427,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1317,8 +1317,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.085,
-      "out_per_1m": 0.254,
+      "in_per_1m": 0.086,
+      "out_per_1m": 0.257,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1971,7 +1971,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.09,
+      "in_per_1m": 0.1,
       "out_per_1m": 1.1,
       "context": 262144
     },
@@ -2085,8 +2085,8 @@
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
-      "in_per_1m": 0.07,
-      "out_per_1m": 0.28,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 262144
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
@@ -2439,8 +2439,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.32,
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.52,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
@@ -2547,8 +2547,8 @@
     },
     "meta-llama/llama-3.1-70b-instruct": {
       "name": "Meta: Llama 3.1 70B Instruct",
-      "in_per_1m": 0.4,
-      "out_per_1m": 0.4,
+      "in_per_1m": 0.72,
+      "out_per_1m": 0.72,
       "context": 131072
     },
     "meta-llama/llama-3.1-8b-instruct": {
