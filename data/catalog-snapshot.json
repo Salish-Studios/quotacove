@@ -1,6 +1,18 @@
 {
-  "fetched": "2026-11-03T14:15:06.419Z",
+  "fetched": "2026-11-04T14:33:14.250Z",
   "models": {
+    "tencent/hy4": {
+      "name": "Tencent: Hy4",
+      "in_per_1m": 0.417,
+      "out_per_1m": 1.2505,
+      "context": 1048576
+    },
+    "stealth/crouton-alpha": {
+      "name": "Crouton Alpha",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 1048576
+    },
     "z-ai/glm-5.3-flashx-legal": {
       "name": "Z.ai: GLM 5.3 FlashX Legal",
       "in_per_1m": 0.37,
@@ -379,6 +391,12 @@
       "out_per_1m": 6,
       "context": 500000
     },
+    "x-ai/grok-4.7:batch": {
+      "name": "SpaceXAI: Grok 4.7 (batch)",
+      "in_per_1m": 1.6,
+      "out_per_1m": 4.8,
+      "context": 500000
+    },
     "qwen/qwen3.8-omni-flash": {
       "name": "Qwen: Qwen3.8 Omni Flash",
       "in_per_1m": 0.15,
@@ -405,8 +423,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.035,
-      "out_per_1m": 0.315,
+      "in_per_1m": 0.032,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -562,7 +580,7 @@
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
       "in_per_1m": 0.06,
-      "out_per_1m": 0.15,
+      "out_per_1m": 0.25,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -573,8 +591,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0313,
-      "out_per_1m": 0.0846,
+      "in_per_1m": 0.0269,
+      "out_per_1m": 0.0996,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -585,8 +603,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0313,
-      "out_per_1m": 0.0846,
+      "in_per_1m": 0.0269,
+      "out_per_1m": 0.0996,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -688,13 +706,19 @@
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
       "in_per_1m": 0.115,
-      "out_per_1m": 4,
+      "out_per_1m": 4.6,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
       "name": "SpaceXAI: Grok 4.6",
       "in_per_1m": 2,
       "out_per_1m": 6,
+      "context": 500000
+    },
+    "x-ai/grok-4.6:batch": {
+      "name": "SpaceXAI: Grok 4.6 (batch)",
+      "in_per_1m": 1.6,
+      "out_per_1m": 4.8,
       "context": 500000
     },
     "liquid/lfm-2.5-2.6b": {
@@ -763,12 +787,6 @@
       "out_per_1m": 1.2,
       "context": 524288
     },
-    "thinkingmachines/inkling-small:free": {
-      "name": "Thinking Machines: Inkling Small (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
-      "context": 1048576
-    },
     "qwen/qwen3.7-flash": {
       "name": "Qwen: Qwen3.7 Flash",
       "in_per_1m": 0.03,
@@ -829,16 +847,10 @@
       "out_per_1m": 4.05,
       "context": 524288
     },
-    "thinkingmachines/inkling:free": {
-      "name": "Thinking Machines: Inkling (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
-      "context": 1048576
-    },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
       "in_per_1m": 0.192,
-      "out_per_1m": 15,
+      "out_per_1m": 16,
       "context": 1048576
     },
     "moonshotai/kimi-k3:batch": {
@@ -1185,8 +1197,8 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.1653,
-      "out_per_1m": 10.1427,
+      "in_per_1m": 0.1824,
+      "out_per_1m": 9.3388,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1277,7 +1289,7 @@
       "name": "Xiaomi: MiMo-V2.5",
       "in_per_1m": 0.4,
       "out_per_1m": 2,
-      "context": 1050000
+      "context": 1000000
     },
     "openai/gpt-5.4-image-2": {
       "name": "OpenAI: GPT-5.4 Image 2",
@@ -1317,8 +1329,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.086,
-      "out_per_1m": 0.257,
+      "in_per_1m": 0.074,
+      "out_per_1m": 0.222,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -2133,8 +2145,8 @@
     },
     "qwen/qwen3-235b-a22b-2507": {
       "name": "Qwen: Qwen3 235B A22B Instruct 2507",
-      "in_per_1m": 0.09,
-      "out_per_1m": 0.55,
+      "in_per_1m": 0.14,
+      "out_per_1m": 0.8,
       "context": 262144
     },
     "moonshotai/kimi-k2": {
@@ -2439,8 +2451,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.2,
-      "out_per_1m": 0.52,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.32,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
