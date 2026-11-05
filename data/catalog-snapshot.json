@@ -1,6 +1,12 @@
 {
-  "fetched": "2026-11-04T14:33:14.250Z",
+  "fetched": "2026-11-05T14:39:55.846Z",
   "models": {
+    "ricursiveai/ripple-65b-preview": {
+      "name": "ricursiveAI/Ripple-65B-Preview",
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.6,
+      "context": 1048576
+    },
     "tencent/hy4": {
       "name": "Tencent: Hy4",
       "in_per_1m": 0.417,
@@ -417,13 +423,13 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.1035,
+      "in_per_1m": 0.0927,
       "out_per_1m": 8,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.032,
+      "in_per_1m": 0.006,
       "out_per_1m": 0.5,
       "context": 1048576
     },
@@ -489,8 +495,8 @@
     },
     "deepseek/deepseek-v4.1-flash:batch": {
       "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.15,
+      "in_per_1m": 0.112,
+      "out_per_1m": 0.336,
       "context": 1048576
     },
     "inception/mercury-2.5": {
@@ -591,8 +597,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0269,
-      "out_per_1m": 0.0996,
+      "in_per_1m": 0.0285,
+      "out_per_1m": 0.0923,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -603,8 +609,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0269,
-      "out_per_1m": 0.0996,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -651,8 +657,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.08,
-      "out_per_1m": 3.6,
+      "in_per_1m": 0.0699,
+      "out_per_1m": 1.4,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -705,8 +711,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.115,
-      "out_per_1m": 4.6,
+      "in_per_1m": 0.103,
+      "out_per_1m": 4.11,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -763,6 +769,12 @@
       "out_per_1m": 1.2,
       "context": 131072
     },
+    "inclusionai/ling-3.0-tiny": {
+      "name": "inclusionAI: Ling 3.0 Tiny",
+      "in_per_1m": 0.015,
+      "out_per_1m": 0.045,
+      "context": 262144
+    },
     "meta/muse-spark-1.2": {
       "name": "Meta: Muse Spark 1.2",
       "in_per_1m": 1.25,
@@ -771,13 +783,13 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.059,
+      "in_per_1m": 0.054,
       "out_per_1m": 0.3,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.059,
+      "in_per_1m": 0.054,
       "out_per_1m": 0.3,
       "context": 1048576
     },
@@ -1197,7 +1209,7 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.1824,
+      "in_per_1m": 0.1577,
       "out_per_1m": 9.3388,
       "context": 1048576
     },
@@ -1329,8 +1341,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.074,
-      "out_per_1m": 0.222,
+      "in_per_1m": 0.017,
+      "out_per_1m": 0.052,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1395,8 +1407,8 @@
     },
     "minimax/minimax-m2.7": {
       "name": "MiniMax: MiniMax M2.7",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.21,
+      "out_per_1m": 0.84,
       "context": 204800
     },
     "openai/gpt-5.4-nano": {
@@ -1621,12 +1633,6 @@
       "out_per_1m": 2.5,
       "context": 262144
     },
-    "minimax/minimax-m2-her": {
-      "name": "MiniMax: MiniMax M2-her",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
-      "context": 65536
-    },
     "writer/palmyra-x5": {
       "name": "Writer: Palmyra X5",
       "in_per_1m": 0.6,
@@ -1668,12 +1674,6 @@
       "in_per_1m": 0.25,
       "out_per_1m": 2,
       "context": 262144
-    },
-    "minimax/minimax-m2.1": {
-      "name": "MiniMax: MiniMax M2.1",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
-      "context": 204800
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
@@ -1861,12 +1861,6 @@
       "out_per_1m": 0.3,
       "context": 131072
     },
-    "minimax/minimax-m2": {
-      "name": "MiniMax: MiniMax M2",
-      "in_per_1m": 0.255,
-      "out_per_1m": 1.02,
-      "context": 204800
-    },
     "openai/gpt-5-image-mini": {
       "name": "OpenAI: GPT-5 Image Mini",
       "in_per_1m": 2.5,
@@ -1983,7 +1977,7 @@
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "in_per_1m": 0.1,
+      "in_per_1m": 0.09,
       "out_per_1m": 1.1,
       "context": 262144
     },
@@ -2307,8 +2301,8 @@
     },
     "meta-llama/llama-4-maverick": {
       "name": "Meta: Llama 4 Maverick",
-      "in_per_1m": 0.1875,
-      "out_per_1m": 0.6525,
+      "in_per_1m": 0.35,
+      "out_per_1m": 1,
       "context": 524288
     },
     "meta-llama/llama-4-scout": {
@@ -2425,12 +2419,6 @@
       "out_per_1m": 1,
       "context": 127072
     },
-    "minimax/minimax-01": {
-      "name": "MiniMax: MiniMax-01",
-      "in_per_1m": 0.2,
-      "out_per_1m": 1.1,
-      "context": 1000192
-    },
     "microsoft/phi-4": {
       "name": "Microsoft: Phi 4",
       "in_per_1m": 0.07,
@@ -2451,8 +2439,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.32,
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.52,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
@@ -2671,6 +2659,18 @@
       "out_per_1m": 60,
       "context": 8191
     },
+    "openrouter/auto": {
+      "name": "Auto Router",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 2000000
+    },
+    "openrouter/auto-code": {
+      "name": "Auto Code",
+      "in_per_1m": null,
+      "out_per_1m": null,
+      "context": 2000000
+    },
     "typesafe/jev-router": {
       "name": "TypeSafe: Jev Router",
       "in_per_1m": null,
@@ -2712,12 +2712,6 @@
       "in_per_1m": null,
       "out_per_1m": null,
       "context": 128000
-    },
-    "openrouter/auto": {
-      "name": "Auto Router",
-      "in_per_1m": null,
-      "out_per_1m": null,
-      "context": 2000000
     }
   }
 }
