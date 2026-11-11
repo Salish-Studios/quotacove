@@ -1,6 +1,30 @@
 {
-  "fetched": "2026-11-10T14:53:44.455Z",
+  "fetched": "2026-11-11T14:23:58.026Z",
   "models": {
+    "baidu/ernie-5.5-flash-preview:free": {
+      "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
+      "context": 1024000
+    },
+    "baidu/ernie-light-dt-1.0-intl": {
+      "name": "Baidu: ERNIE-Light-DT-1.0",
+      "in_per_1m": 1.13,
+      "out_per_1m": 3.94,
+      "context": 1024000
+    },
+    "google/gemini-4-carbon": {
+      "name": "Google: Gemini 4 Carbon",
+      "in_per_1m": 2,
+      "out_per_1m": 10,
+      "context": 1048576
+    },
+    "google/gemini-4-carbon:batch": {
+      "name": "Google: Gemini 4 Carbon (batch)",
+      "in_per_1m": 1,
+      "out_per_1m": 5,
+      "context": 1048576
+    },
     "nex-agi/nex-n2.6": {
       "name": "Nex AGI: Nex-N2.6",
       "in_per_1m": 0.12,
@@ -49,6 +73,12 @@
       "out_per_1m": 9,
       "context": 131072
     },
+    "kt/midm-k-3.0-pro": {
+      "name": "KT: Mi:dm K 3.0 Pro",
+      "in_per_1m": 0.2,
+      "out_per_1m": 0.8,
+      "context": 261795
+    },
     "google/gemini-omni-1.1-flash": {
       "name": "Google: Gemini Omni 1.1 Flash",
       "in_per_1m": 1.5,
@@ -66,6 +96,12 @@
       "in_per_1m": 0.417,
       "out_per_1m": 1.2505,
       "context": 1048576
+    },
+    "motif-technologies/motif-3": {
+      "name": "Motif Technologies: Motif 3",
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
+      "context": 262144
     },
     "z-ai/glm-5.3-flashx-legal": {
       "name": "Z.ai: GLM 5.3 FlashX Legal",
@@ -137,12 +173,6 @@
       "name": "Elorian: Glimpse",
       "in_per_1m": 0.6,
       "out_per_1m": 3,
-      "context": 262144
-    },
-    "xingchen-agi/xing4.0-29b-a4b:free": {
-      "name": "XingChen: Xing4.0 29B A4B (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
       "context": 262144
     },
     "reflection/beam-1.0-501b-a23b": {
@@ -537,8 +567,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.051,
+      "out_per_1m": 0.567,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -663,7 +693,7 @@
     },
     "z-ai/glm-5.3-flash:batch": {
       "name": "Z.ai: GLM 5.3 Flash (batch)",
-      "in_per_1m": 0.033,
+      "in_per_1m": 0.047,
       "out_per_1m": 0.061,
       "context": 1048576
     },
@@ -756,12 +786,6 @@
       "in_per_1m": 2,
       "out_per_1m": 6,
       "context": 1048576
-    },
-    "bytedance-seed/seed-2.0-code": {
-      "name": "ByteDance Seed: Seed-2.0-Code",
-      "in_per_1m": 0.5,
-      "out_per_1m": 3,
-      "context": 262144
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
@@ -1095,7 +1119,7 @@
     },
     "z-ai/glm-5.2": {
       "name": "Z.ai: GLM 5.2",
-      "in_per_1m": 0.0062,
+      "in_per_1m": 0.007,
       "out_per_1m": 6.8,
       "context": 1048576
     },
@@ -1288,7 +1312,7 @@
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
       "in_per_1m": 0.1824,
-      "out_per_1m": 9.3388,
+      "out_per_1m": 11.0055,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
@@ -1353,14 +1377,14 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9553,
-      "out_per_1m": 1.9105,
+      "in_per_1m": 0.889,
+      "out_per_1m": 1.7779,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek: DeepSeek V4 Flash 0423",
-      "in_per_1m": 0.091,
-      "out_per_1m": 0.182,
+      "in_per_1m": 0.09,
+      "out_per_1m": 0.18,
       "context": 1048576
     },
     "tencent/hy3-preview": {
@@ -1413,8 +1437,8 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "in_per_1m": 1.4,
-      "out_per_1m": 4.4,
+      "in_per_1m": 1.33,
+      "out_per_1m": 4.18,
       "context": 204800
     },
     "google/gemma-4-26b-a4b-it": {
@@ -1529,7 +1553,7 @@
       "name": "NVIDIA: Nemotron 3 Super",
       "in_per_1m": 0.075,
       "out_per_1m": 0.4,
-      "context": 1048576
+      "context": 262144
     },
     "bytedance-seed/seed-2.0-lite": {
       "name": "ByteDance Seed: Seed-2.0-Lite",
@@ -1665,8 +1689,8 @@
     },
     "minimax/minimax-m2.5": {
       "name": "MiniMax: MiniMax M2.5",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.27,
+      "out_per_1m": 1.08,
       "context": 200000
     },
     "z-ai/glm-5": {
@@ -1734,18 +1758,6 @@
       "in_per_1m": 1.75,
       "out_per_1m": 14,
       "context": 400000
-    },
-    "bytedance-seed/seed-1.6-flash": {
-      "name": "ByteDance Seed: Seed 1.6 Flash",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.3,
-      "context": 262144
-    },
-    "bytedance-seed/seed-1.6": {
-      "name": "ByteDance Seed: Seed 1.6",
-      "in_per_1m": 0.25,
-      "out_per_1m": 2,
-      "context": 262144
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
@@ -2569,12 +2581,6 @@
       "out_per_1m": 5,
       "context": 32768
     },
-    "qwen/qwen-2.5-7b-instruct": {
-      "name": "Qwen: Qwen2.5 7B Instruct",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.2,
-      "context": 32768
-    },
     "meta-llama/llama-3.2-1b-instruct": {
       "name": "Meta: Llama 3.2 1B Instruct",
       "in_per_1m": 0.027,
@@ -2715,14 +2721,14 @@
     },
     "mancer/weaver": {
       "name": "Mancer: Weaver (alpha)",
-      "in_per_1m": 0.4,
-      "out_per_1m": 0.75,
+      "in_per_1m": 0.3,
+      "out_per_1m": 0.5,
       "context": 8000
     },
     "undi95/remm-slerp-l2-13b": {
       "name": "ReMM SLERP 13B",
-      "in_per_1m": 0.35,
-      "out_per_1m": 0.65,
+      "in_per_1m": 0.3,
+      "out_per_1m": 0.5,
       "context": 6144
     },
     "gryphe/mythomax-l2-13b": {
