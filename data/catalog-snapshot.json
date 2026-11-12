@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-11T14:23:58.026Z",
+  "fetched": "2026-11-12T15:15:47.809Z",
   "models": {
     "baidu/ernie-5.5-flash-preview:free": {
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
@@ -141,8 +141,14 @@
     },
     "moonshotai/kimi-k3.1-pro": {
       "name": "MoonshotAI: Kimi K3.1 Pro",
-      "in_per_1m": 2,
-      "out_per_1m": 10,
+      "in_per_1m": 0.2375,
+      "out_per_1m": 8.7856,
+      "context": 1048576
+    },
+    "moonshotai/kimi-k3.1-pro:batch": {
+      "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+      "in_per_1m": 0.7,
+      "out_per_1m": 6,
       "context": 1048576
     },
     "recursive/flint-v1.0:free": {
@@ -153,20 +159,20 @@
     },
     "minimax/minimax-m3.1-flash": {
       "name": "MiniMax: MiniMax M3.1 Flash",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "in_per_1m": 0.006,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
-      "in_per_1m": 0.011,
-      "out_per_1m": 0.2,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.15,
       "context": 1048576
     },
     "elorian/glimpse": {
@@ -306,6 +312,12 @@
       "in_per_1m": 0.045,
       "out_per_1m": 0.135,
       "context": 1000000
+    },
+    "unbiased/pareto-26.10-preview": {
+      "name": "Pareto 26.10 Preview",
+      "in_per_1m": 0.8,
+      "out_per_1m": 3.2,
+      "context": 1048576
     },
     "openai/gpt-6.1-sol-pro": {
       "name": "OpenAI: GPT-6.1 Sol Pro",
@@ -507,8 +519,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.006,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.022,
+      "out_per_1m": 0.4,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -567,8 +579,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.051,
-      "out_per_1m": 0.567,
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -664,7 +676,7 @@
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
       "in_per_1m": 0.06,
-      "out_per_1m": 0.25,
+      "out_per_1m": 0.15,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -693,8 +705,8 @@
     },
     "z-ai/glm-5.3-flash:batch": {
       "name": "Z.ai: GLM 5.3 Flash (batch)",
-      "in_per_1m": 0.047,
-      "out_per_1m": 0.061,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.18,
       "context": 1048576
     },
     "meta/muse-spark-1.2-contributor": {
@@ -1035,8 +1047,8 @@
     },
     "openai/gpt-5.6-sol": {
       "name": "OpenAI: GPT-5.6 Sol",
-      "in_per_1m": 4,
-      "out_per_1m": 20,
+      "in_per_1m": 4.4,
+      "out_per_1m": 22,
       "context": 1050000
     },
     "openai/gpt-5.6-sol:batch": {
@@ -1125,8 +1137,8 @@
     },
     "z-ai/glm-5.2:batch": {
       "name": "Z.ai: GLM 5.2 (batch)",
-      "in_per_1m": 0.527,
-      "out_per_1m": 1.075,
+      "in_per_1m": 0.322,
+      "out_per_1m": 0.989,
       "context": 1048576
     },
     "moonshotai/kimi-k2.7-code": {
@@ -1377,8 +1389,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.889,
-      "out_per_1m": 1.7779,
+      "in_per_1m": 0.8923,
+      "out_per_1m": 1.7845,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1437,8 +1449,8 @@
     },
     "z-ai/glm-5.1": {
       "name": "Z.ai: GLM 5.1",
-      "in_per_1m": 1.33,
-      "out_per_1m": 4.18,
+      "in_per_1m": 1.4,
+      "out_per_1m": 4.4,
       "context": 204800
     },
     "google/gemma-4-26b-a4b-it": {
@@ -2325,8 +2337,8 @@
     },
     "qwen/qwen3-14b": {
       "name": "Qwen: Qwen3 14B",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.22,
+      "in_per_1m": 0.12,
+      "out_per_1m": 0.24,
       "context": 40960
     },
     "qwen/qwen3-32b": {
@@ -2440,7 +2452,7 @@
     "google/gemma-3-27b-it": {
       "name": "Google: Gemma 3 27B",
       "in_per_1m": 0.08,
-      "out_per_1m": 0.45,
+      "out_per_1m": 0.35,
       "context": 131072
     },
     "thedrummer/skyfall-36b-v2": {
