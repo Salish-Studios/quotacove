@@ -1,6 +1,18 @@
 {
-  "fetched": "2026-11-12T15:15:47.809Z",
+  "fetched": "2026-11-13T14:35:30.292Z",
   "models": {
+    "google/gemini-4-hydrogen": {
+      "name": "Google: Gemini 4 Hydrogen",
+      "in_per_1m": 1.5,
+      "out_per_1m": 7.5,
+      "context": 1048576
+    },
+    "google/gemini-4-hydrogen:batch": {
+      "name": "Google: Gemini 4 Hydrogen (batch)",
+      "in_per_1m": 0.75,
+      "out_per_1m": 3.75,
+      "context": 1048576
+    },
     "baidu/ernie-5.5-flash-preview:free": {
       "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
       "in_per_1m": 0,
@@ -30,6 +42,12 @@
       "in_per_1m": 0.12,
       "out_per_1m": 0.4,
       "context": 262144
+    },
+    "thinkingmachines/inkling-2-small": {
+      "name": "Thinking Machines: Inkling 2 Small",
+      "in_per_1m": 0.3,
+      "out_per_1m": 1,
+      "context": 1048576
     },
     "thinkingmachines/inkling-2-small:free": {
       "name": "Thinking Machines: Inkling 2 Small (free)",
@@ -87,8 +105,8 @@
     },
     "ricursiveai/ripple-65b-preview": {
       "name": "Ricursive: Ripple 65B Preview",
-      "in_per_1m": 0.2,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.1,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "tencent/hy4": {
@@ -113,6 +131,12 @@
       "name": "Particle AI: Particle-1",
       "in_per_1m": 0.05,
       "out_per_1m": 0.5,
+      "context": 1048576
+    },
+    "particle-ai/particle-1:free": {
+      "name": "Particle AI: Particle-1 (free)",
+      "in_per_1m": 0,
+      "out_per_1m": 0,
       "context": 1048576
     },
     "openai/gpt-6.1-terra-pro": {
@@ -141,8 +165,8 @@
     },
     "moonshotai/kimi-k3.1-pro": {
       "name": "MoonshotAI: Kimi K3.1 Pro",
-      "in_per_1m": 0.2375,
-      "out_per_1m": 8.7856,
+      "in_per_1m": 2,
+      "out_per_1m": 10,
       "context": 1048576
     },
     "moonshotai/kimi-k3.1-pro:batch": {
@@ -159,14 +183,14 @@
     },
     "minimax/minimax-m3.1-flash": {
       "name": "MiniMax: MiniMax M3.1 Flash",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.038,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
@@ -519,8 +543,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.022,
-      "out_per_1m": 0.4,
+      "in_per_1m": 0.038,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -676,7 +700,7 @@
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
       "in_per_1m": 0.06,
-      "out_per_1m": 0.15,
+      "out_per_1m": 0.25,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -747,8 +771,8 @@
     },
     "z-ai/glm-5.3": {
       "name": "Z.ai: GLM 5.3",
-      "in_per_1m": 0.0699,
-      "out_per_1m": 1.4,
+      "in_per_1m": 0.084,
+      "out_per_1m": 3.6,
       "context": 1048576
     },
     "z-ai/glm-5.3:batch": {
@@ -816,18 +840,6 @@
       "in_per_1m": 1.6,
       "out_per_1m": 4.8,
       "context": 500000
-    },
-    "liquid/lfm-2.5-2.6b": {
-      "name": "LiquidAI: LFM2.5-2.6B",
-      "in_per_1m": 0.35,
-      "out_per_1m": 0.5,
-      "context": 128000
-    },
-    "liquid/lfm-2.5-2.6b:free": {
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
-      "context": 65536
     },
     "nvidia/nemotron-3.5-lightning": {
       "name": "NVIDIA: Nemotron 3.5 Lightning",
@@ -1137,8 +1149,8 @@
     },
     "z-ai/glm-5.2:batch": {
       "name": "Z.ai: GLM 5.2 (batch)",
-      "in_per_1m": 0.322,
-      "out_per_1m": 0.989,
+      "in_per_1m": 0.298,
+      "out_per_1m": 0.916,
       "context": 1048576
     },
     "moonshotai/kimi-k2.7-code": {
@@ -1324,13 +1336,13 @@
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
       "in_per_1m": 0.1824,
-      "out_per_1m": 11.0055,
+      "out_per_1m": 10.6066,
       "context": 1048576
     },
     "~google/gemini-flash-latest": {
       "name": "Google: Gemini Flash Latest",
-      "in_per_1m": 0.75,
-      "out_per_1m": 3.75,
+      "in_per_1m": 1.5,
+      "out_per_1m": 7.5,
       "context": 1048576
     },
     "~anthropic/claude-sonnet-latest": {
@@ -1389,8 +1401,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.8923,
-      "out_per_1m": 1.7845,
+      "in_per_1m": 0.9,
+      "out_per_1m": 1.5,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1407,8 +1419,8 @@
     },
     "xiaomi/mimo-v2.5-pro": {
       "name": "Xiaomi: MiMo-V2.5-Pro",
-      "in_per_1m": 0.48,
-      "out_per_1m": 1.8,
+      "in_per_1m": 0.435,
+      "out_per_1m": 0.87,
       "context": 1024000
     },
     "xiaomi/mimo-v2.5": {
@@ -1455,8 +1467,8 @@
     },
     "google/gemma-4-26b-a4b-it": {
       "name": "Google: Gemma 4 26B A4B ",
-      "in_per_1m": 0.08,
-      "out_per_1m": 0.1,
+      "in_per_1m": 0.09,
+      "out_per_1m": 0.3,
       "context": 262144
     },
     "google/gemma-4-26b-a4b-it:free": {
@@ -1575,8 +1587,8 @@
     },
     "qwen/qwen3.5-9b": {
       "name": "Qwen: Qwen3.5-9B",
-      "in_per_1m": 0.17,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.065,
+      "out_per_1m": 0.095,
       "context": 262144
     },
     "openai/gpt-5.4-pro": {
@@ -1702,8 +1714,8 @@
     "minimax/minimax-m2.5": {
       "name": "MiniMax: MiniMax M2.5",
       "in_per_1m": 0.27,
-      "out_per_1m": 1.08,
-      "context": 200000
+      "out_per_1m": 0.95,
+      "context": 198000
     },
     "z-ai/glm-5": {
       "name": "Z.ai: GLM 5",
@@ -1737,8 +1749,8 @@
     },
     "moonshotai/kimi-k2.5": {
       "name": "MoonshotAI: Kimi K2.5",
-      "in_per_1m": 0.532,
-      "out_per_1m": 3.325,
+      "in_per_1m": 0.5,
+      "out_per_1m": 2.5,
       "context": 262144
     },
     "writer/palmyra-x5": {
