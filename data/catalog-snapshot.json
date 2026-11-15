@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-14T13:31:48.810Z",
+  "fetched": "2026-11-15T13:56:27.783Z",
   "models": {
     "inclusionai/ling-3.2-flash:free": {
       "name": "inclusionAI: Ling 3.2 Flash (free)",
@@ -135,7 +135,7 @@
     },
     "particle-ai/particle-1": {
       "name": "Particle AI: Particle-1",
-      "in_per_1m": 0.05,
+      "in_per_1m": 0.06,
       "out_per_1m": 0.5,
       "context": 1048576
     },
@@ -171,14 +171,14 @@
     },
     "moonshotai/kimi-k3.1-pro": {
       "name": "MoonshotAI: Kimi K3.1 Pro",
-      "in_per_1m": 2,
-      "out_per_1m": 10,
+      "in_per_1m": 0.2403,
+      "out_per_1m": 8.4023,
       "context": 1048576
     },
     "moonshotai/kimi-k3.1-pro:batch": {
       "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
-      "in_per_1m": 0.7,
-      "out_per_1m": 6,
+      "in_per_1m": 0.275,
+      "out_per_1m": 4.125,
       "context": 1048576
     },
     "recursive/flint-v1.0:free": {
@@ -195,14 +195,14 @@
     },
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "in_per_1m": 0.038,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.02,
+      "out_per_1m": 0.108,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.15,
+      "in_per_1m": 0.029,
+      "out_per_1m": 0.252,
       "context": 1048576
     },
     "elorian/glimpse": {
@@ -244,7 +244,7 @@
     "nvidia/nemotron-3.5-super-vl": {
       "name": "NVIDIA: Nemotron 3.5 Super VL",
       "in_per_1m": 0.15,
-      "out_per_1m": 0.47,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "nvidia/nemotron-3.5-super-vl:free": {
@@ -549,8 +549,8 @@
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.038,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.02,
+      "out_per_1m": 0.108,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -706,7 +706,7 @@
     "ibm-granite/granite-4.2-8b": {
       "name": "IBM: Granite 4.2 8B",
       "in_per_1m": 0.06,
-      "out_per_1m": 0.25,
+      "out_per_1m": 0.15,
       "context": 131072
     },
     "tencent/hy4-preview": {
@@ -1065,8 +1065,8 @@
     },
     "openai/gpt-5.6-sol": {
       "name": "OpenAI: GPT-5.6 Sol",
-      "in_per_1m": 4,
-      "out_per_1m": 20,
+      "in_per_1m": 4.4,
+      "out_per_1m": 22,
       "context": 1050000
     },
     "openai/gpt-5.6-sol:batch": {
@@ -1151,12 +1151,6 @@
       "name": "Z.ai: GLM 5.2",
       "in_per_1m": 0.007,
       "out_per_1m": 6.8,
-      "context": 1048576
-    },
-    "z-ai/glm-5.2:batch": {
-      "name": "Z.ai: GLM 5.2 (batch)",
-      "in_per_1m": 0.322,
-      "out_per_1m": 0.989,
       "context": 1048576
     },
     "moonshotai/kimi-k2.7-code": {
@@ -1593,8 +1587,8 @@
     },
     "qwen/qwen3.5-9b": {
       "name": "Qwen: Qwen3.5-9B",
-      "in_per_1m": 0.17,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.021,
+      "out_per_1m": 0.03,
       "context": 262144
     },
     "openai/gpt-5.4-pro": {
@@ -1747,12 +1741,6 @@
       "out_per_1m": 0.8,
       "context": 262144
     },
-    "stepfun/step-3.5-flash": {
-      "name": "StepFun: Step 3.5 Flash",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.3,
-      "context": 262144
-    },
     "moonshotai/kimi-k2.5": {
       "name": "MoonshotAI: Kimi K2.5",
       "in_per_1m": 0.5,
@@ -1791,8 +1779,8 @@
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
-      "in_per_1m": 0.6,
-      "out_per_1m": 2.2,
+      "in_per_1m": 0.4,
+      "out_per_1m": 1.75,
       "context": 204800
     },
     "google/gemini-3-flash-preview": {
@@ -2010,12 +1998,6 @@
       "in_per_1m": 0.3,
       "out_per_1m": 2.5,
       "context": 32768
-    },
-    "qwen/qwen3-vl-30b-a3b-thinking": {
-      "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-      "in_per_1m": 0.29,
-      "out_per_1m": 1,
-      "context": 262144
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
       "name": "Qwen: Qwen3 VL 30B A3B Instruct",
@@ -2268,12 +2250,6 @@
       "in_per_1m": 0.2,
       "out_per_1m": 0.9,
       "context": 128000
-    },
-    "tencent/hunyuan-a13b-instruct": {
-      "name": "Tencent: Hunyuan A13B Instruct",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.57,
-      "context": 131072
     },
     "morph/morph-v3-large": {
       "name": "Morph: Morph V3 Large",
