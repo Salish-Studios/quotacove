@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-16T15:48:07.007Z",
+  "fetched": "2026-11-17T16:00:00.347Z",
   "models": {
     "tencent/hy4-flash": {
       "name": "Tencent: Hy4 flash",
@@ -9,8 +9,8 @@
     },
     "qwen/qwen4-max": {
       "name": "Qwen: Qwen4 Max",
-      "in_per_1m": 1.5,
-      "out_per_1m": 4.5,
+      "in_per_1m": 1.425,
+      "out_per_1m": 4.275,
       "context": 1000000
     },
     "inclusionai/ling-3.2-flash:free": {
@@ -189,8 +189,8 @@
     },
     "moonshotai/kimi-k3.1-pro:batch": {
       "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
-      "in_per_1m": 0.7,
-      "out_per_1m": 6,
+      "in_per_1m": 0.372,
+      "out_per_1m": 5.583,
       "context": 1048576
     },
     "recursive/flint-v1.0:free": {
@@ -207,14 +207,14 @@
     },
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.036,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
-      "in_per_1m": 0.037,
-      "out_per_1m": 0.326,
+      "in_per_1m": 0.036,
+      "out_per_1m": 0.15,
       "context": 1048576
     },
     "elorian/glimpse": {
@@ -411,8 +411,8 @@
     },
     "z-ai/glm-5.3-prime": {
       "name": "Z.ai: GLM 5.3 Prime",
-      "in_per_1m": 2.8,
-      "out_per_1m": 8.8,
+      "in_per_1m": 1.68,
+      "out_per_1m": 5.28,
       "context": 1000000
     },
     "qwen/qwen3.8-max-prime": {
@@ -621,8 +621,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.42,
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -741,14 +741,14 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0399,
-      "out_per_1m": 0.0784,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
       "name": "Z.ai: GLM 5.3 Flash (batch)",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.18,
+      "in_per_1m": 0.024,
+      "out_per_1m": 0.069,
       "context": 1048576
     },
     "meta/muse-spark-1.2-contributor": {
@@ -795,8 +795,8 @@
     },
     "z-ai/glm-5.3:batch": {
       "name": "Z.ai: GLM 5.3 (batch)",
-      "in_per_1m": 0.45,
-      "out_per_1m": 2,
+      "in_per_1m": 0.281,
+      "out_per_1m": 1.25,
       "context": 1048576
     },
     "qwen/qwen3.8-27b": {
@@ -863,7 +863,7 @@
       "name": "NVIDIA: Nemotron 3.5 Lightning",
       "in_per_1m": 0.07,
       "out_per_1m": 0.2,
-      "context": 262144
+      "context": 1048576
     },
     "nvidia/nemotron-3.5-lightning:free": {
       "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
@@ -885,8 +885,8 @@
     },
     "meta/muse-glimmer-30b": {
       "name": "Meta: Muse Glimmer 30B",
-      "in_per_1m": 0.3,
-      "out_per_1m": 1.2,
+      "in_per_1m": 0.35,
+      "out_per_1m": 1.5,
       "context": 131072
     },
     "meta/muse-glimmer-30b:batch": {
@@ -1165,10 +1165,16 @@
       "out_per_1m": 6.8,
       "context": 1048576
     },
+    "z-ai/glm-5.2:batch": {
+      "name": "Z.ai: GLM 5.2 (batch)",
+      "in_per_1m": 0.322,
+      "out_per_1m": 0.989,
+      "context": 1048576
+    },
     "moonshotai/kimi-k2.7-code": {
       "name": "MoonshotAI: Kimi K2.7 Code",
-      "in_per_1m": 0.6,
-      "out_per_1m": 3.5,
+      "in_per_1m": 0.7,
+      "out_per_1m": 3.75,
       "context": 262144
     },
     "~anthropic/claude-fable-latest": {
@@ -1197,8 +1203,8 @@
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
       "name": "NVIDIA: Nemotron 3 Ultra",
-      "in_per_1m": 0.6,
-      "out_per_1m": 2.4,
+      "in_per_1m": 0.5,
+      "out_per_1m": 2.2,
       "context": 262144
     },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
@@ -1599,8 +1605,8 @@
     },
     "qwen/qwen3.5-9b": {
       "name": "Qwen: Qwen3.5-9B",
-      "in_per_1m": 0.109,
-      "out_per_1m": 0.16,
+      "in_per_1m": 0.17,
+      "out_per_1m": 0.25,
       "context": 262144
     },
     "openai/gpt-5.4-pro": {
@@ -2169,8 +2175,8 @@
     },
     "openai/gpt-oss-20b": {
       "name": "OpenAI: gpt-oss-20b",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.018,
+      "out_per_1m": 0.09,
       "context": 131072
     },
     "openai/gpt-oss-20b:batch": {
