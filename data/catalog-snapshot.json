@@ -1,10 +1,10 @@
 {
-  "fetched": "2026-11-21T14:39:41.893Z",
+  "fetched": "2026-11-22T14:35:29.902Z",
   "models": {
     "thinkingmachines/inkling-2-mini": {
       "name": "Thinking Machines: Inkling 2 Mini",
-      "in_per_1m": 0.1,
-      "out_per_1m": 0.4,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.3,
       "context": 1048576
     },
     "radixark/daisyrose-27b": {
@@ -255,8 +255,8 @@
     },
     "moonshotai/kimi-k3.1-pro": {
       "name": "MoonshotAI: Kimi K3.1 Pro",
-      "in_per_1m": 0.253,
-      "out_per_1m": 8.8,
+      "in_per_1m": 0.2403,
+      "out_per_1m": 8.4023,
       "context": 1048576
     },
     "moonshotai/kimi-k3.1-pro:batch": {
@@ -627,7 +627,7 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.0999,
+      "in_per_1m": 0.1188,
       "out_per_1m": 8,
       "context": 1048576
     },
@@ -873,8 +873,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.06,
-      "out_per_1m": 1.96,
+      "in_per_1m": 0.035,
+      "out_per_1m": 1.5,
       "context": 1024000
     },
     "qwen/qwen3.8-27b:batch": {
@@ -1173,8 +1173,8 @@
     },
     "tencent/hy3": {
       "name": "Tencent: Hy3",
-      "in_per_1m": 0.132,
-      "out_per_1m": 0.528,
+      "in_per_1m": 0.14,
+      "out_per_1m": 0.58,
       "context": 262144
     },
     "anthropic/claude-sonnet-5": {
@@ -1401,7 +1401,7 @@
     },
     "~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
-      "in_per_1m": 0.1805,
+      "in_per_1m": 0.1824,
       "out_per_1m": 11.0055,
       "context": 1048576
     },
@@ -1701,8 +1701,8 @@
     },
     "qwen/qwen3.5-27b": {
       "name": "Qwen: Qwen3.5-27B",
-      "in_per_1m": 0.195,
-      "out_per_1m": 1.56,
+      "in_per_1m": 0.26,
+      "out_per_1m": 2.6,
       "context": 262144
     },
     "qwen/qwen3.5-122b-a10b": {
@@ -1839,8 +1839,8 @@
     },
     "z-ai/glm-4.7": {
       "name": "Z.ai: GLM 4.7",
-      "in_per_1m": 0.4,
-      "out_per_1m": 1.75,
+      "in_per_1m": 0.6,
+      "out_per_1m": 2.2,
       "context": 204800
     },
     "google/gemini-3-flash-preview": {
@@ -2217,8 +2217,8 @@
     },
     "openai/gpt-oss-20b": {
       "name": "OpenAI: gpt-oss-20b",
-      "in_per_1m": 0.017,
-      "out_per_1m": 0.085,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.3,
       "context": 131072
     },
     "openai/gpt-oss-20b:batch": {
@@ -2481,8 +2481,8 @@
     },
     "google/gemma-3-4b-it": {
       "name": "Google: Gemma 3 4B",
-      "in_per_1m": 0.05,
-      "out_per_1m": 0.1,
+      "in_per_1m": 0.04,
+      "out_per_1m": 0.05,
       "context": 131072
     },
     "google/gemma-3-12b-it": {
@@ -2793,8 +2793,8 @@
     },
     "gryphe/mythomax-l2-13b": {
       "name": "MythoMax 13B",
-      "in_per_1m": 0.08,
-      "out_per_1m": 0.11,
+      "in_per_1m": 0.3,
+      "out_per_1m": 0.5,
       "context": 8192
     },
     "openai/gpt-4": {
