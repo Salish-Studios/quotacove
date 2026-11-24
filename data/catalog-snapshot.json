@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-23T18:09:54.242Z",
+  "fetched": "2026-11-24T17:45:50.252Z",
   "models": {
     "thinkingmachines/inkling-2-mini": {
       "name": "Thinking Machines: Inkling 2 Mini",
@@ -423,8 +423,8 @@
     },
     "inclusionai/ling-3.1-flash": {
       "name": "inclusionAI: Ling 3.1 Flash",
-      "in_per_1m": 0.06,
-      "out_per_1m": 0.18,
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.225,
       "context": 1048576
     },
     "unbiased/pareto-26.10-preview": {
@@ -693,8 +693,8 @@
     },
     "deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek: DeepSeek V4.1 Flash",
-      "in_per_1m": 0.0498,
-      "out_per_1m": 0.1992,
+      "in_per_1m": 0.0507,
+      "out_per_1m": 0.2028,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash:batch": {
@@ -801,8 +801,8 @@
     },
     "~z-ai/glm-flash-latest": {
       "name": "Z.ai: GLM Flash Latest",
-      "in_per_1m": 0.0399,
-      "out_per_1m": 0.074,
+      "in_per_1m": 0.0356,
+      "out_per_1m": 0.0815,
       "context": 1048576
     },
     "qwen/qwen3.8-flash": {
@@ -813,8 +813,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.0399,
-      "out_per_1m": 0.074,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -873,8 +873,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.035,
-      "out_per_1m": 1.5,
+      "in_per_1m": 0.06,
+      "out_per_1m": 1.96,
       "context": 1024000
     },
     "qwen/qwen3.8-27b:batch": {
@@ -882,12 +882,6 @@
       "in_per_1m": 0.16,
       "out_per_1m": 2,
       "context": 262144
-    },
-    "dots-studio/dots-3-note-preview:free": {
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
-      "context": 512000
     },
     "google/gemini-3.7-flash": {
       "name": "Google: Gemini 3.7 Flash",
@@ -915,8 +909,8 @@
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 1.32,
-      "out_per_1m": 3.96,
+      "in_per_1m": 0.111,
+      "out_per_1m": 4.44,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -933,7 +927,7 @@
     },
     "nvidia/nemotron-3.5-lightning": {
       "name": "NVIDIA: Nemotron 3.5 Lightning",
-      "in_per_1m": 0.07,
+      "in_per_1m": 0.05,
       "out_per_1m": 0.2,
       "context": 1048576
     },
@@ -981,13 +975,13 @@
     },
     "~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
-      "in_per_1m": 0.0434,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.0453,
+      "out_per_1m": 0.136,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
-      "in_per_1m": 0.0434,
+      "in_per_1m": 0.0456,
       "out_per_1m": 0.3,
       "context": 1048576
     },
@@ -1061,7 +1055,7 @@
       "name": "Thinking Machines: Inkling",
       "in_per_1m": 1,
       "out_per_1m": 4.05,
-      "context": 524288
+      "context": 1048576
     },
     "moonshotai/kimi-k3": {
       "name": "MoonshotAI: Kimi K3",
@@ -1179,8 +1173,8 @@
     },
     "tencent/hy3": {
       "name": "Tencent: Hy3",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.58,
+      "in_per_1m": 0.0825,
+      "out_per_1m": 0.33,
       "context": 262144
     },
     "anthropic/claude-sonnet-5": {
@@ -1301,7 +1295,7 @@
       "name": "StepFun: Step 3.7 Flash",
       "in_per_1m": 0.2,
       "out_per_1m": 1.15,
-      "context": 262144
+      "context": 256000
     },
     "anthropic/claude-opus-4.8": {
       "name": "Anthropic: Claude Opus 4.8",
@@ -1473,8 +1467,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.9,
-      "out_per_1m": 1.5,
+      "in_per_1m": 1.28,
+      "out_per_1m": 2.56,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1482,12 +1476,6 @@
       "in_per_1m": 0.09,
       "out_per_1m": 0.18,
       "context": 1048576
-    },
-    "xiaomi/mimo-v2.5-pro": {
-      "name": "Xiaomi: MiMo-V2.5-Pro",
-      "in_per_1m": 0.48,
-      "out_per_1m": 1.8,
-      "context": 262144
     },
     "xiaomi/mimo-v2.5": {
       "name": "Xiaomi: MiMo-V2.5",
@@ -1999,12 +1987,6 @@
       "out_per_1m": 2,
       "context": 400000
     },
-    "moonshotai/kimi-k2-thinking": {
-      "name": "MoonshotAI: Kimi K2 Thinking",
-      "in_per_1m": 0.6,
-      "out_per_1m": 2.5,
-      "context": 262144
-    },
     "amazon/nova-premier-v1": {
       "name": "Amazon: Nova Premier 1.0",
       "in_per_1m": 2.5,
@@ -2143,12 +2125,6 @@
       "out_per_1m": 1.1,
       "context": 262144
     },
-    "moonshotai/kimi-k2-0905": {
-      "name": "MoonshotAI: Kimi K2 0905",
-      "in_per_1m": 0.6,
-      "out_per_1m": 2.5,
-      "context": 262144
-    },
     "nousresearch/hermes-4-405b": {
       "name": "Nous: Hermes 4 405B",
       "in_per_1m": 1,
@@ -2160,12 +2136,6 @@
       "in_per_1m": 0.25,
       "out_per_1m": 0.95,
       "context": 163840
-    },
-    "mistralai/mistral-medium-3.1": {
-      "name": "Mistral: Mistral Medium 3.1",
-      "in_per_1m": 0.44,
-      "out_per_1m": 2.2,
-      "context": 131072
     },
     "z-ai/glm-4.5v": {
       "name": "Z.ai: GLM 4.5V",
@@ -2305,12 +2275,6 @@
       "out_per_1m": 0.8,
       "context": 262144
     },
-    "moonshotai/kimi-k2": {
-      "name": "MoonshotAI: Kimi K2 0711",
-      "in_per_1m": 0.57,
-      "out_per_1m": 2.3,
-      "context": 131072
-    },
     "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
       "name": "Venice: Uncensored",
       "in_per_1m": 0.2,
@@ -2376,12 +2340,6 @@
       "in_per_1m": 0.571,
       "out_per_1m": 2.286,
       "context": 163840
-    },
-    "mistralai/mistral-medium-3": {
-      "name": "Mistral: Mistral Medium 3",
-      "in_per_1m": 0.44,
-      "out_per_1m": 2.2,
-      "context": 131072
     },
     "meta-llama/llama-guard-4-12b": {
       "name": "Meta: Llama Guard 4 12B",
@@ -2703,8 +2661,8 @@
     },
     "meta-llama/llama-3.1-8b-instruct": {
       "name": "Meta: Llama 3.1 8B Instruct",
-      "in_per_1m": 0.02,
-      "out_per_1m": 0.04,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.08,
       "context": 131072
     },
     "mistralai/mistral-nemo": {
