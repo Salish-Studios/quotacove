@@ -1,6 +1,12 @@
 {
-  "fetched": "2026-11-25T17:13:48.877Z",
+  "fetched": "2026-11-26T16:55:01.789Z",
   "models": {
+    "inclusionai/lingsante-3.1-air-vl": {
+      "name": "inclusionAI: LingSante 3.1 Air VL",
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.18,
+      "context": 131072
+    },
     "upstage/solar-mini-4-5": {
       "name": "Upstage: Solar Mini 4.5 (Preview)",
       "in_per_1m": 0.01,
@@ -297,8 +303,8 @@
     },
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "in_per_1m": 0.15,
-      "out_per_1m": 0.6,
+      "in_per_1m": 0.025,
+      "out_per_1m": 0.25,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
@@ -315,7 +321,7 @@
     },
     "reflection/beam-1.0-501b-a23b": {
       "name": "Reflection: Beam 1.0 501B A23B",
-      "in_per_1m": 0.25,
+      "in_per_1m": 0.3,
       "out_per_1m": 1,
       "context": 1048576
     },
@@ -627,14 +633,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.0999,
-      "out_per_1m": 5,
+      "in_per_1m": 0.111,
+      "out_per_1m": 4.44,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.036,
-      "out_per_1m": 0.5,
+      "in_per_1m": 0.025,
+      "out_per_1m": 0.25,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -813,8 +819,8 @@
     },
     "z-ai/glm-5.3-flash": {
       "name": "Z.ai: GLM 5.3 Flash",
-      "in_per_1m": 0.12,
-      "out_per_1m": 0.38,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "z-ai/glm-5.3-flash:batch": {
@@ -873,8 +879,8 @@
     },
     "qwen/qwen3.8-27b": {
       "name": "Qwen: Qwen3.8 27B",
-      "in_per_1m": 0.035,
-      "out_per_1m": 1.5,
+      "in_per_1m": 0.06,
+      "out_per_1m": 1.96,
       "context": 1024000
     },
     "qwen/qwen3.8-27b:batch": {
@@ -1467,8 +1473,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.7657,
-      "out_per_1m": 1.5016,
+      "in_per_1m": 0.7994,
+      "out_per_1m": 1.5593,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1615,6 +1621,12 @@
       "out_per_1m": 0.6,
       "context": 262144
     },
+    "mistralai/mistral-small-2603:batch": {
+      "name": "Mistral: Mistral Small 4 (batch)",
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.3,
+      "context": 262144
+    },
     "z-ai/glm-5-turbo": {
       "name": "Z.ai: GLM 5 Turbo",
       "in_per_1m": 1.2,
@@ -1635,7 +1647,7 @@
     },
     "qwen/qwen3.5-9b": {
       "name": "Qwen: Qwen3.5-9B",
-      "in_per_1m": 0.17,
+      "in_per_1m": 0.1,
       "out_per_1m": 0.25,
       "context": 262144
     },
@@ -1755,8 +1767,8 @@
     },
     "qwen/qwen3.5-397b-a17b": {
       "name": "Qwen: Qwen3.5 397B A17B",
-      "in_per_1m": 0.45,
-      "out_per_1m": 3,
+      "in_per_1m": 0.5,
+      "out_per_1m": 3.6,
       "context": 262144
     },
     "minimax/minimax-m2.5": {
@@ -1921,6 +1933,12 @@
       "out_per_1m": 0.15,
       "context": 262144
     },
+    "mistralai/ministral-8b-2512:batch": {
+      "name": "Mistral: Ministral 3 8B 2512 (batch)",
+      "in_per_1m": 0.075,
+      "out_per_1m": 0.075,
+      "context": 262144
+    },
     "mistralai/ministral-3b-2512": {
       "name": "Mistral: Ministral 3 3B 2512",
       "in_per_1m": 0.1,
@@ -1931,6 +1949,12 @@
       "name": "Mistral: Mistral Large 3 2512",
       "in_per_1m": 0.5,
       "out_per_1m": 1.5,
+      "context": 262144
+    },
+    "mistralai/mistral-large-2512:batch": {
+      "name": "Mistral: Mistral Large 3 2512 (batch)",
+      "in_per_1m": 0.25,
+      "out_per_1m": 0.75,
       "context": 262144
     },
     "deepseek/deepseek-v3.2": {
@@ -2215,6 +2239,12 @@
       "out_per_1m": 0.9,
       "context": 256000
     },
+    "mistralai/codestral-2508:batch": {
+      "name": "Mistral: Codestral 2508 (batch)",
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.45,
+      "context": 256000
+    },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "in_per_1m": 0.07,
@@ -2235,8 +2265,8 @@
     },
     "z-ai/glm-4.5-air": {
       "name": "Z.ai: GLM 4.5 Air",
-      "in_per_1m": 0.14,
-      "out_per_1m": 0.86,
+      "in_per_1m": 0.2,
+      "out_per_1m": 1.1,
       "context": 131072
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
@@ -2269,11 +2299,23 @@
       "out_per_1m": 0.8,
       "context": 262144
     },
+    "moonshotai/kimi-k2": {
+      "name": "MoonshotAI: Kimi K2 0711",
+      "in_per_1m": 0.57,
+      "out_per_1m": 2.3,
+      "context": 131072
+    },
     "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
       "name": "Venice: Uncensored",
       "in_per_1m": 0.2,
       "out_per_1m": 0.9,
       "context": 128000
+    },
+    "tngtech/deepseek-r1t2-chimera": {
+      "name": "TNG: DeepSeek R1T2 Chimera",
+      "in_per_1m": 1,
+      "out_per_1m": 2.625,
+      "context": 131072
     },
     "morph/morph-v3-large": {
       "name": "Morph: Morph V3 Large",
@@ -2464,7 +2506,7 @@
     "google/gemma-3-27b-it": {
       "name": "Google: Gemma 3 27B",
       "in_per_1m": 0.08,
-      "out_per_1m": 0.16,
+      "out_per_1m": 0.45,
       "context": 131072
     },
     "thedrummer/skyfall-36b-v2": {
