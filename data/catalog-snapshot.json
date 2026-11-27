@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-26T16:55:01.789Z",
+  "fetched": "2026-11-27T16:40:41.200Z",
   "models": {
     "inclusionai/lingsante-3.1-air-vl": {
       "name": "inclusionAI: LingSante 3.1 Air VL",
@@ -27,8 +27,8 @@
     },
     "thinkingmachines/inkling-2-mini": {
       "name": "Thinking Machines: Inkling 2 Mini",
-      "in_per_1m": 0.075,
-      "out_per_1m": 0.3,
+      "in_per_1m": 0.06,
+      "out_per_1m": 0.24,
       "context": 1048576
     },
     "radixark/daisyrose-27b": {
@@ -115,10 +115,10 @@
       "out_per_1m": 4.275,
       "context": 1000000
     },
-    "inclusionai/ling-3.2-flash:free": {
-      "name": "inclusionAI: Ling 3.2 Flash (free)",
-      "in_per_1m": 0,
-      "out_per_1m": 0,
+    "inclusionai/ling-3.2-flash": {
+      "name": "inclusionAI: Ling 3.2 Flash",
+      "in_per_1m": 0.3,
+      "out_per_1m": 0.9,
       "context": 1048576
     },
     "google/gemini-4-hydrogen": {
@@ -303,8 +303,8 @@
     },
     "deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-      "in_per_1m": 0.025,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.15,
+      "out_per_1m": 0.6,
       "context": 1048576
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
@@ -633,14 +633,14 @@
     },
     "~deepseek/deepseek-pro-latest": {
       "name": "DeepSeek: DeepSeek Pro Latest",
-      "in_per_1m": 0.111,
-      "out_per_1m": 4.44,
+      "in_per_1m": 0.0999,
+      "out_per_1m": 5,
       "context": 1048576
     },
     "~deepseek/deepseek-flash-latest": {
       "name": "DeepSeek: DeepSeek Flash Latest",
-      "in_per_1m": 0.025,
-      "out_per_1m": 0.25,
+      "in_per_1m": 0.036,
+      "out_per_1m": 0.5,
       "context": 1048576
     },
     "inference-net/schematron-v2-turbo": {
@@ -837,8 +837,8 @@
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-      "in_per_1m": 0.44,
-      "out_per_1m": 1.32,
+      "in_per_1m": 0.2156,
+      "out_per_1m": 0.6468,
       "context": 1048576
     },
     "tencent/hy-mt2-1.8b": {
@@ -911,12 +911,12 @@
       "name": "Qwen: Qwen3.8 2.4T A95B",
       "in_per_1m": 2,
       "out_per_1m": 6,
-      "context": 1048576
+      "context": 1000000
     },
     "deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek: DeepSeek V4 Pro 0813",
-      "in_per_1m": 0.111,
-      "out_per_1m": 4.44,
+      "in_per_1m": 0.0999,
+      "out_per_1m": 5,
       "context": 1048576
     },
     "x-ai/grok-4.6": {
@@ -957,8 +957,8 @@
     },
     "meta/muse-glimmer-30b": {
       "name": "Meta: Muse Glimmer 30B",
-      "in_per_1m": 0.35,
-      "out_per_1m": 1.5,
+      "in_per_1m": 0.3,
+      "out_per_1m": 1.2,
       "context": 131072
     },
     "meta/muse-glimmer-30b:batch": {
@@ -1473,8 +1473,8 @@
     },
     "deepseek/deepseek-v4-pro": {
       "name": "DeepSeek: DeepSeek V4 Pro 0423",
-      "in_per_1m": 0.7994,
-      "out_per_1m": 1.5593,
+      "in_per_1m": 0.7556,
+      "out_per_1m": 1.5007,
       "context": 1048576
     },
     "deepseek/deepseek-v4-flash": {
@@ -1803,8 +1803,8 @@
     },
     "moonshotai/kimi-k2.5": {
       "name": "MoonshotAI: Kimi K2.5",
-      "in_per_1m": 0.5,
-      "out_per_1m": 2.5,
+      "in_per_1m": 0.6,
+      "out_per_1m": 3,
       "context": 262144
     },
     "writer/palmyra-x5": {
@@ -2087,7 +2087,7 @@
       "name": "Z.ai: GLM 4.6",
       "in_per_1m": 0.5,
       "out_per_1m": 2,
-      "context": 204800
+      "context": 202752
     },
     "anthropic/claude-sonnet-4.5": {
       "name": "Anthropic: Claude Sonnet 4.5",
@@ -2141,6 +2141,12 @@
       "name": "Qwen: Qwen3 Next 80B A3B Instruct",
       "in_per_1m": 0.1,
       "out_per_1m": 1.1,
+      "context": 262144
+    },
+    "moonshotai/kimi-k2-0905": {
+      "name": "MoonshotAI: Kimi K2 0905",
+      "in_per_1m": 0.6,
+      "out_per_1m": 2.5,
       "context": 262144
     },
     "nousresearch/hermes-4-405b": {
@@ -2481,8 +2487,8 @@
     },
     "google/gemma-3-4b-it": {
       "name": "Google: Gemma 3 4B",
-      "in_per_1m": 0.04,
-      "out_per_1m": 0.05,
+      "in_per_1m": 0.05,
+      "out_per_1m": 0.1,
       "context": 131072
     },
     "google/gemma-3-12b-it": {
@@ -2506,7 +2512,7 @@
     "google/gemma-3-27b-it": {
       "name": "Google: Gemma 3 27B",
       "in_per_1m": 0.08,
-      "out_per_1m": 0.45,
+      "out_per_1m": 0.16,
       "context": 131072
     },
     "thedrummer/skyfall-36b-v2": {
@@ -2595,8 +2601,8 @@
     },
     "meta-llama/llama-3.3-70b-instruct": {
       "name": "Meta: Llama 3.3 70B Instruct",
-      "in_per_1m": 0.71,
-      "out_per_1m": 0.71,
+      "in_per_1m": 0.59,
+      "out_per_1m": 0.79,
       "context": 131072
     },
     "amazon/nova-lite-v1": {
